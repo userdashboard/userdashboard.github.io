@@ -1,0 +1,20 @@
+{
+  "name": "userdashboard.github.io",
+  "version": "1.0.30",
+  "description": "This is the generated documentation site for Dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userdashboard/userdashboard.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/userdashboard/documentation/issues"
+  },
+  "homepage": "https://userdashboard.github.io"
+}

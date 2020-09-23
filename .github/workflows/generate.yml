@@ -1,0 +1,52 @@
+name: generate
+on:
+  push:
+    branches:
+      - master
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Generate documentation
+      run: |
+        HERE=`pwd`
+        mkdir /tmp/project
+        cd /tmp/project
+        npm init -y
+        npm install @userdashboard/dashboard @userdashboard/maxmind-geoip @userdashboard/organizations @userdashboard/stripe-connect @userdashboard/stripe-subscriptions
+        PACKAGE=`cat package.json`
+        PACKAGE=${PACKAGE/\"description\"\: \"\"/\"dashboard\": \{ \"modules\"\: \[\"@userdashboard/organizations\", \"@userdashboard/maxmind-geoip\", \"@userdashboard/stripe-subscriptions\", \"@userdashboard/stripe-connect\"\] \}}
+        echo $PACKAGE > package.json
+        git clone https://github.com/userdashboard/example-subscription-web-app /tmp/example-subscription-web-app
+        cd /tmp/example-subscription-web-app/dashboard-server
+        npm install
+        cd /tmp/example-subscription-web-app/application-server
+        npm install
+        git clone https://github.com/userdashboard/example-web-app /tmp/example-web-app
+        cd /tmp/example-web-app/dashboard-server
+        npm install
+        cd /tmp/example-web-app/application-server
+        npm install
+        git clone https://github.com/userdashboard/documentation /tmp/documentation
+        cd /tmp/documentation
+        npm install
+        npm install @userdashboard/dashboard --no-save
+        node main.js $HERE /tmp/project
+        cat index.html > $HERE/index.html
+      env:
+        EXAMPLE_DASHBOARD_SERVER_PATH1: /tmp/example-web-app/dashboard-server
+        EXAMPLE_DASHBOARD_SERVER_PATH2: /tmp/example-subscription-web-app/dashboard-server
+    - name: Publish to Github
+      uses: stefanzweifel/git-auto-commit-action@v4.1.6
+      with:
+        commit_message: Automatically regenerated
+        branch: ${{ github.head_ref }}
+        commit_options: "--no-verify --signoff"
+        repository: .
