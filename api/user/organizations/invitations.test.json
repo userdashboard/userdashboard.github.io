@@ -1,0 +1,20 @@
+[
+  {
+    "object": "invitation",
+    "organizationid": "organization_6b4affd",
+    "invitationid": "invitation_38d55da",
+    "created": 1601055249
+  },
+  {
+    "object": "invitation",
+    "organizationid": "organization_6b4affd",
+    "invitationid": "invitation_80f07de",
+    "created": 1601055249
+  },
+  {
+    "object": "invitation",
+    "organizationid": "organization_6b4affd",
+    "invitationid": "invitation_ccd1f17",
+    "created": 1601055249
+  }
+]

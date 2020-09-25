@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_d34bde3",
+    "organizationid": "organization_434ecd0",
+    "name": "My organization",
+    "email": "Tommy81@gmail.com",
+    "created": 1601055251
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_d34bde3",
+    "organizationid": "organization_a18b704",
+    "name": "My organization",
+    "email": "Tommy81@gmail.com",
+    "created": 1601055251
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_d34bde3",
+    "organizationid": "organization_38a68cc",
+    "name": "My organization",
+    "email": "Tommy81@gmail.com",
+    "created": 1601055251
+  }
+]

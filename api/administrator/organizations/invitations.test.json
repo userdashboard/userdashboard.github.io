@@ -1,0 +1,26 @@
+[
+  {
+    "object": "invitation",
+    "organizationid": "organization_b7ff738",
+    "invitationid": "invitation_718443e",
+    "created": 1601055244,
+    "accepted": 1601055244,
+    "membershipid": "membership_c316557"
+  },
+  {
+    "object": "invitation",
+    "organizationid": "organization_d381ce6",
+    "invitationid": "invitation_3e8cd3b",
+    "created": 1601055244,
+    "accepted": 1601055244,
+    "membershipid": "membership_cd563b6"
+  },
+  {
+    "object": "invitation",
+    "organizationid": "organization_2ea67d9",
+    "invitationid": "invitation_b360652",
+    "created": 1601055244,
+    "accepted": 1601055244,
+    "membershipid": "membership_ebe5836"
+  }
+]

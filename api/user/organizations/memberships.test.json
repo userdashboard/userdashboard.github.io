@@ -1,0 +1,34 @@
+[
+  {
+    "object": "membership",
+    "membershipid": "membership_c24e409",
+    "organizationid": "organization_887a6df",
+    "accountid": "account_7984058",
+    "created": 1601055249,
+    "profileid": "profile_6417de7",
+    "displayName": "Doris",
+    "displayEmail": "Doris74@hotmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_3de5a75",
+    "organizationid": "organization_feb96d6",
+    "accountid": "account_7984058",
+    "created": 1601055249,
+    "invitationid": "invitation_83a97ff",
+    "profileid": "profile_6417de7",
+    "displayName": "Doris",
+    "displayEmail": "Doris74@hotmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_ff830f6",
+    "organizationid": "organization_de6c809",
+    "accountid": "account_7984058",
+    "created": 1601055249,
+    "invitationid": "invitation_45a5420",
+    "profileid": "profile_6417de7",
+    "displayName": "Doris",
+    "displayEmail": "Doris74@hotmail.com"
+  }
+]
