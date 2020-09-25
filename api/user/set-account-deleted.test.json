@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_e3256b5",
+  "usernameHash": "967b54b7e0e2d4b0f8c6ebc333c820c3db93657ef0ab8acc974c280a498e67e1f7d2da24ec63b89f7da710311a90edecf389de54e4c787cce121acd3f2b7271e",
+  "passwordHash": "$2a$04$3OiaWyM6Gbj5BOWiAmwiAOR1R/upcpunsj0dn.qOe8EF.J538X6uS",
+  "sessionKey": "84c10b2e74bc44dac7323b620a81adf953f0f7ea26afb621d58c1b66d90de2c5",
+  "sessionKeyNumber": 1,
+  "created": 1601051711,
+  "administrator": 1601051711,
+  "owner": 1601051711,
+  "firstName": "Colin",
+  "lastName": "Swaniawski",
+  "contactEmail": "Colin_Swaniawski85@hotmail.com",
+  "profileid": "profile_b2ea512",
+  "lastSignedIn": 1601051711,
+  "deleted": 1601656510
+}

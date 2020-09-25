@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_3c42427",
+  "usernameHash": "8aee960a734b34476c397e95afab8f5d675ba7a431ab0df1859453310c588336e9cda821be5deffe3a6f56f6e09cd412aa3c71ddeaedd91650b8cc2d7b87005f",
+  "passwordHash": "$2a$04$Z7.bh39RnBsa4YWXZsG87uz08rsq0cEwsJ0XmHq7cSpoozy0/.Wmy",
+  "sessionKey": "916d964259557092ee8243fced97173cd14e495914f4257434c19d85c9bdb7bb",
+  "sessionKeyNumber": 1,
+  "created": 1601051711,
+  "administrator": 1601051711,
+  "owner": 1601051711,
+  "firstName": "Sidney",
+  "lastName": "Champlin",
+  "contactEmail": "Sidney45@gmail.com",
+  "profileid": "profile_0f6dd30",
+  "lastSignedIn": 1601051711,
+  "language": "es"
+}
