@@ -1,0 +1,187 @@
+{
+  "id": "acct_1HVNqDA8EPDglwKc",
+  "object": "account",
+  "business_profile": {
+    "mcc": "5970",
+    "name": null,
+    "product_description": null,
+    "support_address": null,
+    "support_email": null,
+    "support_phone": null,
+    "support_url": null,
+    "url": "https://gmail.com"
+  },
+  "business_type": "individual",
+  "capabilities": {
+    "card_payments": "pending",
+    "transfers": "pending"
+  },
+  "charges_enabled": false,
+  "company": {
+    "address": {
+      "city": "Krakow",
+      "country": "PL",
+      "line1": "123 Park Lane",
+      "line2": null,
+      "postal_code": "32-400",
+      "state": null
+    },
+    "directors_provided": true,
+    "executives_provided": true,
+    "name": null,
+    "owners_provided": true,
+    "phone": "+14567890123",
+    "tax_id_provided": false,
+    "verification": {
+      "document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      }
+    }
+  },
+  "country": "PL",
+  "created": 1601066910,
+  "default_currency": "pln",
+  "details_submitted": false,
+  "email": null,
+  "external_accounts": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/accounts/acct_1HVNqDA8EPDglwKc/external_accounts"
+  },
+  "individual": {
+    "id": "person_I5YyAWFrXrngk7",
+    "object": "person",
+    "account": "acct_1HVNqDA8EPDglwKc",
+    "address": {
+      "city": "Krakow",
+      "country": "PL",
+      "line1": "123 Park Lane",
+      "line2": null,
+      "postal_code": "32-400",
+      "state": null
+    },
+    "created": 1601066912,
+    "dob": {
+      "day": 1,
+      "month": 1,
+      "year": 1950
+    },
+    "email": "Lori.Nader92@gmail.com",
+    "first_name": "Lori",
+    "last_name": "Nader",
+    "metadata": {},
+    "phone": "+14567890123",
+    "relationship": {
+      "director": false,
+      "executive": false,
+      "owner": false,
+      "percent_ownership": null,
+      "representative": true,
+      "title": null
+    },
+    "requirements": {
+      "currently_due": [],
+      "errors": [],
+      "eventually_due": [],
+      "past_due": [],
+      "pending_verification": [
+        "verification.additional_document",
+        "verification.document"
+      ]
+    },
+    "verification": {
+      "additional_document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      },
+      "details": null,
+      "details_code": null,
+      "document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      },
+      "status": "pending"
+    }
+  },
+  "metadata": {
+    "appid": "tests_1601058911",
+    "accountid": "account_86e3ca1",
+    "ip": "127.0.0.1",
+    "requiresOwners": "true",
+    "requiresDirectors": "true",
+    "token": "false"
+  },
+  "payouts_enabled": false,
+  "requirements": {
+    "current_deadline": null,
+    "currently_due": [
+      "external_account",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "disabled_reason": "requirements.past_due",
+    "errors": [],
+    "eventually_due": [
+      "external_account",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "past_due": [
+      "external_account",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "pending_verification": [
+      "individual.verification.additional_document",
+      "individual.verification.document"
+    ]
+  },
+  "settings": {
+    "bacs_debit_payments": {},
+    "branding": {
+      "icon": null,
+      "logo": null,
+      "primary_color": null,
+      "secondary_color": null
+    },
+    "card_payments": {
+      "decline_on": {
+        "avs_failure": false,
+        "cvc_failure": false
+      },
+      "statement_descriptor_prefix": null
+    },
+    "dashboard": {
+      "display_name": "Gmail",
+      "timezone": "Etc/UTC"
+    },
+    "payments": {
+      "statement_descriptor": "GMAIL.COM",
+      "statement_descriptor_kana": null,
+      "statement_descriptor_kanji": null
+    },
+    "payouts": {
+      "debit_negative_balances": false,
+      "schedule": {
+        "delay_days": 7,
+        "interval": "daily"
+      },
+      "statement_descriptor": null
+    }
+  },
+  "tos_acceptance": {
+    "date": null,
+    "ip": null,
+    "user_agent": null
+  },
+  "type": "custom"
+}
