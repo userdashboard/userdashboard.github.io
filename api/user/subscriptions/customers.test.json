@@ -1,0 +1,155 @@
+[
+  {
+    "id": "cus_I6gmWBorcP6xNK",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601326608,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Dixie",
+    "discount": null,
+    "email": "Dixie_Keebler9@gmail.com",
+    "invoice_prefix": "7E0DBC52",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601321462",
+      "accountid": "account_0751432"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gmWBorcP6xNK/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gmWBorcP6xNK/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gmWBorcP6xNK/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I6gm8eq48IMEcA",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601326607,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Dixie",
+    "discount": null,
+    "email": "Dixie_Keebler9@gmail.com",
+    "invoice_prefix": "4D0EBA8C",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601321462",
+      "accountid": "account_0751432"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gm8eq48IMEcA/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gm8eq48IMEcA/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gm8eq48IMEcA/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I6gmC7ZWZa8E0o",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601326607,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Dixie",
+    "discount": null,
+    "email": "Dixie_Keebler9@gmail.com",
+    "invoice_prefix": "29508973",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601321462",
+      "accountid": "account_0751432"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gmC7ZWZa8E0o/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gmC7ZWZa8E0o/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I6gmC7ZWZa8E0o/tax_ids"
+    }
+  }
+]

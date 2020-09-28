@@ -1,0 +1,51 @@
+{
+  "id": "cus_I6ghMXCndVwXV4",
+  "object": "customer",
+  "address": null,
+  "balance": 0,
+  "created": 1601326332,
+  "currency": null,
+  "default_source": null,
+  "delinquent": false,
+  "description": "customer",
+  "discount": null,
+  "email": "Denise.Lebsack38@hotmail.com",
+  "invoice_prefix": "AB34BB33",
+  "invoice_settings": {
+    "custom_fields": null,
+    "default_payment_method": null,
+    "footer": null
+  },
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601321462",
+    "accountid": "account_cb45b36"
+  },
+  "name": null,
+  "next_invoice_sequence": 1,
+  "phone": null,
+  "preferred_locales": [],
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I6ghMXCndVwXV4/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I6ghMXCndVwXV4/subscriptions"
+  },
+  "tax_exempt": "none",
+  "tax_ids": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I6ghMXCndVwXV4/tax_ids"
+  }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "prod_I6gpUflF0oVWCr",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1601326781,
+    "description": null,
+    "images": [],
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601321462",
+      "published": "1601326786"
+    },
+    "name": "product308_1601326781794_827",
+    "statement_descriptor": "product308 description",
+    "type": "service",
+    "unit_label": "thing",
+    "updated": 1601326781
+  },
+  {
+    "id": "prod_I6gpfqUI85Bfk6",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1601326781,
+    "description": null,
+    "images": [],
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601321462",
+      "published": "1601326786"
+    },
+    "name": "product307_1601326781621_111",
+    "statement_descriptor": "product307 description",
+    "type": "service",
+    "unit_label": "thing",
+    "updated": 1601326781
+  },
+  {
+    "id": "prod_I6gpjRn7aT5YCs",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1601326781,
+    "description": null,
+    "images": [],
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601321462",
+      "published": "1601326786"
+    },
+    "name": "product306_1601326781456_601",
+    "statement_descriptor": "product306 description",
+    "type": "service",
+    "unit_label": "thing",
+    "updated": 1601326781
+  }
+]
