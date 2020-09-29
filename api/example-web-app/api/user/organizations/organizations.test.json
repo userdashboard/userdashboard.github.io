@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_b00f6fe",
+    "organizationid": "organization_aa5948a",
+    "name": "My organization",
+    "email": "Adrian_Zieme97@hotmail.com",
+    "created": 1601339432
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_b00f6fe",
+    "organizationid": "organization_e38b9a3",
+    "name": "My organization",
+    "email": "Adrian_Zieme97@hotmail.com",
+    "created": 1601339432
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_b00f6fe",
+    "organizationid": "organization_38e583e",
+    "name": "My organization",
+    "email": "Adrian_Zieme97@hotmail.com",
+    "created": 1601339432
+  }
+]
