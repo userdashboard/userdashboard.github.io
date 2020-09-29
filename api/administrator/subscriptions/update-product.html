@@ -1,0 +1,640 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>/api/administrator/subscriptions/update-product#PATCH (@userdashboard/stripe-subscriptions)</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-9ykzetY4RNTlu45yVPpkS0OhtyXemdc0bL6V/qfNamDdUjexxOz6mDsxwgAxjBKQ" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="generated" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Stripe Subscriptions module API explorer</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <h1 id="title">/api/administrator/subscriptions/update-product (PATCH)</h1><span class="nodejs patch" id="nodejs">await global.api.administrator.subscriptions.UpdateProduct.patch(req)</span>
+          <div class="api-via"> Located in <a id="subtitle" href="/stripe-subscriptions-api">Stripe Subscriptions module API</a></div>
+          <div id="response-container">
+            <h2 id="returns-">Returns <span id="returns">object</span></h2>
+            <pre class="response-code"><code data-language="json" id="response-code">{
+  "id": "prod_I6gfiSKblbiVXa",
+  "object": "product",
+  "active": true,
+  "attributes": [],
+  "created": "{timestamp}",
+  "description": null,
+  "images": [],
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601321462",
+    "published": "1601326189"
+  },
+  "name": "new-name",
+  "statement_descriptor": "new-description",
+  "type": "service",
+  "unit_label": "new-thing",
+  "updated": "{timestamp}"
+}</code></pre>
+          </div>
+          <div id="exceptions-container"><a name="exceptions" id="exceptions"></a>
+            <h2 id="exceptions">Exceptions</h2>
+            <p>These exceptions are thrown (NodeJS) or returned as JSON (HTTP) if you provide incorrect data or do not meet the requirements:</p>
+            <table id="exceptions-table">
+              <tr>
+                <th>Exception</th>
+                <th>Circumstances</th>
+              </tr>
+              <tbody>
+                <tr>
+                  <td>invalid querystring productid</td>
+                </tr>
+                <tr>
+                  <td id="description-0" rowspan="2">invalid-productid</td>
+                  <td>missing querystring productid</td>
+                </tr>
+                <tr>
+                  <td id="description-2" rowspan="1">invalid-product</td>
+                  <td>ineligible querystring product is unpublished</td>
+                </tr>
+                <tr>
+                  <td id="description-3" rowspan="1">invalid-name</td>
+                  <td>invalid posted name</td>
+                </tr>
+                <tr>
+                  <td>posted name too long</td>
+                </tr>
+                <tr>
+                  <td id="description-4" rowspan="2">invalid-name-length</td>
+                  <td>posted name too short</td>
+                </tr>
+                <tr>
+                  <td id="description-6" rowspan="1">invalid-statement_descriptor</td>
+                  <td>invalid posted statement_descriptor</td>
+                </tr>
+                <tr>
+                  <td>posted statement_descriptor too long</td>
+                </tr>
+                <tr>
+                  <td id="description-7" rowspan="2">invalid-statement_descriptor-length</td>
+                  <td>posted statement_descriptor too short</td>
+                </tr>
+                <tr>
+                  <td id="description-9" rowspan="1">invalid-unit_label</td>
+                  <td>missing posted unit_label</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="receives-container"><a name="receives" id="receives"></a>
+            <h2 id="receives">Receives</h2>
+            <p>API routes may receive parameters from the URL and POST supporting simple and multipart:</p>
+            <table id="receives-table">
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+                <th>Required</th>
+                <th>Type</th>
+              </tr>
+              <tbody>
+                <tr>
+                  <td>name</td>
+                  <td>string</td>
+                  <td>optional</td>
+                  <td>POST</td>
+                </tr>
+                <tr>
+                  <td>statement_descriptor</td>
+                  <td>string</td>
+                  <td>optional</td>
+                  <td>POST</td>
+                </tr>
+                <tr>
+                  <td>unit_label</td>
+                  <td>string</td>
+                  <td>optional</td>
+                  <td>POST</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="source-code"><a name="source" id="source"></a>
+            <h2 id="nodejs-source-(">NodeJS source (<a id="github_source" href="https://github.com/userdashboard/@userdashboard/stripe-subscriptions/tree/master/src/www/api/administrator/subscriptions/update-product.js">edit on github</a>)</h2>
+            <p>If you see a problem with the source submit a pull request on Github.</p>
+            <pre><code data-language="js" id="source-code">const stripeCache = require('../../../../stripe-cache.js')
+
+module.exports = {
+  patch: async (req) => {
+    if (!req.query || !req.query.productid) {
+      throw new Error('invalid-productid')
+    }
+    const product = await global.api.administrator.subscriptions.Product.get(req)
+    if (!product) {
+      throw new Error('invalid-productid')
+    }
+    if (product.metadata.unpublished) {
+      throw new Error('invalid-product')
+    }
+    const updateInfo = {}
+    if (req.body.name !== undefined) {
+      if (!req.body.name || !req.body.name.length) {
+        throw new Error('invalid-name')
+      }
+      if (global.minimumProductNameLength > req.body.name.length ||
+        global.maximumProductNameLength < req.body.name.length) {
+        throw new Error('invalid-name-length')
+      }
+      updateInfo.name = req.body.name
+    }
+    if (req.body.statement_descriptor !== undefined) {
+      if (!req.body.statement_descriptor || !req.body.statement_descriptor.length) {
+        throw new Error('invalid-statement_descriptor')
+      }
+      if (req.body.statement_descriptor.length < 5 ||
+          req.body.statement_descriptor.length > 22) {
+        throw new Error('invalid-statement_descriptor-length')
+      }
+      updateInfo.statement_descriptor = req.body.statement_descriptor
+    }
+    if (req.body.unit_label !== undefined) {
+      if (!req.body.unit_label || !req.body.unit_label.length) {
+        throw new Error('invalid-unit_label')
+      }
+      updateInfo.unit_label = req.body.unit_label
+    }
+    if (!Object.keys(updateInfo).length) {
+      throw new Error('invalid-name')
+    }
+    const productNow = await stripeCache.execute('products', 'update', req.query.productid, updateInfo, req.stripeKey)
+    await stripeCache.update(productNow)
+    return productNow
+  }
+}
+</code></pre><a name="tests" id="tests"></a>
+            <h2 id="test-source-(">Test source (<a id="github_tests" href="https://github.com/userdashboard/@userdashboard/stripe-subscriptions/tree/master/src/www/api/administrator/subscriptions/update-product.test.js">edit on github</a>)</h2>
+            <p>Tests perform real HTTP requests against a running Dashboard server.</p>
+            <pre><code data-language="js" id="test-code">/* eslint-env mocha */
+const assert = require('assert')
+const TestHelper = require('../../../../../test-helper.js')
+
+describe('/api/administrator/subscriptions/update-product', () => {
+  describe('exceptions', () => {
+    describe('invalid-productid', () => {
+      it('missing querystring productid', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest('/api/administrator/subscriptions/update-product')
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          name: 'name',
+          statement_descriptor: 'description',
+          unit_label: 'thing'
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-productid')
+      })
+
+      it('invalid querystring productid', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest('/api/administrator/subscriptions/update-product?productid=invalid')
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          name: 'name',
+          statement_descriptor: 'description',
+          unit_label: 'thing'
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-productid')
+      })
+    })
+
+    describe('invalid-product', () => {
+      it('ineligible querystring product is unpublished', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true',
+          unpublished: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          name: 'new-name',
+          statement_descriptor: 'new-description',
+          unit_label: 'new-thing'
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-product')
+      })
+    })
+
+    describe('invalid-name', () => {
+      it('invalid posted name', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          name: ''
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-name')
+      })
+    })
+
+    describe('invalid-name-length', () => {
+      it('posted name too short', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          name: 'PROD'
+        }
+        global.minimumProductNameLength = 30
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-name-length')
+      })
+
+      it('posted name too long', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          name: '123456789012345678901234567890'
+        }
+        global.maximumProductNameLength = 3
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-name-length')
+      })
+    })
+
+    describe('invalid-statement_descriptor', () => {
+      it('invalid posted statement_descriptor', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          statement_descriptor: ''
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-statement_descriptor')
+      })
+    })
+
+    describe('invalid-statement_descriptor-length', () => {
+      it('posted statement_descriptor too short', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          statement_descriptor: '1234'
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-statement_descriptor-length')
+      })
+
+      it('posted statement_descriptor too long', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          statement_descriptor: '1234567890 123456567890 1234567890'
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-statement_descriptor-length')
+      })
+    })
+
+    describe('invalid-unit_label', () => {
+      it('missing posted unit_label', async () => {
+        const administrator = await TestHelper.createOwner()
+        await TestHelper.createProduct(administrator, {
+          published: 'true'
+        })
+        const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+        req.account = administrator.account
+        req.session = administrator.session
+        req.body = {
+          unit_label: ''
+        }
+        let errorMessage
+        try {
+          await req.patch(req)
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-unit_label')
+      })
+    })
+  })
+
+  describe('receives', () => {
+    it('optional posted name', async () => {
+      const administrator = await TestHelper.createOwner()
+      await TestHelper.createProduct(administrator, {
+        published: 'true'
+      })
+      const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+      req.account = administrator.account
+      req.session = administrator.session
+      req.body = {
+        name: 'testing'
+      }
+      const productNow = await req.patch(req)
+      assert.strictEqual(productNow.name, 'testing')
+    })
+
+    it('optional posted statement_descriptor', async () => {
+      const administrator = await TestHelper.createOwner()
+      await TestHelper.createProduct(administrator, {
+        published: 'true'
+      })
+      const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+      req.account = administrator.account
+      req.session = administrator.session
+      req.body = {
+        statement_descriptor: 'descriptor'
+      }
+      const productNow = await req.patch(req)
+      assert.strictEqual(productNow.statement_descriptor, 'descriptor')
+    })
+
+    it('optional posted unit_label', async () => {
+      const administrator = await TestHelper.createOwner()
+      await TestHelper.createProduct(administrator, {
+        published: 'true'
+      })
+      const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+      req.account = administrator.account
+      req.session = administrator.session
+      req.body = {
+        unit_label: 'new-thing'
+      }
+      const productNow = await req.patch(req)
+      assert.strictEqual(productNow.unit_label, 'new-thing')
+    })
+  })
+
+  describe('returns', () => {
+    it('object', async () => {
+      const administrator = await TestHelper.createOwner()
+      await TestHelper.createProduct(administrator, {
+        published: 'true'
+      })
+      const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+      req.account = administrator.account
+      req.session = administrator.session
+      req.body = {
+        name: 'new-name',
+        statement_descriptor: 'new-description',
+        unit_label: 'new-thing'
+      }
+      req.filename = __filename
+      req.saveResponse = true
+      const product = await req.patch()
+      assert.strictEqual(product.object, 'product')
+    })
+  })
+
+  describe('configuration', () => {
+    it('environment MINIMUM_PRODUCT_NAME_LENGTH', async () => {
+      const administrator = await TestHelper.createOwner()
+      await TestHelper.createProduct(administrator, {
+        published: 'true'
+      })
+      global.minimumProductNameLength = 100
+      const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+      req.account = administrator.account
+      req.session = administrator.session
+      req.body = {
+        name: 'new-name'
+      }
+      let errorMessage
+      try {
+        await req.patch(req)
+      } catch (error) {
+        errorMessage = error.message
+      }
+      assert.strictEqual(errorMessage, 'invalid-name-length')
+    })
+
+    it('environment MAXIMUM_PRODUCT_NAME_LENGTH', async () => {
+      const administrator = await TestHelper.createOwner()
+      await TestHelper.createProduct(administrator, {
+        published: 'true'
+      })
+      global.maximumProductNameLength = 1
+      const req = TestHelper.createRequest(`/api/administrator/subscriptions/update-product?productid=${administrator.product.id}`)
+      req.account = administrator.account
+      req.session = administrator.session
+      req.body = {
+        name: 'new-name'
+      }
+      let errorMessage
+      try {
+        await req.patch(req)
+      } catch (error) {
+        errorMessage = error.message
+      }
+      assert.strictEqual(errorMessage, 'invalid-name-length')
+    })
+  })
+})
+</code></pre>
+          </div>
+          <p><a class="skip" href="#top">Top of page</a></p>
+        </div>
+      </section>
+    </div>
+  </div><template id="property-item-template">
+    <li>${property.name}</li>
+  </template><template id="exception-template" template="exception-template">
+    <tr>
+      <td id="description-${exception.id}" rowspan="${exception.rowSpan}">${exception.text}</td>
+      <td>${exception.note}</td>
+    </tr>
+  </template><template id="property-row-template" template="property-row-template">
+    <tr>
+      <td>${property.variable}</td>
+      <td>${property.value}</td>
+      <td>${property.required}</td>
+      <td>${property.type}</td>
+    </tr>
+  </template>
+</body>
+<meta name="timestamp" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+</head>
+
+</html>

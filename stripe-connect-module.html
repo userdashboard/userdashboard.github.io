@@ -1,0 +1,240 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>Stripe Connect module documentation</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-9ykzetY4RNTlu45yVPpkS0OhtyXemdc0bL6V/qfNamDdUjexxOz6mDsxwgAxjBKQ" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="generated" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Stripe Connect module documentation</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <h1 id="documentation-for-stripe-connect">Documentation for Stripe Connect</h1>
+          <h4>Index</h4>
+          <ul>
+            <li><a href="#stripe-connect-module">Introduction</a></li>
+            <li><a href="#module-contents">Module contents</a></li>
+            <li><a href="#import-this-module">Import this module</a></li>
+            <li><a href="#setting-up-your-stripe-credentials">Setting up your Stripe credentials</a></li>
+            <li><a href="#storage-engine">Storage engine</a></li>
+            <li><a href="#access-the-api">Access the API</a></li>
+            <li><a href="https://github.com/userdashboard/stripe-connect">Github repository</a></li>
+            <li><a href="https://npmjs.org/userdashboard/stripe-connect">NPM package</a></li>
+          </ul>
+          <h1 id="introduction">Introduction</h1>
+          <p>Dashboard bundles everything a web app needs, all the &quot;boilerplate&quot; like signing in and changing passwords, into a parallel server so you can write a much smaller web app.</p>
+          <p>The Stripe Connect module adds a complete &quot;custom&quot; integration of Stripe's Connect API, allowing your users to provide personal or company information and receive payouts on your platform. A complete UI is provided for users to create and manage their registrations, and a basic administrator UI is provided for oversight.</p>
+          <p>When a user has completed a Stripe account registration and it has been approved by Stripe their status will be changed to <code data-language="js">payouts_enabled</code>. Your application should use this information to control access to your platform functionality.</p>
+          <p>Currently only automatic payouts are supported. Countries that are &quot;in beta&quot; support by Stripe are not supported and need to be added as they become generally available.</p>
+          <h1 id="module-contents">Module contents</h1>
+          <p>Dashboard modules can add pages and API routes. For more details check the <code data-language="js">sitemap.txt</code> and <code data-language="js">api.txt</code> or the online documentation.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Content type</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Proxy scripts</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Server scripts</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Content scripts</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>User pages</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>User API routes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Administrator pages</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Administrator API routes</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2 id="import-this-module">Import this module</h2>
+          <p>Install the module with NPM:</p>
+          <pre><code data-language="js">$ npm install @userdashboard/stripe-connect
+</code></pre>
+          <p>Edit your <code data-language="js">package.json</code> to activate the module:</p>
+          <pre><code data-language="js">&quot;dashboard&quot;: {
+  &quot;modules&quot;: [
+    &quot;@userdashboard/stripe-connect&quot;
+  ]
+}
+</code></pre>
+          <h2 id="setting-up-your-stripe-credentials">Setting up your Stripe credentials</h2>
+          <p>You will need to retrieve various keys from <a href="https://stripe.com">Stripe</a>. During development your webhook will be created automatically, but in production with multiple dashboard server instances they share a configured webhook:</p>
+          <ul>
+            <li>create your Stripe account and find your API keys</li>
+            <li>create a webhook for https://your_domain/webhooks/connect/index-connect-data</li>
+            <li>environment STRIPE_KEY=sk_test_xxxxxxx</li>
+            <li>environment STRIPE_PUBLISHABLE_KEY=pk_test_xxxxxxx</li>
+            <li>environment CONNECT_WEBHOOK_ENDPOINT_SECRET=whsec_xxxxxxxx</li>
+          </ul>
+          <h2 id="storage-engine">Storage engine</h2>
+          <p>By default this module will share whatever storage you use for Dashboard. You can specify an alternate storage module to use instead, or the same module with a separate database.</p>
+          <pre><code data-language="js">CONNECT_STORAGE=@userdashboard/storage-mongodb
+CONNECT_MONGODB_URL=mongo://localhost:27017/connect
+</code></pre>
+          <h3 id="access-the-api">Access the API</h3>
+          <p>Dashboard and official modules are completely API-driven and you can access the same APIs on behalf of the user making requests. You perform <code data-language="js">GET</code>, <code data-language="js">POST</code>, <code data-language="js">PATCH</code>, and <code data-language="js">DELETE</code> HTTP requests against the API endpoints to fetch or modify data. This example fetches the user's Connect accounts using NodeJS, you can do this with any language:</p>
+          <p>You can view API documentation within the NodeJS modules' <code data-language="js">api.txt</code> files, or on the <a href="https://userdashboard.github.io/organizations-api">documentation site</a>.</p>
+          <pre><code data-language="js">const stripeAccounts = await proxy(`/api/user/connect/stripe-accounts?accountid=${accountid}&amp;all=true`, accountid, sessionid)
+
+const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
+    const requestOptions = {
+        host: 'dashboard.example.com',
+        path: path,
+        port: '443',
+        method: 'GET',
+        headers: {
+            'x-application-server': 'application.example.com',
+            'x-application-server-token': process.env.APPLICATION_SERVER_TOKEN
+        }
+    }
+    if (accountid) {
+        requestOptions.headers['x-accountid'] = accountid
+        requestOptions.headers['x-sessionid'] = sessionid
+    }
+    const proxyRequest = require('https').request(requestOptions, (proxyResponse) =&gt; {
+        let body = ''
+        proxyResponse.on('data', (chunk) =&gt; {
+            body += chunk
+        })
+        return proxyResponse.on('end', () =&gt; {
+            return callback(null, JSON.parse(body))
+        })
+    })
+    proxyRequest.on('error', (error) =&gt; {
+        return callback(error)
+    })
+    return proxyRequest.end()
+  })
+}
+</code></pre>
+        </div>
+        <p><a href="#top">Top of page</a></p>
+      </section>
+    </div>
+  </div>
+</body>
+<meta name="timestamp" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+</head>
+
+</html>

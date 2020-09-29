@@ -1,0 +1,295 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>Organizations module API index</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-9ykzetY4RNTlu45yVPpkS0OhtyXemdc0bL6V/qfNamDdUjexxOz6mDsxwgAxjBKQ" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="generated" value="Tue, 29 Sep 2020 14:19:45 GMT" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Organizations module API index</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <div id="user-container">
+            <h2 id="user-api">User API</h2>
+            <ul id="user-routes-table" class="api">
+              <li id="route-0"><a href="/api/user/organizations/create-invitation">/api/user/organizations/create-invitation</a><span class="method POST">POST</span><span class="nodejs">await global.api.user.organizations.CreateInvitation.post(req)</span>
+                <ul id="url-parameters-0"></ul><span id="post-container-0"> POST </span>
+                <ul id="post-parameters-0">
+                  <li>secret-code</li>
+                </ul>
+              </li>
+              <li id="route-1"><a href="/api/user/organizations/create-membership">/api/user/organizations/create-membership</a><span class="method POST">POST</span><span class="nodejs">await global.api.user.organizations.CreateMembership.post(req)</span>
+                <ul id="url-parameters-1"></ul><span id="post-container-1"> POST </span>
+                <ul id="post-parameters-1">
+                  <li>profileid</li>
+                  <li>secret-code</li>
+                </ul>
+              </li>
+              <li id="route-2"><a href="/api/user/organizations/create-organization">/api/user/organizations/create-organization</a><span class="method POST">POST</span><span class="nodejs">await global.api.user.organizations.CreateOrganization.post(req)</span>
+                <ul id="url-parameters-2"></ul><span id="post-container-2"> POST </span>
+                <ul id="post-parameters-2">
+                  <li>organization-email</li>
+                  <li>organization-name</li>
+                  <li>profileid</li>
+                </ul>
+              </li>
+              <li id="route-3"><a href="/api/user/organizations/delete-invitation">/api/user/organizations/delete-invitation</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.user.organizations.DeleteInvitation.delete(req)</span>
+                <ul id="url-parameters-3"></ul>
+                <ul id="post-parameters-3"></ul>
+              </li>
+              <li id="route-4"><a href="/api/user/organizations/delete-membership">/api/user/organizations/delete-membership</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.user.organizations.DeleteMembership.delete(req)</span>
+                <ul id="url-parameters-4"></ul>
+                <ul id="post-parameters-4"></ul>
+              </li>
+              <li id="route-5"><a href="/api/user/organizations/delete-organization">/api/user/organizations/delete-organization</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.user.organizations.DeleteOrganization.delete(req)</span>
+                <ul id="url-parameters-5"></ul>
+                <ul id="post-parameters-5"></ul>
+              </li>
+              <li id="route-6"><a href="/api/user/organizations/invitation">/api/user/organizations/invitation</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.Invitation.get(req)</span>
+                <ul id="url-parameters-6"></ul>
+                <ul id="post-parameters-6"></ul>
+              </li>
+              <li id="route-7"><a href="/api/user/organizations/invitations-count">/api/user/organizations/invitations-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.InvitationsCount.get(req)</span>
+                <ul id="url-parameters-7"></ul>
+                <ul id="post-parameters-7"></ul>
+              </li>
+              <li id="route-8"><a href="/api/user/organizations/invitations">/api/user/organizations/invitations</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.Invitations.get(req)</span><span id="url-container-8"> URL </span>
+                <ul id="url-parameters-8">
+                  <li>all</li>
+                  <li>limit</li>
+                  <li>offset</li>
+                  <li>organizationid</li>
+                </ul>
+                <ul id="post-parameters-8"></ul>
+              </li>
+              <li id="route-9"><a href="/api/user/organizations/membership">/api/user/organizations/membership</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.Membership.get(req)</span>
+                <ul id="url-parameters-9"></ul>
+                <ul id="post-parameters-9"></ul>
+              </li>
+              <li id="route-10"><a href="/api/user/organizations/memberships-count">/api/user/organizations/memberships-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.MembershipsCount.get(req)</span>
+                <ul id="url-parameters-10"></ul>
+                <ul id="post-parameters-10"></ul>
+              </li>
+              <li id="route-11"><a href="/api/user/organizations/memberships">/api/user/organizations/memberships</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.Memberships.get(req)</span><span id="url-container-11"> URL </span>
+                <ul id="url-parameters-11">
+                  <li>all</li>
+                  <li>limit</li>
+                  <li>offset</li>
+                  <li>organizationid</li>
+                </ul>
+                <ul id="post-parameters-11"></ul>
+              </li>
+              <li id="route-12"><a href="/api/user/organizations/open-invitation">/api/user/organizations/open-invitation</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.OpenInvitation.get(req)</span>
+                <ul id="url-parameters-12"></ul>
+                <ul id="post-parameters-12"></ul>
+              </li>
+              <li id="route-13"><a href="/api/user/organizations/organization-membership">/api/user/organizations/organization-membership</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.OrganizationMembership.get(req)</span>
+                <ul id="url-parameters-13"></ul>
+                <ul id="post-parameters-13"></ul>
+              </li>
+              <li id="route-14"><a href="/api/user/organizations/organization">/api/user/organizations/organization</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.Organization.get(req)</span>
+                <ul id="url-parameters-14"></ul>
+                <ul id="post-parameters-14"></ul>
+              </li>
+              <li id="route-15"><a href="/api/user/organizations/organizations-count">/api/user/organizations/organizations-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.OrganizationsCount.get(req)</span>
+                <ul id="url-parameters-15"></ul>
+                <ul id="post-parameters-15"></ul>
+              </li>
+              <li id="route-16"><a href="/api/user/organizations/organizations">/api/user/organizations/organizations</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.organizations.Organizations.get(req)</span><span id="url-container-16"> URL </span>
+                <ul id="url-parameters-16">
+                  <li>all</li>
+                  <li>limit</li>
+                  <li>offset</li>
+                </ul>
+                <ul id="post-parameters-16"></ul>
+              </li>
+              <li id="route-17"><a href="/api/user/organizations/set-organization-owner">/api/user/organizations/set-organization-owner</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.organizations.SetOrganizationOwner.patch(req)</span>
+                <ul id="url-parameters-17"></ul>
+                <ul id="post-parameters-17"></ul>
+              </li>
+              <li id="route-18"><a href="/api/user/organizations/update-organization">/api/user/organizations/update-organization</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.organizations.UpdateOrganization.patch(req)</span>
+                <ul id="url-parameters-18"></ul><span id="post-container-18"> POST </span>
+                <ul id="post-parameters-18">
+                  <li>email</li>
+                  <li>name</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="administrator-container">
+            <h2 id="administrator-api">Administrator API</h2>
+            <ul id="administrator-routes-table" class="api">
+              <tbody>
+                <li id="route-19"><a href="/api/administrator/organizations/invitation">/api/administrator/organizations/invitation</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.Invitation.get(req)</span>
+                  <ul id="url-parameters-19"></ul>
+                  <ul id="post-parameters-19"></ul>
+                </li>
+                <li id="route-20"><a href="/api/administrator/organizations/invitations-count">/api/administrator/organizations/invitations-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.InvitationsCount.get(req)</span>
+                  <ul id="url-parameters-20"></ul>
+                  <ul id="post-parameters-20"></ul>
+                </li>
+                <li id="route-21"><a href="/api/administrator/organizations/invitations">/api/administrator/organizations/invitations</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.Invitations.get(req)</span><span id="url-container-21"> URL </span>
+                  <ul id="url-parameters-21">
+                    <li>accountid</li>
+                    <li>all</li>
+                    <li>limit</li>
+                    <li>offset</li>
+                    <li>organizationid</li>
+                  </ul>
+                  <ul id="post-parameters-21"></ul>
+                </li>
+                <li id="route-22"><a href="/api/administrator/organizations/membership">/api/administrator/organizations/membership</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.Membership.get(req)</span>
+                  <ul id="url-parameters-22"></ul>
+                  <ul id="post-parameters-22"></ul>
+                </li>
+                <li id="route-23"><a href="/api/administrator/organizations/memberships-count">/api/administrator/organizations/memberships-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.MembershipsCount.get(req)</span>
+                  <ul id="url-parameters-23"></ul>
+                  <ul id="post-parameters-23"></ul>
+                </li>
+                <li id="route-24"><a href="/api/administrator/organizations/memberships">/api/administrator/organizations/memberships</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.Memberships.get(req)</span><span id="url-container-24"> URL </span>
+                  <ul id="url-parameters-24">
+                    <li>accountid</li>
+                    <li>all</li>
+                    <li>limit</li>
+                    <li>offset</li>
+                    <li>organizationid</li>
+                  </ul>
+                  <ul id="post-parameters-24"></ul>
+                </li>
+                <li id="route-25"><a href="/api/administrator/organizations/organization">/api/administrator/organizations/organization</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.Organization.get(req)</span>
+                  <ul id="url-parameters-25"></ul>
+                  <ul id="post-parameters-25"></ul>
+                </li>
+                <li id="route-26"><a href="/api/administrator/organizations/organizations-count">/api/administrator/organizations/organizations-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.OrganizationsCount.get(req)</span>
+                  <ul id="url-parameters-26"></ul>
+                  <ul id="post-parameters-26"></ul>
+                </li>
+                <li id="route-27"><a href="/api/administrator/organizations/organizations">/api/administrator/organizations/organizations</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.organizations.Organizations.get(req)</span><span id="url-container-27"> URL </span>
+                  <ul id="url-parameters-27">
+                    <li>accountid</li>
+                    <li>all</li>
+                    <li>limit</li>
+                    <li>offset</li>
+                  </ul>
+                  <ul id="post-parameters-27"></ul>
+                </li>
+              </tbody>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div><template id="parameter-item-template" template="parameter-item-template">
+    <li>${parameter.name}</li>
+  </template><template id="route-row-template" template="route-row-template">
+    <li id="route-${route.id}"><a href="${route.url}">${route.url}</a><span class="method ${route.verb}">${route.verb}</span><span class="nodejs">await ${route.nodejs}.${route.verb.toLowerCase()}(req)</span><span id="url-container-${route.id}"> URL </span>
+      <ul id="url-parameters-${route.id}"></ul><span id="post-container-${route.id}"> POST </span>
+      <ul id="post-parameters-${route.id}"></ul>
+    </li>
+  </template>
+</body>
+<meta name="timestamp" value="Tue, 29 Sep 2020 14:19:45 GMT" />
+</head>
+
+</html>

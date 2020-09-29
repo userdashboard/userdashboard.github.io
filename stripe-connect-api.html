@@ -1,0 +1,304 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>Stripe Connect module API index</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-9ykzetY4RNTlu45yVPpkS0OhtyXemdc0bL6V/qfNamDdUjexxOz6mDsxwgAxjBKQ" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="generated" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Stripe Connect module API index</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <div id="user-container">
+            <h2 id="user-api">User API</h2>
+            <ul id="user-routes-table" class="api">
+              <li id="route-0"><a href="/api/user/connect/country-spec">/api/user/connect/country-spec</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.CountrySpec.get(req)</span>
+                <ul id="url-parameters-0"></ul>
+                <ul id="post-parameters-0"></ul>
+              </li>
+              <li id="route-1"><a href="/api/user/connect/country-specs-count">/api/user/connect/country-specs-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.CountrySpecsCount.get(req)</span>
+                <ul id="url-parameters-1"></ul>
+                <ul id="post-parameters-1"></ul>
+              </li>
+              <li id="route-2"><a href="/api/user/connect/country-specs">/api/user/connect/country-specs</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.CountrySpecs.get(req)</span><span id="url-container-2"> URL </span>
+                <ul id="url-parameters-2">
+                  <li>all</li>
+                  <li>limit</li>
+                  <li>offset</li>
+                </ul>
+                <ul id="post-parameters-2"></ul>
+              </li>
+              <li id="route-3"><a href="/api/user/connect/create-person">/api/user/connect/create-person</a><span class="method POST">POST</span><span class="nodejs">await global.api.user.connect.CreatePerson.post(req)</span>
+                <ul id="url-parameters-3"></ul><span id="post-container-3"> POST </span>
+                <ul id="post-parameters-3">
+                  <li>relationship_director</li>
+                  <li>relationship_executive</li>
+                  <li>relationship_owner</li>
+                  <li>relationship_percent_ownership</li>
+                  <li>relationship_representative</li>
+                  <li>relationship_title</li>
+                </ul>
+              </li>
+              <li id="route-4"><a href="/api/user/connect/create-stripe-account">/api/user/connect/create-stripe-account</a><span class="method POST">POST</span><span class="nodejs">await global.api.user.connect.CreateStripeAccount.post(req)</span>
+                <ul id="url-parameters-4"></ul>
+                <ul id="post-parameters-4"></ul>
+              </li>
+              <li id="route-5"><a href="/api/user/connect/delete-person">/api/user/connect/delete-person</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.user.connect.DeletePerson.delete(req)</span>
+                <ul id="url-parameters-5"></ul>
+                <ul id="post-parameters-5"></ul>
+              </li>
+              <li id="route-6"><a href="/api/user/connect/delete-stripe-account">/api/user/connect/delete-stripe-account</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.user.connect.DeleteStripeAccount.delete(req)</span>
+                <ul id="url-parameters-6"></ul>
+                <ul id="post-parameters-6"></ul>
+              </li>
+              <li id="route-7"><a href="/api/user/connect/payout">/api/user/connect/payout</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.Payout.get(req)</span>
+                <ul id="url-parameters-7"></ul>
+                <ul id="post-parameters-7"></ul>
+              </li>
+              <li id="route-8"><a href="/api/user/connect/payouts-count">/api/user/connect/payouts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.PayoutsCount.get(req)</span>
+                <ul id="url-parameters-8"></ul>
+                <ul id="post-parameters-8"></ul>
+              </li>
+              <li id="route-9"><a href="/api/user/connect/payouts">/api/user/connect/payouts</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.Payouts.get(req)</span><span id="url-container-9"> URL </span>
+                <ul id="url-parameters-9">
+                  <li>all</li>
+                  <li>limit</li>
+                  <li>offset</li>
+                  <li>stripeid</li>
+                </ul>
+                <ul id="post-parameters-9"></ul>
+              </li>
+              <li id="route-10"><a href="/api/user/connect/person">/api/user/connect/person</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.Person.get(req)</span>
+                <ul id="url-parameters-10"></ul>
+                <ul id="post-parameters-10"></ul>
+              </li>
+              <li id="route-11"><a href="/api/user/connect/persons-count">/api/user/connect/persons-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.PersonsCount.get(req)</span>
+                <ul id="url-parameters-11"></ul>
+                <ul id="post-parameters-11"></ul>
+              </li>
+              <li id="route-12"><a href="/api/user/connect/persons">/api/user/connect/persons</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.Persons.get(req)</span><span id="url-container-12"> URL </span>
+                <ul id="url-parameters-12">
+                  <li>all</li>
+                  <li>limit</li>
+                  <li>offset</li>
+                </ul>
+                <ul id="post-parameters-12"></ul>
+              </li>
+              <li id="route-13"><a href="/api/user/connect/set-beneficial-owners-submitted">/api/user/connect/set-beneficial-owners-submitted</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.connect.SetBeneficialOwnersSubmitted.patch(req)</span>
+                <ul id="url-parameters-13"></ul>
+                <ul id="post-parameters-13"></ul>
+              </li>
+              <li id="route-14"><a href="/api/user/connect/set-company-directors-submitted">/api/user/connect/set-company-directors-submitted</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.connect.SetCompanyDirectorsSubmitted.patch(req)</span>
+                <ul id="url-parameters-14"></ul>
+                <ul id="post-parameters-14"></ul>
+              </li>
+              <li id="route-15"><a href="/api/user/connect/set-stripe-account-submitted">/api/user/connect/set-stripe-account-submitted</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.connect.SetStripeAccountSubmitted.patch(req)</span>
+                <ul id="url-parameters-15"></ul>
+                <ul id="post-parameters-15"></ul>
+              </li>
+              <li id="route-16"><a href="/api/user/connect/stripe-account">/api/user/connect/stripe-account</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.StripeAccount.get(req)</span>
+                <ul id="url-parameters-16"></ul>
+                <ul id="post-parameters-16"></ul>
+              </li>
+              <li id="route-17"><a href="/api/user/connect/stripe-accounts-count">/api/user/connect/stripe-accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.StripeAccountsCount.get(req)</span>
+                <ul id="url-parameters-17"></ul>
+                <ul id="post-parameters-17"></ul>
+              </li>
+              <li id="route-18"><a href="/api/user/connect/stripe-accounts">/api/user/connect/stripe-accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.user.connect.StripeAccounts.get(req)</span><span id="url-container-18"> URL </span>
+                <ul id="url-parameters-18">
+                  <li>all</li>
+                  <li>limit</li>
+                  <li>offset</li>
+                </ul>
+                <ul id="post-parameters-18"></ul>
+              </li>
+              <li id="route-19"><a href="/api/user/connect/update-payment-information">/api/user/connect/update-payment-information</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.connect.UpdatePaymentInformation.patch(req)</span><span id="url-container-19"> URL </span>
+                <ul id="url-parameters-19">
+                  <li></li>
+                </ul>
+                <ul id="post-parameters-19"></ul>
+              </li>
+              <li id="route-20"><a href="/api/user/connect/update-person">/api/user/connect/update-person</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.connect.UpdatePerson.patch(req)</span><span id="url-container-20"> URL </span>
+                <ul id="url-parameters-20">
+                  <li></li>
+                  <li></li>
+                </ul>
+                <ul id="post-parameters-20"></ul>
+              </li>
+              <li id="route-21"><a href="/api/user/connect/update-stripe-account">/api/user/connect/update-stripe-account</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.connect.UpdateStripeAccount.patch(req)</span><span id="url-container-21"> URL </span>
+                <ul id="url-parameters-21">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <ul id="post-parameters-21"></ul>
+              </li>
+            </ul>
+          </div>
+          <div id="administrator-container">
+            <h2 id="administrator-api">Administrator API</h2>
+            <ul id="administrator-routes-table" class="api">
+              <tbody>
+                <li id="route-22"><a href="/api/administrator/connect/delete-stripe-account">/api/administrator/connect/delete-stripe-account</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.administrator.connect.DeleteStripeAccount.delete(req)</span>
+                  <ul id="url-parameters-22"></ul>
+                  <ul id="post-parameters-22"></ul>
+                </li>
+                <li id="route-23"><a href="/api/administrator/connect/payout">/api/administrator/connect/payout</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.connect.Payout.get(req)</span>
+                  <ul id="url-parameters-23"></ul>
+                  <ul id="post-parameters-23"></ul>
+                </li>
+                <li id="route-24"><a href="/api/administrator/connect/payouts-count">/api/administrator/connect/payouts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.connect.PayoutsCount.get(req)</span>
+                  <ul id="url-parameters-24"></ul>
+                  <ul id="post-parameters-24"></ul>
+                </li>
+                <li id="route-25"><a href="/api/administrator/connect/payouts">/api/administrator/connect/payouts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.connect.Payouts.get(req)</span><span id="url-container-25"> URL </span>
+                  <ul id="url-parameters-25">
+                    <li>accountid</li>
+                    <li>all</li>
+                    <li>limit</li>
+                    <li>offset</li>
+                    <li>stripeid</li>
+                  </ul>
+                  <ul id="post-parameters-25"></ul>
+                </li>
+                <li id="route-26"><a href="/api/administrator/connect/set-stripe-account-rejected">/api/administrator/connect/set-stripe-account-rejected</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.connect.SetStripeAccountRejected.patch(req)</span>
+                  <ul id="url-parameters-26"></ul>
+                  <ul id="post-parameters-26"></ul>
+                </li>
+                <li id="route-27"><a href="/api/administrator/connect/stripe-account">/api/administrator/connect/stripe-account</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.connect.StripeAccount.get(req)</span>
+                  <ul id="url-parameters-27"></ul>
+                  <ul id="post-parameters-27"></ul>
+                </li>
+                <li id="route-28"><a href="/api/administrator/connect/stripe-accounts-count">/api/administrator/connect/stripe-accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.connect.StripeAccountsCount.get(req)</span>
+                  <ul id="url-parameters-28"></ul>
+                  <ul id="post-parameters-28"></ul>
+                </li>
+                <li id="route-29"><a href="/api/administrator/connect/stripe-accounts">/api/administrator/connect/stripe-accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.connect.StripeAccounts.get(req)</span><span id="url-container-29"> URL </span>
+                  <ul id="url-parameters-29">
+                    <li>accountid</li>
+                    <li>all</li>
+                    <li>limit</li>
+                    <li>offset</li>
+                  </ul>
+                  <ul id="post-parameters-29"></ul>
+                </li>
+              </tbody>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div><template id="parameter-item-template" template="parameter-item-template">
+    <li>${parameter.name}</li>
+  </template><template id="route-row-template" template="route-row-template">
+    <li id="route-${route.id}"><a href="${route.url}">${route.url}</a><span class="method ${route.verb}">${route.verb}</span><span class="nodejs">await ${route.nodejs}.${route.verb.toLowerCase()}(req)</span><span id="url-container-${route.id}"> URL </span>
+      <ul id="url-parameters-${route.id}"></ul><span id="post-container-${route.id}"> POST </span>
+      <ul id="post-parameters-${route.id}"></ul>
+    </li>
+  </template>
+</body>
+<meta name="timestamp" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+</head>
+
+</html>

@@ -1,0 +1,229 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>Example web app UI index</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-9ykzetY4RNTlu45yVPpkS0OhtyXemdc0bL6V/qfNamDdUjexxOz6mDsxwgAxjBKQ" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/public/wa-mediabox.min.css" integrity="sha384-QIgOYIjb0GaFg2SpPCDf9jgtvfzsRaiwg2u1oMLlYiKGQih52JJA0CLi2MQt3s4B" crossorigin="anonymous" />
+  <script async="" src="/public/wa-mediabox.min.js" integrity="sha384-y/gOtcDxMMvaI24JJvEerKFbwXLCa847BpxiBxQKCUAXkPHl5VMJ8JumCJKgGc5x" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="generated" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Example web app UI index</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <div class="example-container" id="example-container">
+            <h2 id="example-usage">Example usage</h2>
+            <p>These pages demonstrate usage by users and administrators.</p>
+            <ul id="example-routes-list" class="screenshots desktop">
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/user-accepts-invitation/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/user-accepts-invitation/4-submit-form-desktop-en.png" /></a><a class="route-link" href="#">"User accepts invitation" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/user-creates-account/2-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/user-creates-account/2-submit-form-desktop-en.png" /></a><a class="route-link" href="#">"User creates account" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/user-creates-invitation/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/user-creates-invitation/4-submit-form-desktop-en.png" /></a><a class="route-link" href="#">"User creates invitation" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/user-creates-organization/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/user-creates-organization/4-submit-form-desktop-en.png" /></a><a class="route-link" href="#">"User creates organization" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/user-creates-post/1-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/user-creates-post/1-submit-form-desktop-en.png" /></a><a class="route-link" href="#">"User creates post" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/user-creates-shared-post/2-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/user-creates-shared-post/2-submit-form-desktop-en.png" /></a><a class="route-link" href="#">"User creates shared post" navigation guide</a></li>
+              <li><a class="screenshot-link" href="undefined"><img data-src="undefined" /></a><a class="route-link" href="#">"User views shared post" navigation guide</a></li>
+            </ul>
+          </div>
+          <div class="ui-container" id="guest-container">
+            <h2 id="guest-routes">Guest routes</h2>
+            <p>These pages can be browsed by anonymous guests.</p>
+            <ul id="guest-routes-list" class="screenshots desktop">
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/delete-account-complete/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/delete-account-complete/4-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/delete-account-complete">"Delete account complete" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/register/2-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/register/2-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/register">"Register" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/reset-account/3-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/reset-account/3-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/reset-account">"Reset access to my account" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/restore-account/3-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/restore-account/3-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/restore-account">"Restore my account" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/signin/2-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/signin/2-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/signin">"Sign in to my account" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/signout/3-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/signout/3-complete-desktop-en.png" /></a><a class="route-link" href="/account/signout">"Signing out" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/signout-complete/3-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/signout-complete/3-complete-desktop-en.png" /></a><a class="route-link" href="/account/signout-complete">"Signout complete" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/verify/3-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/verify/3-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/verify">"Verify your account" navigation guide</a></li>
+            </ul>
+          </div>
+          <div class="ui-container" id="user-container">
+            <h2 id="user-routes">User routes</h2>
+            <p>These pages require the user be signed in.</p>
+            <ul id="user-routes-list" class="screenshots desktop">
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/index/3-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/index/3-complete-desktop-en.png" /></a><a class="route-link" href="/account">"Account" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/change-password/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/change-password/4-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/change-password">"Change password" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/change-username/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/change-username/4-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/change-username">"Change username" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/create-profile/5-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/create-profile/5-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/create-profile">"Create profile" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/create-reset-code/5-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/create-reset-code/5-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/create-reset-code">"Create reset code" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/delete-account/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/delete-account/4-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/delete-account">"Delete account" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/delete-profile/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/delete-profile/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/delete-profile">"Delete #profileid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/delete-reset-code/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/delete-reset-code/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/delete-reset-code">"Delete #resetCodeid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/edit-profile/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/edit-profile/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/edit-profile">"Edit #profileid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/end-all-sessions/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/end-all-sessions/4-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/end-all-sessions">"End all sessions" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/end-session/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/end-session/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/end-session">"End #sessionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/accept-invitation/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/accept-invitation/4-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/accept-invitation">"Accept invitation" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/create-invitation/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/create-invitation/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/create-invitation">"Create invitation for #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/create-organization/4-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/create-organization/4-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/create-organization">"Create organization" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/delete-invitation/7-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/delete-invitation/7-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/delete-invitation">"Delete #invitationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/delete-membership/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/delete-membership/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/delete-membership">"Delete #membershipid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/delete-organization/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/delete-organization/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/delete-organization">"Delete #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/edit-membership-profile/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/edit-membership-profile/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/edit-membership-profile">"Edit #membershipid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/edit-organization/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/edit-organization/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/edit-organization">"Edit #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/invitation/7-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/invitation/7-complete-desktop-en.png" /></a><a class="route-link" href="/account/organizations/invitation">"View #invitationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/membership/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/membership/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/organizations/membership">"View #membershipid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/memberships/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/memberships/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/organizations/memberships">"Memberships" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/organization/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/organization/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/organizations/organization">"View #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/organization-invitations/6-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/organization-invitations/6-complete-desktop-en.png" /></a><a class="route-link" href="/account/organizations/organization-invitations">"Invitations for #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/organization-memberships/6-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/organization-memberships/6-complete-desktop-en.png" /></a><a class="route-link" href="/account/organizations/organization-memberships">"Memberships for #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/organizations/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/organizations/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/organizations/organizations">"Organizations" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/revoke-membership/8-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/revoke-membership/8-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/revoke-membership">"Revoke membershipof #membershipid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/organizations/transfer-organization/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/organizations/transfer-organization/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/organizations/transfer-organization">"Transfer ownership of #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/profile/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/profile/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/profile">"View #profileid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/profiles/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/profiles/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/profiles">"Profiles" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/reset-code/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/reset-code/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/reset-code">"View #resetCodeid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/reset-codes/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/reset-codes/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/reset-codes">"Reset codes" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/session/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/session/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/session">"View #sessionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/sessions/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/account/sessions/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/sessions">"Sessions" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/account/set-default-profile/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/account/set-default-profile/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/set-default-profile">"Set default profile" navigation guide</a></li>
+            </ul>
+          </div>
+          <div class="ui-container" id="administrator-container">
+            <h2 id="administrator-routes">Administrator routes</h2>
+            <p>These pages are only accessible to administrators.</p>
+            <ul id="administrator-routes-list" class="screenshots desktop">
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/index/3-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/index/3-complete-desktop-en.png" /></a><a class="route-link" href="/administrator">"Administration" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/account/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/account/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/account">"View #accountid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/account-profiles/6-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/account-profiles/6-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/account-profiles">"Profiles" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/account-reset-codes/6-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/account-reset-codes/6-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/account-reset-codes">"Reset codes" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/account-sessions/6-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/account-sessions/6-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/account-sessions">"Sessions" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/accounts/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/accounts/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/accounts">"Accounts" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/administrators/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/administrators/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/administrators">"Administrators" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/assign-administrator/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/assign-administrator/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/assign-administrator">"Assign administrator to #accountid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/create-reset-code/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/create-reset-code/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/create-reset-code">"Create reset code" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/delete-account/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/delete-account/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/delete-account">"Delete #accountid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/delete-schedule/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/delete-schedule/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/delete-schedule">"Delete schedule" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/invitation/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/invitation/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/invitation">"View #invitationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/invitations/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/invitations/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/invitations">"Invitations" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/membership/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/membership/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/membership">"View #membershipid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/memberships/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/memberships/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/memberships">"Memberships" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/organization/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/organization/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/organization">"View #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/organization-invitations/6-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/organization-invitations/6-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/organization-invitations">"Invitations for #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/organization-memberships/6-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/organization-memberships/6-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/organization-memberships">"Memberships for #organizationid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/organizations/organizations/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/organizations/organizations/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/organizations/organizations">"Organizations" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/profile/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/profile/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/profile">"View #profileid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/profiles/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/profiles/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/profiles">"Profiles" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/reset-code/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/reset-code/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/reset-code">"View #resetCodeid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/reset-codes/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/reset-codes/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/reset-codes">"Reset codes" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/reset-session-key/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/reset-session-key/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/reset-session-key">"Reset session key" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/revoke-administrator/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/revoke-administrator/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/revoke-administrator">"Revoke administrator" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/schedule-account-delete/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/schedule-account-delete/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/schedule-account-delete">"Schedule delete" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/session/5-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/session/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/session">"View #sessionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/sessions/4-complete-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/sessions/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/sessions">"Sessions" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/example-web-app/administrator/transfer-ownership/6-submit-form-desktop-en.png"><img data-src="/screenshots/example-web-app/administrator/transfer-ownership/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/transfer-ownership">"Transfer ownership to #accountid" navigation guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div><template id="route-template" template="route-template">
+    <li><a class="screenshot-link" href="${route.src}"><img data-src="${route.src}" /></a><a class="route-link" href="${route.url}">"${route.title}" navigation guide</a></li>
+  </template>
+</body>
+<meta name="timestamp" value="Tue, 29 Sep 2020 14:19:48 GMT" />
+</head>
+
+</html>
