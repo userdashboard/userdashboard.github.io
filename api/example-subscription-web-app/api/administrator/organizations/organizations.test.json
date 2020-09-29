@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_700e6ed",
+    "organizationid": "organization_453b68f",
+    "name": "My organization 1",
+    "email": "Calvin82@yahoo.com",
+    "created": 1601339793
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_700e6ed",
+    "organizationid": "organization_75fb1a9",
+    "name": "My organization 1",
+    "email": "Calvin82@yahoo.com",
+    "created": 1601339793
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_700e6ed",
+    "organizationid": "organization_a1f1dec",
+    "name": "My organization 1",
+    "email": "Calvin82@yahoo.com",
+    "created": 1601339793
+  }
+]

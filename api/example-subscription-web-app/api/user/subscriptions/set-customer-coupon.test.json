@@ -1,0 +1,82 @@
+{
+  "id": "cus_I6kaOIBIrIFeMJ",
+  "object": "customer",
+  "address": null,
+  "balance": 0,
+  "created": 1601340787,
+  "currency": null,
+  "default_source": null,
+  "delinquent": false,
+  "description": "Shirley",
+  "discount": {
+    "id": "di_1HWX5cAy1diN5On0ISboz5jA",
+    "object": "discount",
+    "checkout_session": null,
+    "coupon": {
+      "id": "coupon15_1601340787578_437",
+      "object": "coupon",
+      "amount_off": null,
+      "created": 1601340787,
+      "currency": null,
+      "duration": "repeating",
+      "duration_in_months": 3,
+      "livemode": false,
+      "max_redemptions": null,
+      "metadata": {
+        "appid": "tests_1601339789",
+        "published": "1601340786"
+      },
+      "name": null,
+      "percent_off": 25,
+      "redeem_by": null,
+      "times_redeemed": 1,
+      "valid": true
+    },
+    "customer": "cus_I6kaOIBIrIFeMJ",
+    "end": 1609203188,
+    "invoice": null,
+    "invoice_item": null,
+    "promotion_code": null,
+    "start": 1601340788,
+    "subscription": null
+  },
+  "email": "Shirley.Quitzon@hotmail.com",
+  "invoice_prefix": "ADCD3142",
+  "invoice_settings": {
+    "custom_fields": null,
+    "default_payment_method": null,
+    "footer": null
+  },
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601339789",
+    "accountid": "account_b87b7be"
+  },
+  "name": null,
+  "next_invoice_sequence": 1,
+  "phone": null,
+  "preferred_locales": [],
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I6kaOIBIrIFeMJ/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I6kaOIBIrIFeMJ/subscriptions"
+  },
+  "tax_exempt": "none",
+  "tax_ids": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I6kaOIBIrIFeMJ/tax_ids"
+  }
+}

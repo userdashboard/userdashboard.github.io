@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_e72bdcb",
+    "organizationid": "organization_0c8b2aa",
+    "name": "My organization",
+    "email": "Leland_Auer91@gmail.com",
+    "created": 1601339794
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_e72bdcb",
+    "organizationid": "organization_3adc681",
+    "name": "My organization",
+    "email": "Leland_Auer91@gmail.com",
+    "created": 1601339794
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_e72bdcb",
+    "organizationid": "organization_1384e1b",
+    "name": "My organization",
+    "email": "Leland_Auer91@gmail.com",
+    "created": 1601339794
+  }
+]

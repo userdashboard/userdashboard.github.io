@@ -1,0 +1,34 @@
+[
+  {
+    "object": "membership",
+    "membershipid": "membership_d03e8da",
+    "organizationid": "organization_ffa0ba3",
+    "accountid": "account_2dc06ab",
+    "created": 1601339794,
+    "profileid": "profile_8b92cbe",
+    "displayName": "Ricardo",
+    "displayEmail": "Ricardo.Kunde@yahoo.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_605f807",
+    "organizationid": "organization_4b0c29d",
+    "accountid": "account_2dc06ab",
+    "created": 1601339794,
+    "invitationid": "invitation_3f24d8c",
+    "profileid": "profile_8b92cbe",
+    "displayName": "Ricardo",
+    "displayEmail": "Ricardo.Kunde@yahoo.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_a754051",
+    "organizationid": "organization_87bb5c0",
+    "accountid": "account_2dc06ab",
+    "created": 1601339794,
+    "invitationid": "invitation_b2267a3",
+    "profileid": "profile_8b92cbe",
+    "displayName": "Ricardo",
+    "displayEmail": "Ricardo.Kunde@yahoo.com"
+  }
+]

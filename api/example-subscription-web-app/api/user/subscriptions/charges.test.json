@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ch_1HWX0rAy1diN5On0BGr7FF8n",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HWX0rAy1diN5On0hpBj3ctb",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Caroline Nitzsche",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT50 DESCRIPTION",
+    "captured": true,
+    "created": 1601340493,
+    "currency": "usd",
+    "customer": "cus_I6kVgXotck3Jun",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HWX0qAy1diN5On0Q6Wr6Qzl",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_ba7ef21"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 30,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HWX0rAy1diN5On0WXYLajNg",
+    "payment_method": "pm_1HWX0oAy1diN5On0W083Mf5L",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "SKyB1iRNXULITdVZ",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1Ghg7cAy1diN5On0/ch_1HWX0rAy1diN5On0BGr7FF8n/rcpt_I6kVpC0KNj3NXWI5ae4IR3Kdazw26uH",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HWX0rAy1diN5On0BGr7FF8n/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product50 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1HWX0jAy1diN5On0WjBEUJv5",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HWX0jAy1diN5On0h6aEx2Tg",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Caroline Nitzsche",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT50 DESCRIPTION",
+    "captured": true,
+    "created": 1601340485,
+    "currency": "usd",
+    "customer": "cus_I6kV6sMKu5C51s",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HWX0iAy1diN5On0MDGAGxfl",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_ba7ef21"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 54,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HWX0jAy1diN5On0y5QYbrNV",
+    "payment_method": "pm_1HWX0gAy1diN5On0Jqn9KqTa",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "SKyB1iRNXULITdVZ",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1Ghg7cAy1diN5On0/ch_1HWX0jAy1diN5On0WjBEUJv5/rcpt_I6kVqjoPDuQJRByLBqe8gbu09dQGWQl",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HWX0jAy1diN5On0WjBEUJv5/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product50 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1HWX0bAy1diN5On0hBss3FyL",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HWX0cAy1diN5On0JLjx7RLy",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Caroline Nitzsche",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT50 DESCRIPTION",
+    "captured": true,
+    "created": 1601340477,
+    "currency": "usd",
+    "customer": "cus_I6kVIG7lMMBZ9N",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HWX0bAy1diN5On0sSkkmMok",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_ba7ef21"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 43,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HWX0bAy1diN5On0tgEQ5HH1",
+    "payment_method": "pm_1HWX0ZAy1diN5On0gQ78ykQK",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "SKyB1iRNXULITdVZ",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1Ghg7cAy1diN5On0/ch_1HWX0bAy1diN5On0hBss3FyL/rcpt_I6kVdrgD3GoJcyCG6eXyj56uNb68djf",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HWX0bAy1diN5On0hBss3FyL/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product50 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  }
+]

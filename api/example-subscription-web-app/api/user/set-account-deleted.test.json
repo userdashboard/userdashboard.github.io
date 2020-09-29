@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_9fd43e4",
+  "usernameHash": "6fd630a5565a268a3432bc7f5b4968c253830dbc96243a50fb9ec3e23a5bd53378efd5447117e9a6ad4c149b502aba601773f60344797371e0282097b5303b4f",
+  "passwordHash": "$2a$04$HMLwEyqDvGbhUK1sV2Mq8uds4XabxEscZW43PmTs76XYQM3qWk4xm",
+  "sessionKey": "cbc459ca6be34e3f66ee6cefb8e63148673412c64b85aa043dc642b04b303d69",
+  "sessionKeyNumber": 1,
+  "created": 1601339792,
+  "administrator": 1601339792,
+  "owner": 1601339792,
+  "firstName": "Dewey",
+  "lastName": "Gaylord",
+  "contactEmail": "Dewey_Gaylord@gmail.com",
+  "profileid": "profile_fc157a8",
+  "lastSignedIn": 1601339792,
+  "deleted": 1601944591
+}

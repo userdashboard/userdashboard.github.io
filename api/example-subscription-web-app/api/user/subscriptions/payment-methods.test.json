@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pm_1HWX3oAy1diN5On0O4sleiMn",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Victoria Altenwerth",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "SKyB1iRNXULITdVZ",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601340676,
+    "customer": "cus_I6kY8T22GpAjqK",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_fd4fa64"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HWX3nAy1diN5On0jaBUqVh7",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Victoria Altenwerth",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "SKyB1iRNXULITdVZ",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601340675,
+    "customer": "cus_I6kY8T22GpAjqK",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_fd4fa64"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HWX3lAy1diN5On0HrHXJoEh",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Victoria Altenwerth",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "SKyB1iRNXULITdVZ",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601340674,
+    "customer": "cus_I6kY8T22GpAjqK",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_fd4fa64"
+    },
+    "type": "card"
+  }
+]

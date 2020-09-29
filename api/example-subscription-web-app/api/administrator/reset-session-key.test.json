@@ -1,0 +1,12 @@
+{
+  "object": "account",
+  "accountid": "account_012333c",
+  "sessionKeyNumber": 2,
+  "created": 1601339791,
+  "firstName": "Chris",
+  "lastName": "Leuschke",
+  "contactEmail": "Chris6@gmail.com",
+  "profileid": "profile_dab1cba",
+  "lastSignedIn": 1601339791,
+  "sessionKeyLastReset": 1601339791
+}

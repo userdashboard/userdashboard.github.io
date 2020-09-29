@@ -1,0 +1,28 @@
+{
+  "id": "seti_1HWX1gAy1diN5On0DD6TxbB7",
+  "object": "setup_intent",
+  "application": null,
+  "cancellation_reason": null,
+  "client_secret": "seti_1HWX1gAy1diN5On0DD6TxbB7_secret_I6kWXPF2qoQfjBCMDpYRb4PgRXaMSOZ",
+  "created": 1601340544,
+  "customer": "cus_I6kWeqwcDuq9cY",
+  "description": null,
+  "last_setup_error": null,
+  "livemode": false,
+  "mandate": null,
+  "metadata": {},
+  "next_action": null,
+  "on_behalf_of": null,
+  "payment_method": "pm_1HWX1fAy1diN5On0PwcZlzgb",
+  "payment_method_options": {
+    "card": {
+      "request_three_d_secure": "automatic"
+    }
+  },
+  "payment_method_types": [
+    "card"
+  ],
+  "single_use_mandate": null,
+  "status": "requires_confirmation",
+  "usage": "off_session"
+}

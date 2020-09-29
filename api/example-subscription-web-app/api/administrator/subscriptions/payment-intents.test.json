@@ -1,0 +1,167 @@
+[
+  {
+    "id": "pi_1HWWtNAy1diN5On0VpZEP864",
+    "object": "payment_intent",
+    "amount": 10000,
+    "amount_capturable": 0,
+    "amount_received": 0,
+    "application": null,
+    "application_fee_amount": null,
+    "canceled_at": null,
+    "cancellation_reason": null,
+    "capture_method": "automatic",
+    "charges": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges?payment_intent=pi_1HWWtNAy1diN5On0VpZEP864"
+    },
+    "client_secret": "pi_1HWWtNAy1diN5On0VpZEP864_secret_PExLSEMQCxFkGF4qV8YcmmfD1",
+    "confirmation_method": "automatic",
+    "created": 1601340029,
+    "currency": "usd",
+    "customer": "cus_I6kOhm9x4StyiG",
+    "description": null,
+    "invoice": null,
+    "last_payment_error": null,
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_300e786"
+    },
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": null,
+    "payment_method_options": {
+      "card": {
+        "installments": null,
+        "network": null,
+        "request_three_d_secure": "automatic"
+      }
+    },
+    "payment_method_types": [
+      "card"
+    ],
+    "receipt_email": null,
+    "review": null,
+    "setup_future_usage": null,
+    "shipping": null,
+    "source": null,
+    "statement_descriptor": null,
+    "statement_descriptor_suffix": null,
+    "status": "requires_payment_method",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "pi_1HWWtMAy1diN5On0hmbt666a",
+    "object": "payment_intent",
+    "amount": 10000,
+    "amount_capturable": 0,
+    "amount_received": 0,
+    "application": null,
+    "application_fee_amount": null,
+    "canceled_at": null,
+    "cancellation_reason": null,
+    "capture_method": "automatic",
+    "charges": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges?payment_intent=pi_1HWWtMAy1diN5On0hmbt666a"
+    },
+    "client_secret": "pi_1HWWtMAy1diN5On0hmbt666a_secret_PbUiC1mUmavLboCIzmUHxSRwb",
+    "confirmation_method": "automatic",
+    "created": 1601340028,
+    "currency": "usd",
+    "customer": "cus_I6kOEgbqxZhSaO",
+    "description": null,
+    "invoice": null,
+    "last_payment_error": null,
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_cfaba92"
+    },
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": null,
+    "payment_method_options": {
+      "card": {
+        "installments": null,
+        "network": null,
+        "request_three_d_secure": "automatic"
+      }
+    },
+    "payment_method_types": [
+      "card"
+    ],
+    "receipt_email": null,
+    "review": null,
+    "setup_future_usage": null,
+    "shipping": null,
+    "source": null,
+    "statement_descriptor": null,
+    "statement_descriptor_suffix": null,
+    "status": "requires_payment_method",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "pi_1HWWtKAy1diN5On0Trt351JV",
+    "object": "payment_intent",
+    "amount": 10000,
+    "amount_capturable": 0,
+    "amount_received": 0,
+    "application": null,
+    "application_fee_amount": null,
+    "canceled_at": null,
+    "cancellation_reason": null,
+    "capture_method": "automatic",
+    "charges": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges?payment_intent=pi_1HWWtKAy1diN5On0Trt351JV"
+    },
+    "client_secret": "pi_1HWWtKAy1diN5On0Trt351JV_secret_wgCH9liGnYcgy79wDlBTE9YMV",
+    "confirmation_method": "automatic",
+    "created": 1601340026,
+    "currency": "usd",
+    "customer": "cus_I6kO640IqM7XwQ",
+    "description": null,
+    "invoice": null,
+    "last_payment_error": null,
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601339789",
+      "accountid": "account_8b18546"
+    },
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": null,
+    "payment_method_options": {
+      "card": {
+        "installments": null,
+        "network": null,
+        "request_three_d_secure": "automatic"
+      }
+    },
+    "payment_method_types": [
+      "card"
+    ],
+    "receipt_email": null,
+    "review": null,
+    "setup_future_usage": null,
+    "shipping": null,
+    "source": null,
+    "statement_descriptor": null,
+    "statement_descriptor_suffix": null,
+    "status": "requires_payment_method",
+    "transfer_data": null,
+    "transfer_group": null
+  }
+]
