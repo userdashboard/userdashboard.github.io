@@ -1,6 +1,6 @@
 html { font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size: 90%; color: #000; }
 body { background-color: #FFF; color: #000; padding: 0; margin: 0; width: 100%; height: 100% }
-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem }
+table { width: 100%; max-width: 90rem; border-collapse: collapse; margin-bottom: 2rem }
 th { background-color: #333; color: #FFF; text-align: left }
 th,
 td { padding: 0.5rem 1rem 0.5rem 0.5rem; border: 1px solid #333 }
@@ -31,7 +31,7 @@ header a { font-size: 1.4rem; color: rgba(255, 255, 255, 0.75); font-size: 1.4re
 .navigation { margin: 0 }
 .navigation ul { margin: 0; padding: 1rem }
 .navigation ul ul { padding: 0 }
-.navigation li { display: inline-block !important; width: 12%; min-width: 16rem; vertical-align: top }
+.navigation li { display: inline-block !important; width: 8%; min-width: 16rem; vertical-align: top }
 .navigation li h2 { font-size: 1rem; padding: 0; color: rgba(255, 255, 255, 0.5) }
 .navigation li li { margin: 0; display: block; width: auto; min-width: none }
 .navigation a { font-weight: bold; color: rgba(255, 255, 255, 0.75); font-size: 0.9rem }
@@ -47,6 +47,7 @@ header a { font-size: 1.4rem; color: rgba(255, 255, 255, 0.75); font-size: 1.4re
 .content span { font-size: 0.9rem; line-height: 1.6rem; margin: 0 0 2rem 0 }
 .content th,
 .content td { font-size: 0.9rem; line-height: 1.2rem; padding: 0.25rem }
+.content p { margin-bottom: 1rem }
 .content p code { color: #900; font-size: inherit }
 .content p a { text-decoration: underline }
 .content li { line-height: 1.2rem; margin: 0.5rem; padding: 0 }
@@ -54,9 +55,9 @@ header a { font-size: 1.4rem; color: rgba(255, 255, 255, 0.75); font-size: 1.4re
 .content ul { margin-left: 0; padding-left: 0 }
 .content ol { margin-left: 0; padding-left: 1rem }
 .content ol li { list-style-type: number }
-.content pre { display: inline-block; line-height: 1.2rem; background-color: #FFF; border-left: 1px dashed #999; overflow: scroll; max-width: 100%; margin: 0 0 2rem 0; padding: 0 }
-.content pre code { display: block; padding: 0 0 0 0.5rem !important; margin-bottom: 1rem }
-.content td pre { background-color: transparent; border: none }
+.content pre { display: inline-block; line-height: 1.2rem; background-color: #FFC; border-left: 1px dashed #999; overflow: auto; max-width: 100%; margin: 0 0 2rem 0; padding: 0 }
+.content pre code { display: block; margin: 0; padding: 0.5rem }
+.content td pre { background-color: transparent; border: none}
 
 .devices { margin: 0 0 2rem 0; padding: 0; list-style-type: none; display: inline-block }
 .devices li { cursor: pointer; color: #666; display: inline-block; font-size: 1rem; margin-right: 1rem; margin-left: 1rem; padding: 0.5rem }
@@ -90,7 +91,7 @@ span.patch { color: purple }
 span.delete { color: red }
 .api { font-family: monospace; margin: 1rem 0 }
 .api li { font-size: 0.9rem; margin: 0 0 1rem 0; padding: 0 }
-.api li span { color: #666; font-size: 0.7rem; max-width: 100%; overflow: scroll }
+.api li span { color: #666; font-size: 0.7rem; max-width: 100%; margin: 0 }
 .api li li { display: inline; font-size: 0.8rem }
 .api ul { display: inline }
 .api .method { color: #FFF; border-radius: 0.25rem; font-size: 0.7rem; line-height: 0.9rem; padding: 0.25rem; margin-left: 0.25rem }

@@ -106,20 +106,20 @@
     }
 
     .content {
-      display: flex;
+      /* display: flex; */
       height: 100%
     }
 
     .content h1 {
-      position: absolute;
-      z-index: 2;
+      /* position: absolute; */
+      /* z-index: 2; */
       color: rgba(255, 255, 255, 0.5);
       font-size: 3rem;
       font-weight: 300;
-      text-align: right;
-      bottom: 2rem;
-      right: 2rem;
-      padding: 0 0 0 2rem;
+      /* text-align: right; */
+      /* bottom: 2rem; */
+      /* right: 2rem; */
+      padding: 0.5rem;
       margin: 0
     }
 
@@ -130,6 +130,21 @@
     .content img {
       width: 100%;
       opacity: 0.1
+    }
+
+    .content li { 
+      font-size: 1.4rem;
+      line-height: 2rem;
+      color: #FFF;
+      font-style: italic;
+      opacity: 0.7;
+    }
+
+    .content li.no { 
+      text-decoration: none;
+      text-transform: none;
+      font-style: normal;
+      opacity: 1
     }
 
     @media (max-width: 1024px) {
@@ -237,7 +252,17 @@
       </nav>
     </section>
     <section class="content">
-      <h1>Reusable <span>boilerplate</span> for building web apps</h1>
+      <!-- <h1>Dashboard provides boilerplate for <span>web apps</span></h1> -->
+      <h1><span>Dashboard</span> builds complex <span>web apps</span> with two pages...</h1>
+      <ul>
+        <li class="no">Guest index page</li>
+        <li class="no">User home page</li>
+        <li>Account management</li>
+        <li>User administration</li>
+        <li>Organizations module</li>
+        <li>Stripe Subscriptions module</li>
+        <li>Stripe Connect module</li>
+      </ul>
     </section>
   </div>
 </body>
