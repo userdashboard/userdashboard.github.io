@@ -7,7 +7,7 @@
   <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8" />
-  <meta name="generated" value="Tue, 29 Sep 2020 16:58:39 GMT" />
+  <meta name="generated" value="Tue, 29 Sep 2020 18:04:49 GMT" />
 
 <body><a name="top" id="top"></a>
   <div class="body-container">
@@ -125,8 +125,7 @@
           </ul>
           <h1 id="introduction">Introduction</h1>
           <p>Dashboard bundles everything a web app needs, all the &quot;boilerplate&quot; like signing in and changing passwords, into a parallel server so you can write a much smaller web app.</p>
-          <p>The Stripe Subscriptions module adds a complete interface for creating and managing your Stripe products, plans, subscriptions etc and a complete interface for users to subscribe to plans.</p>
-          <p>Users can self-cancel their subscriptions at any time and you can nominate a 0+ day period allowing users to refund themselves too. You can optionally require a subscription and/or no unpaid invoices from all users outside of the <code data-language="js">/account/</code> and <code data-language="js">/administrator/</code> content.</p>
+          <p>The Stripe Subscriptions module adds a complete interface for creating and managing your Stripe products, plans, subscriptions etc and a complete interface for users to subscribe to plans. Users can self-cancel their subscriptions at any time and you can nominate a 0+ day period allowing users to refund themselves too. You can optionally require a subscription and/or no unpaid invoices from all users outside of the <code data-language="js">/account/</code> and <code data-language="js">/administrator/</code> content. The <a href="https://stripe.com/docs/api">Stripe API documentation</a> supplements this documentation.</p>
           <h1 id="module-contents">Module contents</h1>
           <p>Dashboard modules can add pages and API routes. For more details check the <code data-language="js">sitemap.txt</code> and <code data-language="js">api.txt</code> or the online documentation.</p>
           <table>
@@ -180,14 +179,13 @@
 </code></pre>
           <h2 id="setting-up-your-stripe-credentials">Setting up your Stripe credentials</h2>
           <p>You will need to retrieve various keys from <a href="https://stripe.com">Stripe</a>. During development your webhook will be created automatically, but in production with multiple dashboard server instances they share a configured webhook:</p>
-          <ul>
-            <li>create your Stripe account and find your API keys</li>
-            <li>create a webhook for https://your_domain/webhooks/subscriptions/index-subscription-data</li>
-            <li>environment STRIPE_JS=3|2|false</li>
-            <li>environment STRIPE_KEY=sk_test_xxxxxxx</li>
-            <li>environment STRIPE_PUBLISHABLE_KEY=pk_test_xxxxxxx</li>
-            <li>environment SUBSCRIPTION_WEBHOOK_ENDPOINT_SECRET=whsec_xxxxxxxx</li>
-          </ul>
+          <pre><code data-language="js">- create your Stripe account and find your API keys
+- create a webhook for https://your_domain/webhooks/subscriptions/index-subscription-data 
+- environment STRIPE_JS=3|2|false
+- environment STRIPE_KEY=sk_test_xxxxxxx
+- environment STRIPE_PUBLISHABLE_KEY=pk_test_xxxxxxx
+- environment SUBSCRIPTION_WEBHOOK_ENDPOINT_SECRET=whsec_xxxxxxxx
+</code></pre>
           <h2 id="requiring-subscriptions">Requiring subscriptions</h2>
           <p>Environment variables are documented in Dashboard and each module's <code data-language="js">/start-dev.sh</code>.</p>
           <p>You can require subscriptions and no overdue invoices through environment variables:</p>
@@ -255,7 +253,7 @@ const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
     </div>
   </div>
 </body>
-<meta name="timestamp" value="Tue, 29 Sep 2020 16:58:39 GMT" />
+<meta name="timestamp" value="Tue, 29 Sep 2020 18:04:49 GMT" />
 </head>
 
 </html>
