@@ -107,7 +107,8 @@
 
     .content {
       /* display: flex; */
-      height: 100%
+      height: 100%;
+      text-align: center
     }
 
     .content h1 {
@@ -132,19 +133,18 @@
       opacity: 0.1
     }
 
-    .content li { 
-      font-size: 1.4rem;
-      line-height: 2rem;
+    .content li {
+      font-size: 2rem;
+      line-height: 3rem;
       color: #FFF;
-      font-style: italic;
-      opacity: 0.7;
+      list-style-type: none
     }
 
-    .content li.no { 
-      text-decoration: none;
-      text-transform: none;
-      font-style: normal;
-      opacity: 1
+    .content li span { 
+
+      font-style: italic;
+      text-decoration: line-through;
+      opacity: 0.7;
     }
 
     @media (max-width: 1024px) {
@@ -257,11 +257,11 @@
       <ul>
         <li class="no">Guest index page</li>
         <li class="no">User home page</li>
-        <li>Account management</li>
-        <li>User administration</li>
-        <li>Organizations module</li>
-        <li>Stripe Subscriptions module</li>
-        <li>Stripe Connect module</li>
+        <li><span class="no">Account management</span> &#10003;</li>
+        <li><span class="no">User administration</span> &#10003;</li>
+        <li><span class="no">Organizations</span> &#10003;</li>
+        <li><span class="no">Stripe Subscription payments</span> &#10003;</li>
+        <li><span class="no">Stripe Connect payouts</span> &#10003;</li>
       </ul>
     </section>
   </div>
