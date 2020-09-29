@@ -1,19 +1,19 @@
 {
-  "id": "prod_I6gWsGJdntQzz6",
+  "id": "prod_I70TzzpiMmjjGh",
   "object": "product",
   "active": true,
   "attributes": [],
-  "created": 1601325655,
+  "created": 1601399867,
   "description": null,
   "images": [],
   "livemode": false,
   "metadata": {
-    "appid": "tests_1601321462",
-    "published": "1601325661"
+    "appid": "tests_1601395669",
+    "published": "1601399872"
   },
-  "name": "product171_1601325655843_64",
+  "name": "product171_1601399867252_619",
   "statement_descriptor": "product171 description",
   "type": "service",
   "unit_label": "thing",
-  "updated": 1601325655
+  "updated": 1601399867
 }
