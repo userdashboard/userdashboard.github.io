@@ -2,12 +2,12 @@
 
 <head>
   <title>MaxMind GeoIP module documentation</title>
-  <link rel="stylesheet" href="/public/style.css" integrity="sha384-TLyyWV1QuNjQxfHh5ogyV5PCZ2DUE5HHJsejhnBdVGNBmiHBV27rxEAFj5lGh3I9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-sIsoY1WSWTT2R9TJMvxSAr2sn5uG1uxH/dxm6V61br67cTC2+33A6gxpxMx12AQu" crossorigin="anonymous" />
   <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
   <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8" />
-  <meta name="generated" value="Tue, 29 Sep 2020 19:02:50 GMT" />
+  <meta name="generated" value="Tue, 29 Sep 2020 19:42:58 GMT" />
 
 <body><a name="top" id="top"></a>
   <div class="body-container">
@@ -122,7 +122,7 @@
           </ul>
           <h1 id="introduction">Introduction</h1>
           <p>Dashboard bundles everything a web app needs, all the &quot;boilerplate&quot; like signing in and changing passwords, into a parallel server so you can write a much smaller web app.</p>
-          <p><a href="https://www.maxmind.com/en/home">MaxMind</a> provide a database that converts IP addresses to countries or other information. This module for <a href="https://github.com/userdashboard/dashboard">Dashboard</a> adds API routes for identifying the country by IP and a server handler that will binds a Country object to each HttpRequest using their database. There is much more data in the MaxMind database than is exposed via the API, pull requests are welcome to add more routes to access it.</p>
+          <p><a href="https://www.maxmind.com/en/home">MaxMind</a> provide a database that converts IP addresses to countries and this module adds API routes for identifying the country by IP and a server handler that will automatically attach a Country object to each HttpRequest using their database. There is much more data in the MaxMind database than is exposed via the API, pull requests are welcome to add more routes to access it.</p>
           <h1 id="module-contents">Module contents</h1>
           <p>Dashboard modules can add pages and API routes. For more details check the <code data-language="js">sitemap.txt</code> and <code data-language="js">api.txt</code> or the online documentation.</p>
           <table>
@@ -139,7 +139,7 @@
               </tr>
               <tr>
                 <td>Server scripts</td>
-                <td></td>
+                <td>Yes</td>
               </tr>
               <tr>
                 <td>Content scripts</td>
@@ -215,7 +215,7 @@ const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
     </div>
   </div>
 </body>
-<meta name="timestamp" value="Tue, 29 Sep 2020 19:02:50 GMT" />
+<meta name="timestamp" value="Tue, 29 Sep 2020 19:42:58 GMT" />
 </head>
 
 </html>
