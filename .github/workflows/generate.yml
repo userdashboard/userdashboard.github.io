@@ -38,7 +38,7 @@ jobs:
         cd /tmp/documentation
         npm install
         npm install @userdashboard/dashboard --no-save
-        DOCUMENTATION_PATH=/tmp/documentation \
+        DOCUMENTATION_PATH=$HERE \
         DASHBOARD_SERVER_PATH=/tmp/project \
         EXAMPLE_DASHBOARD_SERVER_PATH1=/tmp/example-web-app/dashboard-server \
         EXAMPLE_DASHBOARD_SERVER_PATH2=/tmp/example-subscription-web-app/dashboard-server \
