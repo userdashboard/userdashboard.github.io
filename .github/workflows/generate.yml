@@ -38,8 +38,11 @@ jobs:
         cd /tmp/documentation
         npm install
         npm install @userdashboard/dashboard --no-save
-        node main.js $HERE /tmp/project
-        cat index.html > $HERE/index.html
+        DOCUMENTATION_PATH=$BASE_PATH/userdashboard.github.io \
+        DASHBOARD_SERVER_PATH=$BASE_PATH/temp \
+        EXAMPLE_DASHBOARD_SERVER_PATH1=$BASE_PATH/example-web-app/dashboard-server \
+        EXAMPLE_DASHBOARD_SERVER_PATH2=$BASE_PATH/example-subscription-web-app/dashboard-server \
+        node main.js
       env:
         EXAMPLE_DASHBOARD_SERVER_PATH1: /tmp/example-web-app/dashboard-server
         EXAMPLE_DASHBOARD_SERVER_PATH2: /tmp/example-subscription-web-app/dashboard-server
