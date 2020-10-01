@@ -1,0 +1,273 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>/api/user/connect/person#GET (@userdashboard/stripe-connect)</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-sIsoY1WSWTT2R9TJMvxSAr2sn5uG1uxH/dxm6V61br67cTC2+33A6gxpxMx12AQu" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="generated" value="Thu, 01 Oct 2020 21:20:02 GMT" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Stripe Connect module API explorer</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <h1 id="title">/api/user/connect/person (GET)</h1><span class="nodejs get" id="nodejs">await global.api.user.connect.Person.get(req)</span>
+          <div class="api-via"> Located in <a id="subtitle" href="/stripe-connect-api">Stripe Connect module API</a></div>
+          <div id="response-container">
+            <h2 id="returns-">Returns <span id="returns">object</span></h2>
+            <pre class="response-code"><code data-language="json" id="response-code"></code></pre>
+          </div>
+          <div id="exceptions-container"><a name="exceptions" id="exceptions"></a>
+            <h2 id="exceptions">Exceptions</h2>
+            <p>These exceptions are thrown (NodeJS) or returned as JSON (HTTP) if you provide incorrect data or do not meet the requirements:</p>
+            <table id="exceptions-table">
+              <tr>
+                <th>Exception</th>
+                <th>Circumstances</th>
+              </tr>
+              <tbody>
+                <tr>
+                  <td>invalid querystring personid</td>
+                </tr>
+                <tr>
+                  <td id="description-0" rowspan="2">invalid-personid</td>
+                  <td>missing querystring personid</td>
+                </tr>
+                <tr>
+                  <td id="description-2" rowspan="1">invalid-account</td>
+                  <td>ineligible accessing account</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="source-code"><a name="source" id="source"></a>
+            <h2 id="nodejs-source-(">NodeJS source (<a id="github_source" href="https://github.com/userdashboard/@userdashboard/stripe-connect/tree/master/src/www/api/user/connect/person.js">edit on github</a>)</h2>
+            <p>If you see a problem with the source submit a pull request on Github.</p>
+            <pre><code data-language="js" id="source-code">const connect = require('../../../../../index.js')
+const stripeCache = require('../../../../stripe-cache.js')
+
+module.exports = {
+  get: async (req) => {
+    if (!req.query || !req.query.personid) {
+      throw new Error('invalid-personid')
+    }
+    const exists = await connect.StorageList.exists(`${req.appid}/persons`, req.query.personid)
+    if (!exists) {
+      throw new Error('invalid-personid')
+    }
+    const stripeid = await connect.Storage.read(`${req.appid}/map/personid/stripeid/${req.query.personid}`)
+    if (!stripeid) {
+      throw new Error('invalid-personid')
+    }
+    req.query.stripeid = stripeid
+    const stripeAccount = await global.api.user.connect.StripeAccount.get(req)
+    if (!stripeAccount) {
+      throw new Error('invalid-stripeid')
+    }
+    const accountKey = {
+      api_key: req.stripeKey.api_key,
+      stripe_account: stripeid
+    }
+    const person = await stripeCache.retrievePerson(stripeid, req.query.personid, accountKey)
+    if (!person) {
+      throw new Error('invalid-personid')
+    }
+    return person
+  }
+}
+</code></pre><a name="tests" id="tests"></a>
+            <h2 id="test-source-(">Test source (<a id="github_tests" href="https://github.com/userdashboard/@userdashboard/stripe-connect/tree/master/src/www/api/user/connect/person.test.js">edit on github</a>)</h2>
+            <p>Tests perform real HTTP requests against a running Dashboard server.</p>
+            <pre><code data-language="js" id="test-code">/* eslint-env mocha */
+const assert = require('assert')
+const TestHelper = require('../../../../../test-helper.js')
+const TestStripeAccounts = require('../../../../../test-stripe-accounts.js')
+
+describe('/api/user/connect/person', () => {
+  describe('exceptions', () => {
+    describe('invalid-personid', () => {
+      it('missing querystring personid', async () => {
+        const user = await TestHelper.createUser()
+        const req = TestHelper.createRequest('/api/user/connect/person')
+        req.account = user.account
+        req.session = user.session
+        let errorMessage
+        try {
+          await req.get()
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-personid')
+      })
+
+      it('invalid querystring personid', async () => {
+        const user = await TestHelper.createUser()
+        const req = TestHelper.createRequest('/api/user/connect/person?personid=invalid')
+        req.account = user.account
+        req.session = user.session
+        let errorMessage
+        try {
+          await req.get()
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-personid')
+      })
+    })
+
+    describe('invalid-account', () => {
+      it('ineligible accessing account', async () => {
+        const user = await TestStripeAccounts.createCompanyWithRepresentative('DE')
+        const user2 = await TestHelper.createUser()
+        const req = TestHelper.createRequest(`/api/user/connect/person?personid=${user.representative.id}`)
+        req.account = user2.account
+        req.session = user2.session
+        let errorMessage
+        try {
+          await req.get()
+        } catch (error) {
+          errorMessage = error.message
+        }
+        assert.strictEqual(errorMessage, 'invalid-account')
+      })
+    })
+  })
+
+  describe('returns', () => {
+    it('object', async () => {
+      const user = await TestStripeAccounts.createCompanyWithRepresentative('DE')
+      const req = TestHelper.createRequest(`/api/user/connect/person?personid=${user.representative.id}`)
+      req.account = user.account
+      req.session = user.session
+      req.filename = __filename
+      req.saveResponse = true
+      const representative = await req.get()
+      assert.strictEqual(representative.id, user.representative.id)
+    })
+  })
+})
+</code></pre>
+          </div>
+          <p><a class="skip" href="#top">Top of page</a></p>
+        </div>
+      </section>
+    </div>
+  </div><template id="property-item-template">
+    <li>${property.name}</li>
+  </template><template id="exception-template" template="exception-template">
+    <tr>
+      <td id="description-${exception.id}" rowspan="${exception.rowSpan}">${exception.text}</td>
+      <td>${exception.note}</td>
+    </tr>
+  </template><template id="property-row-template">
+    <tr>
+      <td>${property.variable}</td>
+      <td>${property.value}</td>
+      <td>${property.required}</td>
+      <td>${property.type}</td>
+    </tr>
+  </template>
+</body>
+<meta name="timestamp" value="Thu, 01 Oct 2020 21:20:02 GMT" />
+</head>
+
+</html>
