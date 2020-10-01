@@ -1,0 +1,135 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>"Flag #chargeid" documentation for the Stripe Subscriptions module</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-sIsoY1WSWTT2R9TJMvxSAr2sn5uG1uxH/dxm6V61br67cTC2+33A6gxpxMx12AQu" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/public/wa-mediabox.min.css" integrity="sha384-QIgOYIjb0GaFg2SpPCDf9jgtvfzsRaiwg2u1oMLlYiKGQih52JJA0CLi2MQt3s4B" crossorigin="anonymous" />
+  <script async="" src="/public/wa-mediabox.min.js" integrity="sha384-y/gOtcDxMMvaI24JJvEerKFbwXLCa847BpxiBxQKCUAXkPHl5VMJ8JumCJKgGc5x" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Stripe Subscriptions UI explorer</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <h1 id="title">Flag #chargeid</h1>
+          <ul id="screenshots" class="screenshots desktop">
+            <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/1-hover-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/1-hover-form-desktop-en.png" title="1.   Hover Form" /><span class="description">1. Hover Form</span></a></li>
+            <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/2-click-module-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/2-click-module-desktop-en.png" title="2.   Click Module" /><span class="description">2. Click Module</span></a></li>
+            <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/3-click-charges-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/3-click-charges-desktop-en.png" title="3.   Click Charges" /><span class="description">3. Click Charges</span></a></li>
+            <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/4-click-ch-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/4-click-ch-desktop-en.png" title="4.   Click Ch" /><span class="description">4. Click Ch</span></a></li>
+            <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/5-click-flag-fraud-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/5-click-flag-fraud-desktop-en.png" title="5.   Click Flag Fraud" /><span class="description">5. Click Flag Fraud</span></a></li>
+            <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/6-submit-form-desktop-en.png" title="6.   Submit Form" /><span class="description">6. Submit Form</span></a></li>
+            <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/7-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/7-complete-desktop-en.png" title="7.   Complete" /><span class="description">7. Complete</span></a></li>
+          </ul>
+          <p><a class="skip" href="#top">Top of page</a></p>
+        </div>
+      </section>
+    </div>
+  </div><template id="screenshot-template" template="screenshot-template">
+    <li><a class="screenshot-link" href="${screenshot.urlPath}"><img data-src="${screenshot.urlPath}" title="${screenshot.description}" /><span class="description">${screenshot.description}</span></a></li>
+  </template>
+</body>
+</head>
+
+</html>

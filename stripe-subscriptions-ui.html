@@ -1,0 +1,209 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>Stripe Subscriptions module UI index</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-sIsoY1WSWTT2R9TJMvxSAr2sn5uG1uxH/dxm6V61br67cTC2+33A6gxpxMx12AQu" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/public/wa-mediabox.min.css" integrity="sha384-QIgOYIjb0GaFg2SpPCDf9jgtvfzsRaiwg2u1oMLlYiKGQih52JJA0CLi2MQt3s4B" crossorigin="anonymous" />
+  <script async="" src="/public/wa-mediabox.min.js" integrity="sha384-y/gOtcDxMMvaI24JJvEerKFbwXLCa847BpxiBxQKCUAXkPHl5VMJ8JumCJKgGc5x" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Stripe Subscriptions module UI index</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <div class="ui-container" id="user-container">
+            <h2 id="user-routes">User routes</h2>
+            <p>These pages require the user be signed in.</p>
+            <ul id="user-routes-list" class="screenshots desktop">
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/index/3-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/index/3-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions">"Subscription billing" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/add-payment-method/6-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/add-payment-method/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/add-payment-method">"Add payment method" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/billing-profile/5-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/billing-profile/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/billing-profile">"View #customerid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/billing-profiles/4-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/billing-profiles/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/billing-profiles">"Billing profiles" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/cancel-subscription/6-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/cancel-subscription/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/cancel-subscription">"Cancel #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/change-plan/6-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/change-plan/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/change-plan">"Change plan for #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="undefined"><img data-src="undefined" /></a><a class="route-link" href="/account/subscriptions/confirm-payment">"Confirming payment" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/confirm-subscription/7-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/confirm-subscription/7-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/confirm-subscription">"Confirm subscription" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/create-billing-profile/5-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/create-billing-profile/5-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/create-billing-profile">"Create billing profile" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/delete-billing-profile/6-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/delete-billing-profile/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/delete-billing-profile">"Delete #customerid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/invoice/5-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/invoice/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/invoice">"View #invoiceid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/invoices/4-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/invoices/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/invoices">"Invoices" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/pay-invoice/6-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/pay-invoice/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/pay-invoice">"Pay #invoiceid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/plan/5-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/plan/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/plan">"View #planid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/plans/4-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/plans/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/plans">"Plans" navigation guide</a></li>
+              <li><a class="screenshot-link" href="undefined"><img data-src="undefined" /></a><a class="route-link" href="/account/subscriptions/refund">"View #refundid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/refund-invoice/6-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/refund-invoice/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/refund-invoice">"Refund #invoiceid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/refunds/4-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/refunds/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/refunds">"Refunds" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/request-refund/6-submit-form-desktop-en.png"><img data-src="/screenshots/account/subscriptions/request-refund/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/request-refund">"Request refund for #invoiceid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="undefined"><img data-src="undefined" /></a><a class="route-link" href="/account/subscriptions/restore-subscription">"Restore #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="undefined"><img data-src="undefined" /></a><a class="route-link" href="/account/subscriptions/start-subscription">"Create subscription" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/subscription/5-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/subscription/5-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/subscription">"View #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/account/subscriptions/subscriptions/4-complete-desktop-en.png"><img data-src="/screenshots/account/subscriptions/subscriptions/4-complete-desktop-en.png" /></a><a class="route-link" href="/account/subscriptions/subscriptions">"Subscriptions" navigation guide</a></li>
+            </ul>
+          </div>
+          <div class="ui-container" id="administrator-container">
+            <h2 id="administrator-routes">Administrator routes</h2>
+            <p>These pages are only accessible to administrators.</p>
+            <ul id="administrator-routes-list" class="screenshots desktop">
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/index/3-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/index/3-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions">"Subscriptions administration" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/apply-customer-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/apply-customer-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/apply-customer-coupon">"Apply coupon to #customerid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/apply-subscription-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/apply-subscription-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/apply-subscription-coupon">"Apply coupon to #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/charge/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/charge/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/charge">"View #chargeid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/charges/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/charges/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/charges">"Charges" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/coupon/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/coupon/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/coupon">"View #couponid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/coupons/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/coupons/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/coupons">"Coupons" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/create-coupon/5-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/create-coupon/5-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/create-coupon">"Create coupon" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/create-plan/5-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/create-plan/5-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/create-plan">"Create plan" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/create-product/5-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/create-product/5-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/create-product">"Create product" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/customer/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/customer/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/customer">"View #customerid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/customers/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/customers/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/customers">"Customers" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/delete-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/delete-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/delete-coupon">"Delete #couponid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/delete-plan/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/delete-plan/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/delete-plan">"Delete #planid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/delete-product/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/delete-product/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/delete-product">"Delete #productid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/delete-subscription/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/delete-subscription/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/delete-subscription">"Cancel #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/deny-refund/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/deny-refund/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/deny-refund">"Deny refund for #chargeid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/edit-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/edit-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/edit-coupon">"Edit #couponid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/edit-plan/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/edit-plan/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/edit-plan">"Edit #planid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/edit-product/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/edit-product/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/edit-product">"Edit #productid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/flag-charge/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/flag-charge/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/flag-charge">"Flag #chargeid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/forgive-invoice/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/forgive-invoice/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/forgive-invoice">"Forgive #invoiceid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/invoice/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/invoice/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/invoice">"View #invoiceid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/invoices/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/invoices/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/invoices">"Invoices" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/payment-intent/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/payment-intent/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/payment-intent">"View #payment_intentid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/payment-intents/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/payment-intents/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/payment-intents">"Payment intents" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/payment-method/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/payment-method/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/payment-method">"View #payment_methodid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/payment-methods/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/payment-methods/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/payment-methods">"Payment methods" navigation guide</a></li>
+              <li><a class="screenshot-link" href="undefined"><img data-src="undefined" /></a><a class="route-link" href="/administrator/subscriptions/payout">"View #payoutid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="undefined"><img data-src="undefined" /></a><a class="route-link" href="/administrator/subscriptions/payouts">"Payouts" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/plan/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/plan/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/plan">"View #planid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/plans/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/plans/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/plans">"Plans" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/product/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/product/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/product">"View #productid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/products/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/products/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/products">"Products" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/publish-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/publish-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/publish-coupon">"Publish #couponid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/publish-plan/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/publish-plan/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/publish-plan">"Publish #planid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/publish-product/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/publish-product/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/publish-product">"Publish #productid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/refund/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/refund/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/refund">"View #refundid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/refund-charge/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/refund-charge/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/refund-charge">"Refund #chargeid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/refund-requests/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/refund-requests/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/refund-requests">"Refund requests" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/refunds/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/refunds/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/refunds">"Refunds" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/revoke-customer-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/revoke-customer-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/revoke-customer-coupon">"Revoke coupon from #customerid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/revoke-subscription-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/revoke-subscription-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/revoke-subscription-coupon">"Revoke coupon from #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/setup-intent/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/setup-intent/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/setup-intent">"View #setup_intentid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/setup-intents/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/setup-intents/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/setup-intents">"Setup intents" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/subscription/5-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/subscription/5-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/subscription">"View #subscriptionid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/subscriptions/4-complete-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/subscriptions/4-complete-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/subscriptions">"Subscriptions" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/unpublish-coupon/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/unpublish-coupon/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/unpublish-coupon">"Unpublish #couponid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/unpublish-plan/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/unpublish-plan/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/unpublish-plan">"Unpublish #planid" navigation guide</a></li>
+              <li><a class="screenshot-link" href="/screenshots/administrator/subscriptions/unpublish-product/6-submit-form-desktop-en.png"><img data-src="/screenshots/administrator/subscriptions/unpublish-product/6-submit-form-desktop-en.png" /></a><a class="route-link" href="/administrator/subscriptions/unpublish-product">"Unpublish #productid" navigation guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div><template id="route-template" template="route-template">
+    <li><a class="screenshot-link" href="${route.src}"><img data-src="${route.src}" /></a><a class="route-link" href="${route.url}">"${route.title}" navigation guide</a></li>
+  </template>
+</body>
+</head>
+
+</html>

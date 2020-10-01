@@ -1,0 +1,290 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>Dashboard sitemap</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-sIsoY1WSWTT2R9TJMvxSAr2sn5uG1uxH/dxm6V61br67cTC2+33A6gxpxMx12AQu" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/public/wa-mediabox.min.css" integrity="sha384-QIgOYIjb0GaFg2SpPCDf9jgtvfzsRaiwg2u1oMLlYiKGQih52JJA0CLi2MQt3s4B" crossorigin="anonymous" />
+  <script async="" src="/public/wa-mediabox.min.js" integrity="sha384-y/gOtcDxMMvaI24JJvEerKFbwXLCa847BpxiBxQKCUAXkPHl5VMJ8JumCJKgGc5x" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+
+<body class="tree-body"><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Dashboard sitemap</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <ul id="sitemap" class="desktop">
+            <li id="route-container-1" template="route-template">
+              <div id="route-children-1" class="tree" title="/account"><a id="link-1" href="/account"><img data-src="/screenshots/account/index/3-complete-desktop-en.png" /> Account</a>
+                <ul id="route-list-1">
+                  <li id="route-container-2" template="route-template">
+                    <div id="route-children-2" class="tree" title="/account/profiles"><a id="link-2" href="/account/profiles"><img data-src="/screenshots/account/profiles/4-complete-desktop-en.png" /> Profiles</a>
+                      <ul id="route-list-2">
+                        <li id="route-container-3" template="route-template">
+                          <div id="route-children-3" class="tree" title="/account/create-profile"><a id="link-3" href="/account/create-profile"><img data-src="/screenshots/account/create-profile/5-submit-form-desktop-en.png" /> Create profile</a></div>
+                        </li>
+                        <li id="route-container-4" template="route-template">
+                          <div id="route-children-4" class="tree" title="/account/profile"><a id="link-4" href="/account/profile"><img data-src="/screenshots/account/profile/5-complete-desktop-en.png" /> View #profileid</a>
+                            <ul id="route-list-4">
+                              <li id="route-container-5" template="route-template">
+                                <div id="route-children-5" class="tree" title="/account/set-default-profile"><a id="link-5" href="/account/set-default-profile"><img data-src="/screenshots/account/set-default-profile/6-submit-form-desktop-en.png" /> Set default profile</a></div>
+                              </li>
+                              <li id="route-container-6" template="route-template">
+                                <div id="route-children-6" class="tree" title="/account/edit-profile"><a id="link-6" href="/account/edit-profile"><img data-src="/screenshots/account/edit-profile/6-submit-form-desktop-en.png" /> Edit #profileid</a></div>
+                              </li>
+                              <li id="route-container-7" template="route-template">
+                                <div id="route-children-7" class="tree" title="/account/delete-profile"><a id="link-7" href="/account/delete-profile"><img data-src="/screenshots/account/delete-profile/6-submit-form-desktop-en.png" /> Delete #profileid</a></div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="route-container-8" template="route-template">
+                    <div id="route-children-8" class="tree" title="/account/reset-codes"><a id="link-8" href="/account/reset-codes"><img data-src="/screenshots/account/reset-codes/4-complete-desktop-en.png" /> Reset codes</a>
+                      <ul id="route-list-8">
+                        <li id="route-container-9" template="route-template">
+                          <div id="route-children-9" class="tree" title="/account/create-reset-code"><a id="link-9" href="/account/create-reset-code"><img data-src="/screenshots/account/create-reset-code/5-submit-form-desktop-en.png" /> Create reset code</a></div>
+                        </li>
+                        <li id="route-container-10" template="route-template">
+                          <div id="route-children-10" class="tree" title="/account/reset-code"><a id="link-10" href="/account/reset-code"><img data-src="/screenshots/account/reset-code/5-complete-desktop-en.png" /> View #resetCodeid</a>
+                            <ul id="route-list-10">
+                              <li id="route-container-11" template="route-template">
+                                <div id="route-children-11" class="tree" title="/account/delete-reset-code"><a id="link-11" href="/account/delete-reset-code"><img data-src="/screenshots/account/delete-reset-code/6-submit-form-desktop-en.png" /> Delete #resetCodeid</a></div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="route-container-12" template="route-template">
+                    <div id="route-children-12" class="tree" title="/account/sessions"><a id="link-12" href="/account/sessions"><img data-src="/screenshots/account/sessions/4-complete-desktop-en.png" /> Sessions</a>
+                      <ul id="route-list-12">
+                        <li id="route-container-13" template="route-template">
+                          <div id="route-children-13" class="tree" title="/account/end-all-sessions"><a id="link-13" href="/account/end-all-sessions"><img data-src="/screenshots/account/end-all-sessions/4-submit-form-desktop-en.png" /> End all sessions</a></div>
+                        </li>
+                        <li id="route-container-14" template="route-template">
+                          <div id="route-children-14" class="tree" title="/account/session"><a id="link-14" href="/account/session"><img data-src="/screenshots/account/session/5-complete-desktop-en.png" /> View #sessionid</a>
+                            <ul id="route-list-14">
+                              <li id="route-container-15" template="route-template">
+                                <div id="route-children-15" class="tree" title="/account/end-session"><a id="link-15" href="/account/end-session"><img data-src="/screenshots/account/end-session/6-submit-form-desktop-en.png" /> End #sessionid</a></div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="route-container-16" template="route-template">
+                    <div id="route-children-16" class="tree" title="/account/end-all-sessions"><a id="link-16" href="/account/end-all-sessions"><img data-src="/screenshots/account/end-all-sessions/4-submit-form-desktop-en.png" /> End all sessions</a></div>
+                  </li>
+                  <li id="route-container-17" template="route-template">
+                    <div id="route-children-17" class="tree" title="/account/change-username"><a id="link-17" href="/account/change-username"><img data-src="/screenshots/account/change-username/4-submit-form-desktop-en.png" /> Change username</a></div>
+                  </li>
+                  <li id="route-container-18" template="route-template">
+                    <div id="route-children-18" class="tree" title="/account/change-password"><a id="link-18" href="/account/change-password"><img data-src="/screenshots/account/change-password/4-submit-form-desktop-en.png" /> Change password</a></div>
+                  </li>
+                  <li id="route-container-19" template="route-template">
+                    <div id="route-children-19" class="tree" title="/account/delete-account"><a id="link-19" href="/account/delete-account"><img data-src="/screenshots/account/delete-account/4-submit-form-desktop-en.png" /> Delete account</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li id="route-container-20" template="route-template">
+              <div id="route-children-20" class="tree" title="/administrator"><a id="link-20" href="/administrator"><img data-src="/screenshots/administrator/index/3-complete-desktop-en.png" /> Administration</a>
+                <ul id="route-list-20">
+                  <li id="route-container-21" template="route-template">
+                    <div id="route-children-21" class="tree" title="/administrator/accounts"><a id="link-21" href="/administrator/accounts"><img data-src="/screenshots/administrator/accounts/4-complete-desktop-en.png" /> Accounts</a>
+                      <ul id="route-list-21">
+                        <li id="route-container-22" template="route-template">
+                          <div id="route-children-22" class="tree" title="/administrator/account"><a id="link-22" href="/administrator/account"><img data-src="/screenshots/administrator/account/5-complete-desktop-en.png" /> View #accountid</a>
+                            <ul id="route-list-22">
+                              <li id="route-container-23" template="route-template">
+                                <div id="route-children-23" class="tree" title="/administrator/account-profiles"><a id="link-23" href="/administrator/account-profiles"><img data-src="/screenshots/administrator/account-profiles/6-complete-desktop-en.png" /> Profiles</a></div>
+                              </li>
+                              <li id="route-container-24" template="route-template">
+                                <div id="route-children-24" class="tree" title="/administrator/account-reset-codes"><a id="link-24" href="/administrator/account-reset-codes"><img data-src="/screenshots/administrator/account-reset-codes/6-complete-desktop-en.png" /> Reset codes</a></div>
+                              </li>
+                              <li id="route-container-25" template="route-template">
+                                <div id="route-children-25" class="tree" title="/administrator/account-sessions"><a id="link-25" href="/administrator/account-sessions"><img data-src="/screenshots/administrator/account-sessions/6-complete-desktop-en.png" /> Sessions</a></div>
+                              </li>
+                              <li id="route-container-26" template="route-template">
+                                <div id="route-children-26" class="tree" title="/administrator/create-reset-code"><a id="link-26" href="/administrator/create-reset-code"><img data-src="/screenshots/administrator/create-reset-code/6-submit-form-desktop-en.png" /> Create reset code</a></div>
+                              </li>
+                              <li id="route-container-27" template="route-template">
+                                <div id="route-children-27" class="tree" title="/administrator/assign-administrator"><a id="link-27" href="/administrator/assign-administrator"><img data-src="/screenshots/administrator/assign-administrator/6-submit-form-desktop-en.png" /> Assign administrator to #accountid</a></div>
+                              </li>
+                              <li id="route-container-28" template="route-template">
+                                <div id="route-children-28" class="tree" title="/administrator/revoke-administrator"><a id="link-28" href="/administrator/revoke-administrator"><img data-src="/screenshots/administrator/revoke-administrator/6-submit-form-desktop-en.png" /> Revoke administrator</a></div>
+                              </li>
+                              <li id="route-container-29" template="route-template">
+                                <div id="route-children-29" class="tree" title="/administrator/transfer-ownership"><a id="link-29" href="/administrator/transfer-ownership"><img data-src="/screenshots/administrator/transfer-ownership/6-submit-form-desktop-en.png" /> Transfer ownership to #accountid</a></div>
+                              </li>
+                              <li id="route-container-30" template="route-template">
+                                <div id="route-children-30" class="tree" title="/administrator/reset-session-key"><a id="link-30" href="/administrator/reset-session-key"><img data-src="/screenshots/administrator/reset-session-key/6-submit-form-desktop-en.png" /> Reset session key</a></div>
+                              </li>
+                              <li id="route-container-31" template="route-template">
+                                <div id="route-children-31" class="tree" title="/administrator/schedule-account-delete"><a id="link-31" href="/administrator/schedule-account-delete"><img data-src="/screenshots/administrator/schedule-account-delete/6-submit-form-desktop-en.png" /> Schedule delete</a></div>
+                              </li>
+                              <li id="route-container-32" template="route-template">
+                                <div id="route-children-32" class="tree" title="/administrator/delete-account"><a id="link-32" href="/administrator/delete-account"><img data-src="/screenshots/administrator/delete-account/6-submit-form-desktop-en.png" /> Delete #accountid</a></div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="route-container-33" template="route-template">
+                    <div id="route-children-33" class="tree" title="/administrator/profiles"><a id="link-33" href="/administrator/profiles"><img data-src="/screenshots/administrator/profiles/4-complete-desktop-en.png" /> Profiles</a>
+                      <ul id="route-list-33">
+                        <li id="route-container-34" template="route-template">
+                          <div id="route-children-34" class="tree" title="/administrator/profile"><a id="link-34" href="/administrator/profile"><img data-src="/screenshots/administrator/profile/5-complete-desktop-en.png" /> View #profileid</a></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="route-container-35" template="route-template">
+                    <div id="route-children-35" class="tree" title="/administrator/sessions"><a id="link-35" href="/administrator/sessions"><img data-src="/screenshots/administrator/sessions/4-complete-desktop-en.png" /> Sessions</a>
+                      <ul id="route-list-35">
+                        <li id="route-container-36" template="route-template">
+                          <div id="route-children-36" class="tree" title="/administrator/session"><a id="link-36" href="/administrator/session"><img data-src="/screenshots/administrator/session/5-complete-desktop-en.png" /> View #sessionid</a></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="route-container-37" template="route-template">
+                    <div id="route-children-37" class="tree" title="/administrator/reset-codes"><a id="link-37" href="/administrator/reset-codes"><img data-src="/screenshots/administrator/reset-codes/4-complete-desktop-en.png" /> Reset codes</a>
+                      <ul id="route-list-37">
+                        <li id="route-container-38" template="route-template">
+                          <div id="route-children-38" class="tree" title="/administrator/reset-code"><a id="link-38" href="/administrator/reset-code"><img data-src="/screenshots/administrator/reset-code/5-complete-desktop-en.png" /> View #resetCodeid</a></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li id="route-container-39" template="route-template">
+                    <div id="route-children-39" class="tree" title="/administrator/administrators"><a id="link-39" href="/administrator/administrators"><img data-src="/screenshots/administrator/administrators/4-complete-desktop-en.png" /> Administrators</a></div>
+                  </li>
+                  <li id="route-container-40" template="route-template">
+                    <div id="route-children-40" class="tree" title="/administrator/delete-schedule"><a id="link-40" href="/administrator/delete-schedule"><img data-src="/screenshots/administrator/delete-schedule/4-complete-desktop-en.png" /> Delete schedule</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <p><a class="skip" href="#top">Top of page</a></p>
+        </div>
+      </section>
+    </div>
+  </div><template id="route-template">
+    <li id="route-container-${route.id}">
+      <div id="route-children-${route.id}" class="tree" title="${route.urlPath}"><a id="link-${route.id}" href="${route.urlPath}"><img data-src="${route.screenshotPath}" /> ${route.title}</a>
+        <ul id="route-list-${route.id}"></ul>
+      </div>
+    </li>
+  </template>
+</body>
+</head>
+
+</html>

@@ -1,0 +1,155 @@
+<html data-navbar="navbar.html">
+
+<head>
+  <title>Example web app</title>
+  <link rel="stylesheet" href="/public/style.css" integrity="sha384-sIsoY1WSWTT2R9TJMvxSAr2sn5uG1uxH/dxm6V61br67cTC2+33A6gxpxMx12AQu" crossorigin="anonymous" />
+  <script async="" src="/public/highlight.min.js" integrity="sha384-YicwDnP9OMQKl5DfX4/eDA3oUGqPTcuyq0+eFbwv595VqixFKEgoO/T8TxD0tjB8" crossorigin="anonymous"></script>
+  <script src="/public/browser.js" integrity="sha384-pNXFiUIAMNO/S1fGF4GF3fq8OV5x2fZdicewcpuMG/2EOOJ7+HH3no0GDKTePhCD" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+
+<body><a name="top" id="top"></a>
+  <div class="body-container">
+    <header>
+      <h1 id="dashboard">Example web app</h1>
+      <section id="navigation" class="navigation">
+        <menu id="navbar-handle" class="super-navbar" style="display: none">
+          <li><a href="#" title="Show menu">Show navigation menu</a></li>
+        </menu>
+        <ul id="navbar-menu" style="display: block">
+          <li>
+            <h2>Dashboard</h2>
+            <ul>
+              <li><a href="/dashboard">Documentation</a></li>
+              <li><a href="/dashboard-configuration">Configuration variables</a></li>
+              <li><a href="/dashboard-sitemap">Visual sitemap</a></li>
+              <li><a href="/dashboard-ui">UI index</a></li>
+              <li><a href="/dashboard-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>MaxMind GeoIP</h2>
+            <ul>
+              <li><a href="/maxmind-geoip-module">Documentation</a></li>
+              <li><a href="/maxmind-geoip-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Organizations</h2>
+            <ul>
+              <li><a href="/organizations-module">Documentation</a></li>
+              <li><a href="/organizations-configuration">Configuration variables</a></li>
+              <li><a href="/organizations-sitemap">Visual sitemap</a></li>
+              <li><a href="/organizations-ui">UI index</a></li>
+              <li><a href="/organizations-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Connect</h2>
+            <ul>
+              <li><a href="/stripe-connect-module">Documentation</a></li>
+              <li><a href="/stripe-connect-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-connect-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-connect-ui">UI index</a></li>
+              <li><a href="/stripe-connect-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Stripe Subscriptions</h2>
+            <ul>
+              <li><a href="/stripe-subscriptions-module">Documentation</a></li>
+              <li><a href="/stripe-subscriptions-configuration">Configuration variables</a></li>
+              <li><a href="/stripe-subscriptions-sitemap">Visual sitemap</a></li>
+              <li><a href="/stripe-subscriptions-ui">UI index</a></li>
+              <li><a href="/stripe-subscriptions-api">API index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example app</h2>
+            <ul>
+              <li><a href="/example-web-app">Documentation</a></li>
+              <li><a href="/example-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Example subscription app</h2>
+            <ul>
+              <li><a href="/example-subscription-web-app">Documentation</a></li>
+              <li><a href="/example-subscription-web-app-sitemap">Visual sitemap</a></li>
+              <li><a href="/example-subscription-web-app-ui">UI index</a></li>
+            </ul>
+          </li>
+        </ul>
+        <style>
+          .reveal,
+          .reveal ul {
+            display: block
+          }
+        </style>
+        <script>
+          var menu = document.getElementById("navbar-menu")
+          menu.style.display = "none"
+          var handle = document.getElementById("navbar-handle")
+          handle.style.display = "block"
+          handle.onclick = function(e) {
+            if (menu.style.display === "block") {
+              menu.style.display = "none"
+              menu.className = ""
+              handle.firstElementChild.firstElementChild.innerHTML = "Show navigation menu"
+            } else {
+              menu.style.display = "block"
+              menu.className = "reveal"
+              handle.firstElementChild.firstElementChild.innerHTML = "Hide navigation menu"
+            }
+          }
+        </script>
+      </section>
+    </header>
+    <div class="section-container">
+      <section class="full"><a name="content" id="content"></a>
+        <div class="content">
+          <h1 id="example-web-app">Example web app</h1>
+          <h4>Index</h4>
+          <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#application-server-structure">Application server structure</a></li>
+            <li><a href="#dashboard-server-structure">Dashboard server structure</a></li>
+            <li><a href="#starting-the-dashboard-and-application-servers">Starting the dashboard and application servers</a></li>
+            <li><a href="https://github.com/userdashboard/example-web-app">Github repository</a></li>
+          </ul>
+          <h2 id="introduction">Introduction</h2>
+          <p>This example project started as a copy of <a href="https://github.com/seejohnrun/haste-server">Hastebin</a>. It is a 'pastebin' website you post code and text to share. The original Hastebin application has no user accounts, all posts are anonymous and publicly accessible via a generated URL. It is a single-page web app using client-side JavaScript and a server-side API to manage documents posted by guests.</p>
+          <p><a href="https://github.com/userdashboard/dashboard">Dashboard</a> is a reusable interface for user account management with modules for more. It runs separately to your web application, as users browse your Dashboard server they receive Dashboard content or your application server's content combined into a single website.</p>
+          <p>After integrating Dashboard the pastebin has user registrations, organizations, and documents can be private, public or shared with organization members.</p>
+          <h2 id="application-server-structure">Application server structure</h2>
+          <p>Dashboard requires application servers provide at a minimum the <code data-language="js">/</code> guest index page and a <code data-language="js">/home</code> application home page. This example project also serves static assets from the <code data-language="js">/public</code> folder. Dashboard skips authentication for requests to anything within <code data-language="js">/public</code> so assets serve faster.</p>
+          <p>This example is a single-page app and the client-side JavaScript requires a HTTP API to manipulate data. This API is divided into users and administrators with endpoints for listing, creating and deleting documents. This application server is written in NodeJS but you can use any programming language as communication between servers occurs over HTTP.</p>
+          <p>This application server styles Dashboard content by serving a <code data-language="js">/public/content-additional.css</code> for pages and <code data-language="js">/public/content-template.css</code> for Dashboard's template. These CSS files allow Dashboard content to look similar in appearance to the application.</p>
+          <p>User data is required to create posts and determine if you or an organization you are in can access posts. This data is received in HTTP headers when Dashboard proxies the application server. It could alternatively be fetched on demand via Dashboard's APIs using HTTP but is instead bundled with requests to the application server.</p>
+          <h2 id="dashboard-server-structure">Dashboard server structure</h2>
+          <p>Dashboard provides a server, user interface and APIs for basic account and session management for web application users and administrators. This example project uses the <code data-language="js">Organizations</code> module to allow users to create posts shared with groups of other users. Dashboard modules are installed with <code data-language="js">npm</code> and activated in the <code data-language="js">package.json</code>.</p>
+          <p>The application server's API is sharing the <code data-language="js">/api/user</code> and <code data-language="js">/api/administrator</code> structure of Dashboard. By default Dashboard APIs are not publicly accessible. You can set <code data-language="js">ALLOW_PUBLIC_API=true</code> in the environment but that exposes the entire Dashboard and module APIs to client-side access. If you set <code data-language="js">ALLOW_PUBLIC_API=true</code> and added <code data-language="js">CORS</code> headers for cross-origin requests your APIs would be accessible from any permitted website.</p>
+          <p>This example only wants the pastebin APIs to be publicly accessible, so a <code data-language="js">server handler</code> is added to allow API requests if they are accessing the pastebin APIs. Server handlers must be activated in the <code data-language="js">package.json</code>. They can be executed <code data-language="js">before</code> or <code data-language="js">after</code> authenticating the user or guest. In this case the server handler is executing prior to authorization, it checks if you are accessing the <code data-language="js">/api</code> and if so, it checks if Dashboard recognizes the route as one of its own API endpoints. Any URL that Dashboard doesn't recognize is proxied from the application server.</p>
+          <p>This example supplements the data sent from Dashboard to the application server to include the full account and session objects and your complete organization, membership and subscription information. This is added via a <code data-language="js">proxy handler</code> that allows the request options to be modified prior to communicating with the application server. Proxy handlers must be activated in the <code data-language="js">package.json</code>, they are executed just before proxying the application server and may modify the proxy request object to include additional headers or other changes.</p>
+          <h2 id="starting-the-dashboard-and-application-servers">Starting the dashboard and application servers</h2>
+          <p>Both the dashboard and application servers must be started to access the web application. Each of these servers runs indefinitely, waiting for requests to be made, so they will require their own terminal windows each left open. To stop the servers press <code data-language="js">&lt;CTRL&gt;</code> + <code data-language="js">c</code> or close the terminal windows. When both servers are running open <code data-language="js">http://localhost:8207</code> in your web browser to access the application.</p>
+          <pre><code data-language="js"># application server
+$ cd application-server
+$ npm install
+$ bash start-dev.sh
+
+# dashboard server
+$ cd dashboard-server
+$ npm install
+$ bash start-dev.sh
+</code></pre>
+        </div>
+        <p><a href="#top">Top of page</a></p>
+      </section>
+    </div>
+  </div>
+</body>
+</head>
+
+</html>
