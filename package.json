@@ -1,6 +1,6 @@
 {
   "name": "userdashboard.github.io",
-  "version": "1.0.44",
+  "version": "1.0.45",
   "description": "This is the generated documentation site for Dashboard.",
   "main": "index.js",
   "scripts": {
