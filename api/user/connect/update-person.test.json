@@ -1,0 +1,61 @@
+{
+  "id": "person_I7shWPRRlsIRl8",
+  "object": "person",
+  "account": "acct_1HXcvgHEDTzTJbn2",
+  "address": {
+    "city": "London",
+    "country": "GB",
+    "line1": "123 Sesame St",
+    "line2": null,
+    "postal_code": "EC1A 1AA",
+    "state": null
+  },
+  "created": 1601601567,
+  "dob": {
+    "day": 1,
+    "month": 1,
+    "year": 1950
+  },
+  "email": "Adrienne76@gmail.com",
+  "first_name": "Adrienne",
+  "last_name": "Huel",
+  "metadata": {
+    "token": "false"
+  },
+  "phone": "+14567890123",
+  "relationship": {
+    "director": false,
+    "executive": true,
+    "owner": false,
+    "percent_ownership": null,
+    "representative": true,
+    "title": "VP Tests"
+  },
+  "requirements": {
+    "currently_due": [],
+    "errors": [],
+    "eventually_due": [],
+    "past_due": [],
+    "pending_verification": [
+      "verification.additional_document",
+      "verification.document"
+    ]
+  },
+  "verification": {
+    "additional_document": {
+      "back": null,
+      "details": null,
+      "details_code": null,
+      "front": null
+    },
+    "details": null,
+    "details_code": null,
+    "document": {
+      "back": null,
+      "details": null,
+      "details_code": null,
+      "front": null
+    },
+    "status": "pending"
+  }
+}

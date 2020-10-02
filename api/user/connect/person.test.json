@@ -1,0 +1,61 @@
+{
+  "id": "person_I7sTGf1UE8yUhf",
+  "object": "person",
+  "account": "acct_1HXcixFh2Rt3dKD2",
+  "address": {
+    "city": "Berlin",
+    "country": "DE",
+    "line1": "123 Sesame St",
+    "line2": null,
+    "postal_code": "01067",
+    "state": null
+  },
+  "created": 1601600777,
+  "dob": {
+    "day": 1,
+    "month": 1,
+    "year": 1950
+  },
+  "email": "Jacqueline89@yahoo.com",
+  "first_name": "Jacqueline",
+  "last_name": "Nikolaus",
+  "metadata": {
+    "token": "false"
+  },
+  "phone": "+14567890123",
+  "relationship": {
+    "director": false,
+    "executive": true,
+    "owner": false,
+    "percent_ownership": null,
+    "representative": true,
+    "title": "VP Tests"
+  },
+  "requirements": {
+    "currently_due": [],
+    "errors": [],
+    "eventually_due": [],
+    "past_due": [],
+    "pending_verification": [
+      "verification.additional_document",
+      "verification.document"
+    ]
+  },
+  "verification": {
+    "additional_document": {
+      "back": null,
+      "details": null,
+      "details_code": null,
+      "front": null
+    },
+    "details": null,
+    "details_code": null,
+    "document": {
+      "back": null,
+      "details": null,
+      "details_code": null,
+      "front": null
+    },
+    "status": "pending"
+  }
+}
