@@ -1,0 +1,34 @@
+[
+  {
+    "object": "membership",
+    "membershipid": "membership_3c28bea",
+    "organizationid": "organization_cd9d923",
+    "accountid": "account_125b326",
+    "created": 1601594429,
+    "profileid": "profile_fe6c82b",
+    "displayName": "Jody",
+    "displayEmail": "Jody45@gmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_ba96402",
+    "organizationid": "organization_14091ad",
+    "accountid": "account_125b326",
+    "created": 1601594429,
+    "invitationid": "invitation_db8c92c",
+    "profileid": "profile_fe6c82b",
+    "displayName": "Jody",
+    "displayEmail": "Jody45@gmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_3567fe4",
+    "organizationid": "organization_f00e9b9",
+    "accountid": "account_125b326",
+    "created": 1601594429,
+    "invitationid": "invitation_f169b27",
+    "profileid": "profile_fe6c82b",
+    "displayName": "Jody",
+    "displayEmail": "Jody45@gmail.com"
+  }
+]

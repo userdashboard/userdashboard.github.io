@@ -1,0 +1,51 @@
+{
+  "id": "cus_I7qohWcLWeZjSL",
+  "object": "customer",
+  "address": null,
+  "balance": 0,
+  "created": 1601594553,
+  "currency": null,
+  "default_source": null,
+  "delinquent": false,
+  "description": "Natasha",
+  "discount": null,
+  "email": "Natasha.Sawayn56@hotmail.com",
+  "invoice_prefix": "7E626486",
+  "invoice_settings": {
+    "custom_fields": null,
+    "default_payment_method": "pm_1HXb6cAy1diN5On0Ao7hBsit",
+    "footer": null
+  },
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601594422",
+    "accountid": "account_ed98f4b"
+  },
+  "name": null,
+  "next_invoice_sequence": 1,
+  "phone": null,
+  "preferred_locales": [],
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I7qohWcLWeZjSL/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I7qohWcLWeZjSL/subscriptions"
+  },
+  "tax_exempt": "none",
+  "tax_ids": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I7qohWcLWeZjSL/tax_ids"
+  }
+}

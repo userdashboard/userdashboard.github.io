@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_8dcc345",
+  "usernameHash": "01899b550293e5878aebda935047342882d6bd1a4c48cf9323d693f95139a8668362c7945d854c6d1034115e898ef413cecc114d101bccf1f238603690d4fa4f",
+  "passwordHash": "$2a$04$JpHgE.IS2kLT5srknqi.iOc9Vdw09cgFt0tEHCJ13ofOaCapyJzlK",
+  "sessionKey": "9dc36ab6569c65bdf6746fcd9f7320783f57254c39fbd4b3be21fa8691078e16",
+  "sessionKeyNumber": 1,
+  "created": 1601594426,
+  "administrator": 1601594426,
+  "owner": 1601594426,
+  "firstName": "Regina",
+  "lastName": "Hermiston",
+  "contactEmail": "Regina.Hermiston@yahoo.com",
+  "profileid": "profile_18e2f0a",
+  "lastSignedIn": 1601594426,
+  "deleted": 1602199225
+}

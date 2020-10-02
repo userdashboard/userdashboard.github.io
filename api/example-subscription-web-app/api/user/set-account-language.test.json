@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_3df7308",
+  "usernameHash": "768891d83f731d00a533f69fdd2cf4f00aaa2a20ddc8177b8fadc52dc06dadf92b520764b4bd2552ed7a5bdb541d54ec20c59825d46788f170ab700f76a9863a",
+  "passwordHash": "$2a$04$fBILKfQMhIbjno/F0/9Uj.TsbNDAYxfWlQGzy5aIYDLUmA0TdXNF6",
+  "sessionKey": "c5afb62bae5c17d84a45ec061aaa2b3606f546cc6a78cabaec388cb7f8f07841",
+  "sessionKeyNumber": 1,
+  "created": 1601594426,
+  "administrator": 1601594426,
+  "owner": 1601594426,
+  "firstName": "Brandon",
+  "lastName": "Hagenes",
+  "contactEmail": "Brandon.Hagenes41@gmail.com",
+  "profileid": "profile_8f86b28",
+  "lastSignedIn": 1601594426,
+  "language": "es"
+}

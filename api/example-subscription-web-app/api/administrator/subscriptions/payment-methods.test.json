@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pm_1HXb9AAy1diN5On0ommckBZA",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Rita Kertzmann",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "SKyB1iRNXULITdVZ",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601594712,
+    "customer": "cus_I7qqNcJttmh2z8",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "accountid": "account_1623554"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HXb98Ay1diN5On0PsKZJSj5",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Constance Marvin",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "SKyB1iRNXULITdVZ",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601594710,
+    "customer": "cus_I7qq4L3jdmwHnO",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "accountid": "account_047adc6"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HXb96Ay1diN5On0i5ktwm74",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Marvin Homenick",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "SKyB1iRNXULITdVZ",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601594709,
+    "customer": "cus_I7qq7H4d5f6pgY",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "accountid": "account_481e5e4"
+    },
+    "type": "card"
+  }
+]

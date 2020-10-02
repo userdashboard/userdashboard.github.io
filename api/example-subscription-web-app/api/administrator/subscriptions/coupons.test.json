@@ -1,0 +1,62 @@
+[
+  {
+    "id": "coupon8_1601594519303_757",
+    "object": "coupon",
+    "amount_off": null,
+    "created": 1601594519,
+    "currency": null,
+    "duration": "repeating",
+    "duration_in_months": 1,
+    "livemode": false,
+    "max_redemptions": null,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "published": "1601594518"
+    },
+    "name": null,
+    "percent_off": 25,
+    "redeem_by": null,
+    "times_redeemed": 0,
+    "valid": true
+  },
+  {
+    "id": "coupon7_1601594519121_640",
+    "object": "coupon",
+    "amount_off": null,
+    "created": 1601594519,
+    "currency": null,
+    "duration": "repeating",
+    "duration_in_months": 1,
+    "livemode": false,
+    "max_redemptions": null,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "published": "1601594518"
+    },
+    "name": null,
+    "percent_off": 25,
+    "redeem_by": null,
+    "times_redeemed": 0,
+    "valid": true
+  },
+  {
+    "id": "coupon6_1601594518799_672",
+    "object": "coupon",
+    "amount_off": null,
+    "created": 1601594518,
+    "currency": null,
+    "duration": "repeating",
+    "duration_in_months": 1,
+    "livemode": false,
+    "max_redemptions": null,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "published": "1601594518"
+    },
+    "name": null,
+    "percent_off": 25,
+    "redeem_by": null,
+    "times_redeemed": 0,
+    "valid": true
+  }
+]

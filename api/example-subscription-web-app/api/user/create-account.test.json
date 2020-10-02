@@ -1,0 +1,11 @@
+{
+  "object": "account",
+  "accountid": "account_c7244c8",
+  "usernameHash": "347c058bf91d0d6d050d8bcea5e72175fa8dca89f87d12371e9af0efbb89812e0e36613f9c81a3b2ae38f27ef51fbfad6efc9026bb122a5297b4fbbf060f7ff8",
+  "passwordHash": "$2a$04$IZ1Idm5J68Mhb67eoGCBR.j5bB5jPfQtAtx7Jt9n1HrTFkK1EfE3a",
+  "sessionKey": "90492aff94e24dd8179c71704cb9f56f3d1923b699acca00331de753f326bf1f",
+  "sessionKeyNumber": 1,
+  "created": 1601594425,
+  "administrator": 1601594425,
+  "owner": 1601594425
+}

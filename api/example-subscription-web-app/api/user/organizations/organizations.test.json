@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_4e8329a",
+    "organizationid": "organization_2f62621",
+    "name": "My organization",
+    "email": "Brittany.Rowe@gmail.com",
+    "created": 1601594429
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_4e8329a",
+    "organizationid": "organization_1f154f4",
+    "name": "My organization",
+    "email": "Brittany.Rowe@gmail.com",
+    "created": 1601594429
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_4e8329a",
+    "organizationid": "organization_20f524c",
+    "name": "My organization",
+    "email": "Brittany.Rowe@gmail.com",
+    "created": 1601594429
+  }
+]

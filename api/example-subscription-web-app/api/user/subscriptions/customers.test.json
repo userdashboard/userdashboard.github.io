@@ -1,0 +1,155 @@
+[
+  {
+    "id": "cus_I7r0LDBmxIm2gM",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601595265,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Johnny",
+    "discount": null,
+    "email": "Johnny_Stanton17@gmail.com",
+    "invoice_prefix": "55675CF1",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "accountid": "account_c7d1b86"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0LDBmxIm2gM/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0LDBmxIm2gM/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0LDBmxIm2gM/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I7r0gfrQYXUTTI",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601595264,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Johnny",
+    "discount": null,
+    "email": "Johnny_Stanton17@gmail.com",
+    "invoice_prefix": "E69B2F31",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "accountid": "account_c7d1b86"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0gfrQYXUTTI/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0gfrQYXUTTI/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0gfrQYXUTTI/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I7r0CxFxK4XsaB",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601595263,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Johnny",
+    "discount": null,
+    "email": "Johnny_Stanton17@gmail.com",
+    "invoice_prefix": "459D8136",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601594422",
+      "accountid": "account_c7d1b86"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0CxFxK4XsaB/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0CxFxK4XsaB/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I7r0CxFxK4XsaB/tax_ids"
+    }
+  }
+]
