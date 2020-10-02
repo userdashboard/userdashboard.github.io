@@ -1,0 +1,77 @@
+[
+  {
+    "id": "plan150_1601671973185_58470",
+    "object": "plan",
+    "active": true,
+    "aggregate_usage": null,
+    "amount": 1000,
+    "amount_decimal": "1000",
+    "billing_scheme": "per_unit",
+    "created": 1601671973,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "published": "1601671977"
+    },
+    "nickname": null,
+    "product": "prod_I8BcAwpmpiIquX",
+    "tiers": null,
+    "tiers_mode": null,
+    "transform_usage": null,
+    "trial_period_days": null,
+    "usage_type": "licensed"
+  },
+  {
+    "id": "plan149_1601671972815_64322",
+    "object": "plan",
+    "active": true,
+    "aggregate_usage": null,
+    "amount": 1000,
+    "amount_decimal": "1000",
+    "billing_scheme": "per_unit",
+    "created": 1601671973,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "published": "1601671977"
+    },
+    "nickname": null,
+    "product": "prod_I8BcAwpmpiIquX",
+    "tiers": null,
+    "tiers_mode": null,
+    "transform_usage": null,
+    "trial_period_days": null,
+    "usage_type": "licensed"
+  },
+  {
+    "id": "plan148_1601671972490_32932",
+    "object": "plan",
+    "active": true,
+    "aggregate_usage": null,
+    "amount": 1000,
+    "amount_decimal": "1000",
+    "billing_scheme": "per_unit",
+    "created": 1601671972,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "published": "1601671976"
+    },
+    "nickname": null,
+    "product": "prod_I8BcAwpmpiIquX",
+    "tiers": null,
+    "tiers_mode": null,
+    "transform_usage": null,
+    "trial_period_days": null,
+    "usage_type": "licensed"
+  }
+]

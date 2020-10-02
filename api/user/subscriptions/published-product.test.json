@@ -1,0 +1,19 @@
+{
+  "id": "prod_I8BwhoiAXaUqhy",
+  "object": "product",
+  "active": true,
+  "attributes": [],
+  "created": 1601673168,
+  "description": null,
+  "images": [],
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601667637",
+    "published": "1601673172"
+  },
+  "name": "product302_1601673168817_165",
+  "statement_descriptor": "product302 description",
+  "type": "service",
+  "unit_label": "thing",
+  "updated": 1601673168
+}

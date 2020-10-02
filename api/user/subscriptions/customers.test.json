@@ -1,0 +1,155 @@
+[
+  {
+    "id": "cus_I8BtTiYME0AAZK",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601672978,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Jerry",
+    "discount": null,
+    "email": "Jerry.Shanahan@yahoo.com",
+    "invoice_prefix": "CE0411DE",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "accountid": "account_9b42155"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8BtTiYME0AAZK/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8BtTiYME0AAZK/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8BtTiYME0AAZK/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I8Bt71ESOeb240",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601672977,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Jerry",
+    "discount": null,
+    "email": "Jerry.Shanahan@yahoo.com",
+    "invoice_prefix": "2BB4154E",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "accountid": "account_9b42155"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Bt71ESOeb240/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Bt71ESOeb240/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Bt71ESOeb240/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I8Bt3vxhzBvHmd",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601672977,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Jerry",
+    "discount": null,
+    "email": "Jerry.Shanahan@yahoo.com",
+    "invoice_prefix": "514630F2",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "accountid": "account_9b42155"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Bt3vxhzBvHmd/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Bt3vxhzBvHmd/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Bt3vxhzBvHmd/tax_ids"
+    }
+  }
+]

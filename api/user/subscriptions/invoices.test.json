@@ -1,0 +1,554 @@
+[
+  {
+    "id": "in_1HXvXZAhEghhtF2NIPGMX6Hd",
+    "object": "invoice",
+    "account_country": "US",
+    "account_name": "test-subscriptions-1",
+    "account_tax_ids": null,
+    "amount_due": 1000,
+    "amount_paid": 1000,
+    "amount_remaining": 0,
+    "application_fee_amount": null,
+    "attempt_count": 1,
+    "attempted": true,
+    "auto_advance": false,
+    "billing_reason": "subscription_create",
+    "charge": "ch_1HXvXZAhEghhtF2NZrjJ7RB8",
+    "collection_method": "charge_automatically",
+    "created": 1601673105,
+    "currency": "usd",
+    "custom_fields": null,
+    "customer": "cus_I8Bvu5FTCjI6CC",
+    "customer_address": null,
+    "customer_email": "Margarita_Weber@yahoo.com",
+    "customer_name": null,
+    "customer_phone": null,
+    "customer_shipping": null,
+    "customer_tax_exempt": "none",
+    "customer_tax_ids": [],
+    "default_payment_method": null,
+    "default_source": null,
+    "default_tax_rates": [
+      {
+        "id": "txr_1DXxdCAhEghhtF2NXaufjC8X",
+        "object": "tax_rate",
+        "active": true,
+        "created": 1542575798,
+        "description": null,
+        "display_name": "Tax",
+        "inclusive": false,
+        "jurisdiction": null,
+        "livemode": false,
+        "metadata": {},
+        "percentage": 0
+      }
+    ],
+    "description": null,
+    "discount": null,
+    "discounts": [],
+    "due_date": null,
+    "ending_balance": 0,
+    "footer": null,
+    "hosted_invoice_url": "https://pay.stripe.com/invoice/acct_1CvSyLAhEghhtF2N/invst_I8BvArfHKEdCxaUwptpy0MlSBQ1KAzv",
+    "invoice_pdf": "https://pay.stripe.com/invoice/acct_1CvSyLAhEghhtF2N/invst_I8BvArfHKEdCxaUwptpy0MlSBQ1KAzv/pdf",
+    "lines": {
+      "object": "list",
+      "data": [
+        {
+          "id": "il_1HXvXZAhEghhtF2NSZjfUNZ1",
+          "object": "line_item",
+          "amount": 1000,
+          "currency": "usd",
+          "description": "1 thing × product294_1601673085691_996 (at $10.00 / month)",
+          "discount_amounts": [],
+          "discountable": true,
+          "discounts": [],
+          "livemode": false,
+          "metadata": {
+            "appid": "tests_1601667637",
+            "accountid": "account_6f7eb30"
+          },
+          "period": {
+            "end": 1604351504,
+            "start": 1601673104
+          },
+          "plan": {
+            "id": "plan249_1601673104072_19908",
+            "object": "plan",
+            "active": true,
+            "aggregate_usage": null,
+            "amount": 1000,
+            "amount_decimal": "1000",
+            "billing_scheme": "per_unit",
+            "created": 1601673104,
+            "currency": "usd",
+            "interval": "month",
+            "interval_count": 1,
+            "livemode": false,
+            "metadata": {
+              "appid": "tests_1601667637",
+              "published": "1601673108"
+            },
+            "nickname": null,
+            "product": "prod_I8Bve8PwLfQFTm",
+            "tiers": null,
+            "tiers_mode": null,
+            "transform_usage": null,
+            "trial_period_days": null,
+            "usage_type": "licensed"
+          },
+          "price": {
+            "id": "plan249_1601673104072_19908",
+            "object": "price",
+            "active": true,
+            "billing_scheme": "per_unit",
+            "created": 1601673104,
+            "currency": "usd",
+            "livemode": false,
+            "lookup_key": null,
+            "metadata": {
+              "appid": "tests_1601667637",
+              "published": "1601673108"
+            },
+            "nickname": null,
+            "product": "prod_I8Bve8PwLfQFTm",
+            "recurring": {
+              "aggregate_usage": null,
+              "interval": "month",
+              "interval_count": 1,
+              "trial_period_days": null,
+              "usage_type": "licensed"
+            },
+            "tiers_mode": null,
+            "transform_quantity": null,
+            "type": "recurring",
+            "unit_amount": 1000,
+            "unit_amount_decimal": "1000"
+          },
+          "proration": false,
+          "quantity": 1,
+          "subscription": "sub_I8BvZAZyeV79d8",
+          "subscription_item": "si_I8BvtTFbrtRtFo",
+          "tax_amounts": [
+            {
+              "amount": 0,
+              "inclusive": false,
+              "tax_rate": "txr_1DXxdCAhEghhtF2NXaufjC8X"
+            }
+          ],
+          "tax_rates": [],
+          "type": "subscription"
+        }
+      ],
+      "has_more": false,
+      "total_count": 1,
+      "url": "/v1/invoices/in_1HXvXZAhEghhtF2NIPGMX6Hd/lines"
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "accountid": "account_6f7eb30"
+    },
+    "next_payment_attempt": null,
+    "number": "3D4C061B-0004",
+    "paid": true,
+    "payment_intent": "pi_1HXvXZAhEghhtF2N2bqdIcFB",
+    "period_end": 1601673104,
+    "period_start": 1601673104,
+    "post_payment_credit_notes_amount": 0,
+    "pre_payment_credit_notes_amount": 0,
+    "receipt_number": null,
+    "starting_balance": 0,
+    "statement_descriptor": null,
+    "status": "paid",
+    "status_transitions": {
+      "finalized_at": 1601673104,
+      "marked_uncollectible_at": null,
+      "paid_at": 1601673104,
+      "voided_at": null
+    },
+    "subscription": "sub_I8BvZAZyeV79d8",
+    "subtotal": 1000,
+    "tax": 0,
+    "tax_percent": 0,
+    "total": 1000,
+    "total_discount_amounts": [],
+    "total_tax_amounts": [
+      {
+        "amount": 0,
+        "inclusive": false,
+        "tax_rate": "txr_1DXxdCAhEghhtF2NXaufjC8X"
+      }
+    ],
+    "transfer_data": null,
+    "webhooks_delivered_at": 1601673107
+  },
+  {
+    "id": "in_1HXvXTAhEghhtF2N4xK9Eri9",
+    "object": "invoice",
+    "account_country": "US",
+    "account_name": "test-subscriptions-1",
+    "account_tax_ids": null,
+    "amount_due": 1000,
+    "amount_paid": 1000,
+    "amount_remaining": 0,
+    "application_fee_amount": null,
+    "attempt_count": 1,
+    "attempted": true,
+    "auto_advance": false,
+    "billing_reason": "subscription_create",
+    "charge": "ch_1HXvXUAhEghhtF2NKM0Iwo4V",
+    "collection_method": "charge_automatically",
+    "created": 1601673099,
+    "currency": "usd",
+    "custom_fields": null,
+    "customer": "cus_I8Bvu5FTCjI6CC",
+    "customer_address": null,
+    "customer_email": "Margarita_Weber@yahoo.com",
+    "customer_name": null,
+    "customer_phone": null,
+    "customer_shipping": null,
+    "customer_tax_exempt": "none",
+    "customer_tax_ids": [],
+    "default_payment_method": null,
+    "default_source": null,
+    "default_tax_rates": [
+      {
+        "id": "txr_1DXxdCAhEghhtF2NXaufjC8X",
+        "object": "tax_rate",
+        "active": true,
+        "created": 1542575798,
+        "description": null,
+        "display_name": "Tax",
+        "inclusive": false,
+        "jurisdiction": null,
+        "livemode": false,
+        "metadata": {},
+        "percentage": 0
+      }
+    ],
+    "description": null,
+    "discount": null,
+    "discounts": [],
+    "due_date": null,
+    "ending_balance": 0,
+    "footer": null,
+    "hosted_invoice_url": "https://pay.stripe.com/invoice/acct_1CvSyLAhEghhtF2N/invst_I8Bvj2TruqMlKhKfeBTj20nat3mdrzY",
+    "invoice_pdf": "https://pay.stripe.com/invoice/acct_1CvSyLAhEghhtF2N/invst_I8Bvj2TruqMlKhKfeBTj20nat3mdrzY/pdf",
+    "lines": {
+      "object": "list",
+      "data": [
+        {
+          "id": "il_1HXvXTAhEghhtF2NPAZzhb7a",
+          "object": "line_item",
+          "amount": 1000,
+          "currency": "usd",
+          "description": "1 thing × product294_1601673085691_996 (at $10.00 / month)",
+          "discount_amounts": [],
+          "discountable": true,
+          "discounts": [],
+          "livemode": false,
+          "metadata": {
+            "appid": "tests_1601667637",
+            "accountid": "account_6f7eb30"
+          },
+          "period": {
+            "end": 1604351499,
+            "start": 1601673099
+          },
+          "plan": {
+            "id": "plan248_1601673098802_68192",
+            "object": "plan",
+            "active": true,
+            "aggregate_usage": null,
+            "amount": 1000,
+            "amount_decimal": "1000",
+            "billing_scheme": "per_unit",
+            "created": 1601673099,
+            "currency": "usd",
+            "interval": "month",
+            "interval_count": 1,
+            "livemode": false,
+            "metadata": {
+              "appid": "tests_1601667637",
+              "published": "1601673102"
+            },
+            "nickname": null,
+            "product": "prod_I8Bve8PwLfQFTm",
+            "tiers": null,
+            "tiers_mode": null,
+            "transform_usage": null,
+            "trial_period_days": null,
+            "usage_type": "licensed"
+          },
+          "price": {
+            "id": "plan248_1601673098802_68192",
+            "object": "price",
+            "active": true,
+            "billing_scheme": "per_unit",
+            "created": 1601673099,
+            "currency": "usd",
+            "livemode": false,
+            "lookup_key": null,
+            "metadata": {
+              "appid": "tests_1601667637",
+              "published": "1601673102"
+            },
+            "nickname": null,
+            "product": "prod_I8Bve8PwLfQFTm",
+            "recurring": {
+              "aggregate_usage": null,
+              "interval": "month",
+              "interval_count": 1,
+              "trial_period_days": null,
+              "usage_type": "licensed"
+            },
+            "tiers_mode": null,
+            "transform_quantity": null,
+            "type": "recurring",
+            "unit_amount": 1000,
+            "unit_amount_decimal": "1000"
+          },
+          "proration": false,
+          "quantity": 1,
+          "subscription": "sub_I8Bv9VaCJx5Z1q",
+          "subscription_item": "si_I8BvLBHyWiss6g",
+          "tax_amounts": [
+            {
+              "amount": 0,
+              "inclusive": false,
+              "tax_rate": "txr_1DXxdCAhEghhtF2NXaufjC8X"
+            }
+          ],
+          "tax_rates": [],
+          "type": "subscription"
+        }
+      ],
+      "has_more": false,
+      "total_count": 1,
+      "url": "/v1/invoices/in_1HXvXTAhEghhtF2N4xK9Eri9/lines"
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "accountid": "account_6f7eb30"
+    },
+    "next_payment_attempt": null,
+    "number": "3D4C061B-0003",
+    "paid": true,
+    "payment_intent": "pi_1HXvXTAhEghhtF2N0HADrZXQ",
+    "period_end": 1601673099,
+    "period_start": 1601673099,
+    "post_payment_credit_notes_amount": 0,
+    "pre_payment_credit_notes_amount": 0,
+    "receipt_number": null,
+    "starting_balance": 0,
+    "statement_descriptor": null,
+    "status": "paid",
+    "status_transitions": {
+      "finalized_at": 1601673099,
+      "marked_uncollectible_at": null,
+      "paid_at": 1601673099,
+      "voided_at": null
+    },
+    "subscription": "sub_I8Bv9VaCJx5Z1q",
+    "subtotal": 1000,
+    "tax": 0,
+    "tax_percent": 0,
+    "total": 1000,
+    "total_discount_amounts": [],
+    "total_tax_amounts": [
+      {
+        "amount": 0,
+        "inclusive": false,
+        "tax_rate": "txr_1DXxdCAhEghhtF2NXaufjC8X"
+      }
+    ],
+    "transfer_data": null,
+    "webhooks_delivered_at": 1601673102
+  },
+  {
+    "id": "in_1HXvXOAhEghhtF2NI0WeQpJf",
+    "object": "invoice",
+    "account_country": "US",
+    "account_name": "test-subscriptions-1",
+    "account_tax_ids": null,
+    "amount_due": 1000,
+    "amount_paid": 1000,
+    "amount_remaining": 0,
+    "application_fee_amount": null,
+    "attempt_count": 1,
+    "attempted": true,
+    "auto_advance": false,
+    "billing_reason": "subscription_create",
+    "charge": "ch_1HXvXPAhEghhtF2NQ1qVnTly",
+    "collection_method": "charge_automatically",
+    "created": 1601673094,
+    "currency": "usd",
+    "custom_fields": null,
+    "customer": "cus_I8Bvu5FTCjI6CC",
+    "customer_address": null,
+    "customer_email": "Margarita_Weber@yahoo.com",
+    "customer_name": null,
+    "customer_phone": null,
+    "customer_shipping": null,
+    "customer_tax_exempt": "none",
+    "customer_tax_ids": [],
+    "default_payment_method": null,
+    "default_source": null,
+    "default_tax_rates": [
+      {
+        "id": "txr_1DXxdCAhEghhtF2NXaufjC8X",
+        "object": "tax_rate",
+        "active": true,
+        "created": 1542575798,
+        "description": null,
+        "display_name": "Tax",
+        "inclusive": false,
+        "jurisdiction": null,
+        "livemode": false,
+        "metadata": {},
+        "percentage": 0
+      }
+    ],
+    "description": null,
+    "discount": null,
+    "discounts": [],
+    "due_date": null,
+    "ending_balance": 0,
+    "footer": null,
+    "hosted_invoice_url": "https://pay.stripe.com/invoice/acct_1CvSyLAhEghhtF2N/invst_I8Bvz0kSIQwMtpmDKTYu0XNkUjV8IrN",
+    "invoice_pdf": "https://pay.stripe.com/invoice/acct_1CvSyLAhEghhtF2N/invst_I8Bvz0kSIQwMtpmDKTYu0XNkUjV8IrN/pdf",
+    "lines": {
+      "object": "list",
+      "data": [
+        {
+          "id": "il_1HXvXOAhEghhtF2N12LONCF1",
+          "object": "line_item",
+          "amount": 1000,
+          "currency": "usd",
+          "description": "1 thing × product294_1601673085691_996 (at $10.00 / month)",
+          "discount_amounts": [],
+          "discountable": true,
+          "discounts": [],
+          "livemode": false,
+          "metadata": {
+            "appid": "tests_1601667637",
+            "accountid": "account_6f7eb30"
+          },
+          "period": {
+            "end": 1604351494,
+            "start": 1601673094
+          },
+          "plan": {
+            "id": "plan247_1601673093769_55643",
+            "object": "plan",
+            "active": true,
+            "aggregate_usage": null,
+            "amount": 1000,
+            "amount_decimal": "1000",
+            "billing_scheme": "per_unit",
+            "created": 1601673094,
+            "currency": "usd",
+            "interval": "month",
+            "interval_count": 1,
+            "livemode": false,
+            "metadata": {
+              "appid": "tests_1601667637",
+              "published": "1601673097"
+            },
+            "nickname": null,
+            "product": "prod_I8Bve8PwLfQFTm",
+            "tiers": null,
+            "tiers_mode": null,
+            "transform_usage": null,
+            "trial_period_days": null,
+            "usage_type": "licensed"
+          },
+          "price": {
+            "id": "plan247_1601673093769_55643",
+            "object": "price",
+            "active": true,
+            "billing_scheme": "per_unit",
+            "created": 1601673094,
+            "currency": "usd",
+            "livemode": false,
+            "lookup_key": null,
+            "metadata": {
+              "appid": "tests_1601667637",
+              "published": "1601673097"
+            },
+            "nickname": null,
+            "product": "prod_I8Bve8PwLfQFTm",
+            "recurring": {
+              "aggregate_usage": null,
+              "interval": "month",
+              "interval_count": 1,
+              "trial_period_days": null,
+              "usage_type": "licensed"
+            },
+            "tiers_mode": null,
+            "transform_quantity": null,
+            "type": "recurring",
+            "unit_amount": 1000,
+            "unit_amount_decimal": "1000"
+          },
+          "proration": false,
+          "quantity": 1,
+          "subscription": "sub_I8BvbzZhM3bBPz",
+          "subscription_item": "si_I8BvJG6ka1lSwU",
+          "tax_amounts": [
+            {
+              "amount": 0,
+              "inclusive": false,
+              "tax_rate": "txr_1DXxdCAhEghhtF2NXaufjC8X"
+            }
+          ],
+          "tax_rates": [],
+          "type": "subscription"
+        }
+      ],
+      "has_more": false,
+      "total_count": 1,
+      "url": "/v1/invoices/in_1HXvXOAhEghhtF2NI0WeQpJf/lines"
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601667637",
+      "accountid": "account_6f7eb30"
+    },
+    "next_payment_attempt": null,
+    "number": "3D4C061B-0002",
+    "paid": true,
+    "payment_intent": "pi_1HXvXOAhEghhtF2N9n0ofZwn",
+    "period_end": 1601673094,
+    "period_start": 1601673094,
+    "post_payment_credit_notes_amount": 0,
+    "pre_payment_credit_notes_amount": 0,
+    "receipt_number": null,
+    "starting_balance": 0,
+    "statement_descriptor": null,
+    "status": "paid",
+    "status_transitions": {
+      "finalized_at": 1601673094,
+      "marked_uncollectible_at": null,
+      "paid_at": 1601673094,
+      "voided_at": null
+    },
+    "subscription": "sub_I8BvbzZhM3bBPz",
+    "subtotal": 1000,
+    "tax": 0,
+    "tax_percent": 0,
+    "total": 1000,
+    "total_discount_amounts": [],
+    "total_tax_amounts": [
+      {
+        "amount": 0,
+        "inclusive": false,
+        "tax_rate": "txr_1DXxdCAhEghhtF2NXaufjC8X"
+      }
+    ],
+    "transfer_data": null,
+    "webhooks_delivered_at": 1601673097
+  }
+]
