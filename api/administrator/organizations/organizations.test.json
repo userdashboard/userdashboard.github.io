@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_00d3589",
+    "organizationid": "organization_f102068",
+    "name": "My organization 1",
+    "email": "Geraldine.Senger@hotmail.com",
+    "created": 1601596802
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_00d3589",
+    "organizationid": "organization_6cd841e",
+    "name": "My organization 1",
+    "email": "Geraldine.Senger@hotmail.com",
+    "created": 1601596802
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_00d3589",
+    "organizationid": "organization_519e8b6",
+    "name": "My organization 1",
+    "email": "Geraldine.Senger@hotmail.com",
+    "created": 1601596802
+  }
+]

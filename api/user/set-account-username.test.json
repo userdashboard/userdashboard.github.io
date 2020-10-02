@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_42263ec",
+  "usernameHash": "303a38a9735d7e64d9cf22291e0abf04c1783a718c55399011e9b6b7042dd0c95d800df5d2306b497fa9c703638f095cfc35d93a2ca42434b4324b7992278a4e",
+  "passwordHash": "$2a$04$yjbY.9povn2J3aUPaKcUEuJSrvs9X1P6Z1D/XIzqK58eDtUL4h7bi",
+  "sessionKey": "27c9c9953da3ebd018b964e21774b34d4817b4a23c1f013082a2a69195153a73",
+  "sessionKeyNumber": 1,
+  "created": 1601595830,
+  "administrator": 1601595830,
+  "owner": 1601595830,
+  "firstName": "Jerry",
+  "lastName": "Bauch",
+  "contactEmail": "Jerry.Bauch@yahoo.com",
+  "profileid": "profile_91dacca",
+  "lastSignedIn": 1601595830,
+  "usernameLastChanged": 1601595830
+}
