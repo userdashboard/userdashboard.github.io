@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_0032796",
+    "organizationid": "organization_70ad1a9",
+    "name": "My organization",
+    "email": "General_Kling@gmail.com",
+    "created": 1601739812
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_0032796",
+    "organizationid": "organization_5dd3e5a",
+    "name": "My organization",
+    "email": "General_Kling@gmail.com",
+    "created": 1601739812
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_0032796",
+    "organizationid": "organization_ee34a81",
+    "name": "My organization",
+    "email": "General_Kling@gmail.com",
+    "created": 1601739812
+  }
+]

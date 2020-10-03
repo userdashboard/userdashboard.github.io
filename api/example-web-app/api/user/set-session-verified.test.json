@@ -1,0 +1,10 @@
+{
+  "object": "session",
+  "sessionid": "session_c5d9321",
+  "accountid": "account_67342d8",
+  "tokenHash": "43e6529edec360941d9c0e94454124c76d525316d5dc0787768bc1ab1fa74292c0665b104e3bbdc963a756b1ef802bd7dfca6959ee68e076ac220f5a32a57c1a",
+  "created": 1601739809,
+  "expires": 1601741009,
+  "sessionKeyNumber": 1,
+  "lastVerified": 1601739809
+}

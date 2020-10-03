@@ -1,0 +1,12 @@
+{
+  "object": "account",
+  "accountid": "account_f7acb75",
+  "sessionKeyNumber": 1,
+  "created": 1601739808,
+  "firstName": "Alice",
+  "lastName": "O'Conner",
+  "contactEmail": "Alice_OConner@gmail.com",
+  "profileid": "profile_669904f",
+  "lastSignedIn": 1601739808,
+  "administrator": 1601739808
+}
