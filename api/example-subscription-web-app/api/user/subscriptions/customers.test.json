@@ -1,0 +1,155 @@
+[
+  {
+    "id": "cus_I8UAG0hna91acA",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601740953,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Juan",
+    "discount": null,
+    "email": "Juan.Wintheiser@gmail.com",
+    "invoice_prefix": "7CEC232D",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_5963ef4"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UAG0hna91acA/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UAG0hna91acA/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UAG0hna91acA/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I8UANjgNgVO6Nr",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601740953,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Juan",
+    "discount": null,
+    "email": "Juan.Wintheiser@gmail.com",
+    "invoice_prefix": "1150187D",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_5963ef4"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UANjgNgVO6Nr/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UANjgNgVO6Nr/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UANjgNgVO6Nr/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I8UA0Th25sqOc2",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601740952,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Juan",
+    "discount": null,
+    "email": "Juan.Wintheiser@gmail.com",
+    "invoice_prefix": "929A4F27",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_5963ef4"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UA0Th25sqOc2/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UA0Th25sqOc2/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8UA0Th25sqOc2/tax_ids"
+    }
+  }
+]

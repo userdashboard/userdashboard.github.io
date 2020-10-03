@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ch_1HYDAhAy1diN5On0yMp7AyeO",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HYDAiAy1diN5On0TZO2S7k2",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Lynne Padberg",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT50 DESCRIPTION",
+    "captured": true,
+    "created": 1601740879,
+    "currency": "usd",
+    "customer": "cus_I8U8g2Gun0QyOW",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HYDAhAy1diN5On0ip7ziplf",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_5ced446"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 55,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HYDAhAy1diN5On0fvt7m1Qv",
+    "payment_method": "pm_1HYDAeAy1diN5On070da7Agl",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "SKyB1iRNXULITdVZ",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1Ghg7cAy1diN5On0/ch_1HYDAhAy1diN5On0yMp7AyeO/rcpt_I8U8RXNNtHCa8W2WKpdnxEM8ApxTJ81",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HYDAhAy1diN5On0yMp7AyeO/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product50 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1HYDAYAy1diN5On0z3IHpLS2",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HYDAYAy1diN5On0yX96gvzQ",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Lynne Padberg",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT50 DESCRIPTION",
+    "captured": true,
+    "created": 1601740870,
+    "currency": "usd",
+    "customer": "cus_I8U8xuWKnb6zlc",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HYDAXAy1diN5On0x6yQBsd3",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_5ced446"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 45,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HYDAXAy1diN5On07O65qKtX",
+    "payment_method": "pm_1HYDAUAy1diN5On0hj7QAXdJ",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "SKyB1iRNXULITdVZ",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1Ghg7cAy1diN5On0/ch_1HYDAYAy1diN5On0z3IHpLS2/rcpt_I8U8RZcJnl2Q9qCswaS3fy1O2JohtOa",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HYDAYAy1diN5On0z3IHpLS2/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product50 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1HYDAMAy1diN5On0c4c42y16",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HYDAMAy1diN5On049f70nqL",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Lynne Padberg",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT50 DESCRIPTION",
+    "captured": true,
+    "created": 1601740858,
+    "currency": "usd",
+    "customer": "cus_I8U8F3tF0UjP01",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HYDALAy1diN5On0pQlSBhFW",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_5ced446"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 57,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HYDALAy1diN5On0yCLEG1vS",
+    "payment_method": "pm_1HYDAJAy1diN5On0rB6ilxJW",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "SKyB1iRNXULITdVZ",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1Ghg7cAy1diN5On0/ch_1HYDAMAy1diN5On0c4c42y16/rcpt_I8U8lsLcbxl5B86oKRx1jS7E2Ni4lA8",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HYDAMAy1diN5On0c4c42y16/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product50 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "prod_I8U7VSMBqKj8ZL",
+  "object": "product",
+  "active": true,
+  "attributes": [],
+  "created": 1601740800,
+  "description": null,
+  "images": [],
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601740153",
+    "published": "1601740799"
+  },
+  "name": "new-name",
+  "statement_descriptor": "new-description",
+  "type": "service",
+  "unit_label": "new-thing",
+  "updated": 1601740800
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "id": "cus_I8TzZcV0HqbRFm",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601740282,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Brittany",
+    "discount": null,
+    "email": "Brittany39@yahoo.com",
+    "invoice_prefix": "CDD3138F",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_0007978"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8TzZcV0HqbRFm/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8TzZcV0HqbRFm/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8TzZcV0HqbRFm/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I8Tzp9BcCeiaVO",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601740282,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Lauren",
+    "discount": null,
+    "email": "Lauren74@hotmail.com",
+    "invoice_prefix": "ABE15885",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_d21fe22"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Tzp9BcCeiaVO/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Tzp9BcCeiaVO/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8Tzp9BcCeiaVO/tax_ids"
+    }
+  },
+  {
+    "id": "cus_I8TzAlTtuzXcBO",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1601740282,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Faith",
+    "discount": null,
+    "email": "Faith7@gmail.com",
+    "invoice_prefix": "FCB09161",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601740153",
+      "accountid": "account_a30f72f"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8TzAlTtuzXcBO/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8TzAlTtuzXcBO/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_I8TzAlTtuzXcBO/tax_ids"
+    }
+  }
+]

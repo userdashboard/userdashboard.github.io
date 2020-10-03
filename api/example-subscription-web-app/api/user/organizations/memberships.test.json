@@ -1,0 +1,34 @@
+[
+  {
+    "object": "membership",
+    "membershipid": "membership_6371f74",
+    "organizationid": "organization_c1473bb",
+    "accountid": "account_8244ff3",
+    "created": 1601740160,
+    "profileid": "profile_5e120f7",
+    "displayName": "Cecilia",
+    "displayEmail": "Cecilia_Dibbert@hotmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_2076a21",
+    "organizationid": "organization_85e6534",
+    "accountid": "account_8244ff3",
+    "created": 1601740160,
+    "invitationid": "invitation_666d151",
+    "profileid": "profile_5e120f7",
+    "displayName": "Cecilia",
+    "displayEmail": "Cecilia_Dibbert@hotmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_6c7981b",
+    "organizationid": "organization_9bd4adc",
+    "accountid": "account_8244ff3",
+    "created": 1601740160,
+    "invitationid": "invitation_00a5ba2",
+    "profileid": "profile_5e120f7",
+    "displayName": "Cecilia",
+    "displayEmail": "Cecilia_Dibbert@hotmail.com"
+  }
+]

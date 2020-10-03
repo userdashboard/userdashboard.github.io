@@ -1,0 +1,82 @@
+{
+  "id": "cus_I8UDmvu5NuYxmg",
+  "object": "customer",
+  "address": null,
+  "balance": 0,
+  "created": 1601741169,
+  "currency": null,
+  "default_source": null,
+  "delinquent": false,
+  "description": "Kayla",
+  "discount": {
+    "id": "di_1HYDFNAy1diN5On0hZ65B6w3",
+    "object": "discount",
+    "checkout_session": null,
+    "coupon": {
+      "id": "coupon15_1601741169175_893",
+      "object": "coupon",
+      "amount_off": null,
+      "created": 1601741169,
+      "currency": null,
+      "duration": "repeating",
+      "duration_in_months": 3,
+      "livemode": false,
+      "max_redemptions": null,
+      "metadata": {
+        "appid": "tests_1601740153",
+        "published": "1601741167"
+      },
+      "name": null,
+      "percent_off": 25,
+      "redeem_by": null,
+      "times_redeemed": 1,
+      "valid": true
+    },
+    "customer": "cus_I8UDmvu5NuYxmg",
+    "end": 1609689969,
+    "invoice": null,
+    "invoice_item": null,
+    "promotion_code": null,
+    "start": 1601741169,
+    "subscription": null
+  },
+  "email": "Kayla.Ankunding@gmail.com",
+  "invoice_prefix": "34FD2127",
+  "invoice_settings": {
+    "custom_fields": null,
+    "default_payment_method": null,
+    "footer": null
+  },
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601740153",
+    "accountid": "account_84b0b2c"
+  },
+  "name": null,
+  "next_invoice_sequence": 1,
+  "phone": null,
+  "preferred_locales": [],
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I8UDmvu5NuYxmg/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I8UDmvu5NuYxmg/subscriptions"
+  },
+  "tax_exempt": "none",
+  "tax_ids": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_I8UDmvu5NuYxmg/tax_ids"
+  }
+}
