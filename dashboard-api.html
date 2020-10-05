@@ -228,35 +228,29 @@
                 <ul id="url-parameters-19"></ul>
                 <ul id="post-parameters-19"></ul>
               </li>
-              <li id="route-20"><a href="/api/user/set-account-language">/api/user/set-account-language</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetAccountLanguage.patch(req)</span>
-                <ul id="url-parameters-20"></ul><span id="post-container-20"> POST </span>
-                <ul id="post-parameters-20">
-                  <li>language</li>
-                </ul>
+              <li id="route-20"><a href="/api/user/set-account-password">/api/user/set-account-password</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetAccountPassword.patch(req)</span>
+                <ul id="url-parameters-20"></ul>
+                <ul id="post-parameters-20"></ul>
               </li>
-              <li id="route-21"><a href="/api/user/set-account-password">/api/user/set-account-password</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetAccountPassword.patch(req)</span>
+              <li id="route-21"><a href="/api/user/set-account-profile">/api/user/set-account-profile</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetAccountProfile.patch(req)</span>
                 <ul id="url-parameters-21"></ul>
                 <ul id="post-parameters-21"></ul>
               </li>
-              <li id="route-22"><a href="/api/user/set-account-profile">/api/user/set-account-profile</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetAccountProfile.patch(req)</span>
+              <li id="route-22"><a href="/api/user/set-account-username">/api/user/set-account-username</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetAccountUsername.patch(req)</span>
                 <ul id="url-parameters-22"></ul>
                 <ul id="post-parameters-22"></ul>
               </li>
-              <li id="route-23"><a href="/api/user/set-account-username">/api/user/set-account-username</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetAccountUsername.patch(req)</span>
+              <li id="route-23"><a href="/api/user/set-session-ended">/api/user/set-session-ended</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetSessionEnded.patch(req)</span>
                 <ul id="url-parameters-23"></ul>
                 <ul id="post-parameters-23"></ul>
               </li>
-              <li id="route-24"><a href="/api/user/set-session-ended">/api/user/set-session-ended</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetSessionEnded.patch(req)</span>
+              <li id="route-24"><a href="/api/user/set-session-verified">/api/user/set-session-verified</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetSessionVerified.patch(req)</span>
                 <ul id="url-parameters-24"></ul>
                 <ul id="post-parameters-24"></ul>
               </li>
-              <li id="route-25"><a href="/api/user/set-session-verified">/api/user/set-session-verified</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.SetSessionVerified.patch(req)</span>
-                <ul id="url-parameters-25"></ul>
-                <ul id="post-parameters-25"></ul>
-              </li>
-              <li id="route-26"><a href="/api/user/update-profile">/api/user/update-profile</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.UpdateProfile.patch(req)</span>
-                <ul id="url-parameters-26"></ul><span id="post-container-26"> POST </span>
-                <ul id="post-parameters-26">
+              <li id="route-25"><a href="/api/user/update-profile">/api/user/update-profile</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.user.UpdateProfile.patch(req)</span>
+                <ul id="url-parameters-25"></ul><span id="post-container-25"> POST </span>
+                <ul id="post-parameters-25">
                   <li>company-name</li>
                   <li>contact-email</li>
                   <li>display-email</li>
@@ -275,124 +269,124 @@
             <h2 id="administrator-api">Administrator API</h2>
             <ul id="administrator-routes-table" class="api">
               <tbody>
-                <li id="route-27"><a href="/api/administrator/account">/api/administrator/account</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Account.get(req)</span>
+                <li id="route-26"><a href="/api/administrator/account">/api/administrator/account</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Account.get(req)</span>
+                  <ul id="url-parameters-26"></ul>
+                  <ul id="post-parameters-26"></ul>
+                </li>
+                <li id="route-27"><a href="/api/administrator/accounts-count">/api/administrator/accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.AccountsCount.get(req)</span>
                   <ul id="url-parameters-27"></ul>
                   <ul id="post-parameters-27"></ul>
                 </li>
-                <li id="route-28"><a href="/api/administrator/accounts-count">/api/administrator/accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.AccountsCount.get(req)</span>
-                  <ul id="url-parameters-28"></ul>
+                <li id="route-28"><a href="/api/administrator/accounts">/api/administrator/accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Accounts.get(req)</span><span id="url-container-28"> URL </span>
+                  <ul id="url-parameters-28">
+                    <li>all</li>
+                    <li>limit</li>
+                    <li>offset</li>
+                  </ul>
                   <ul id="post-parameters-28"></ul>
                 </li>
-                <li id="route-29"><a href="/api/administrator/accounts">/api/administrator/accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Accounts.get(req)</span><span id="url-container-29"> URL </span>
-                  <ul id="url-parameters-29">
-                    <li>all</li>
-                    <li>limit</li>
-                    <li>offset</li>
-                  </ul>
+                <li id="route-29"><a href="/api/administrator/administrator-accounts-count">/api/administrator/administrator-accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.AdministratorAccountsCount.get(req)</span>
+                  <ul id="url-parameters-29"></ul>
                   <ul id="post-parameters-29"></ul>
                 </li>
-                <li id="route-30"><a href="/api/administrator/administrator-accounts-count">/api/administrator/administrator-accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.AdministratorAccountsCount.get(req)</span>
-                  <ul id="url-parameters-30"></ul>
-                  <ul id="post-parameters-30"></ul>
-                </li>
-                <li id="route-31"><a href="/api/administrator/administrator-accounts">/api/administrator/administrator-accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.AdministratorAccounts.get(req)</span><span id="url-container-31"> URL </span>
-                  <ul id="url-parameters-31">
+                <li id="route-30"><a href="/api/administrator/administrator-accounts">/api/administrator/administrator-accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.AdministratorAccounts.get(req)</span><span id="url-container-30"> URL </span>
+                  <ul id="url-parameters-30">
                     <li>all</li>
                     <li>limit</li>
                     <li>offset</li>
                   </ul>
+                  <ul id="post-parameters-30"></ul>
+                </li>
+                <li id="route-31"><a href="/api/administrator/create-reset-code">/api/administrator/create-reset-code</a><span class="method POST">POST</span><span class="nodejs">await global.api.administrator.CreateResetCode.post(req)</span>
+                  <ul id="url-parameters-31"></ul>
                   <ul id="post-parameters-31"></ul>
                 </li>
-                <li id="route-32"><a href="/api/administrator/create-reset-code">/api/administrator/create-reset-code</a><span class="method POST">POST</span><span class="nodejs">await global.api.administrator.CreateResetCode.post(req)</span>
+                <li id="route-32"><a href="/api/administrator/delete-account">/api/administrator/delete-account</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.administrator.DeleteAccount.delete(req)</span>
                   <ul id="url-parameters-32"></ul>
                   <ul id="post-parameters-32"></ul>
                 </li>
-                <li id="route-33"><a href="/api/administrator/delete-account">/api/administrator/delete-account</a><span class="method DELETE">DELETE</span><span class="nodejs">await global.api.administrator.DeleteAccount.delete(req)</span>
+                <li id="route-33"><a href="/api/administrator/deleted-accounts-count">/api/administrator/deleted-accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.DeletedAccountsCount.get(req)</span>
                   <ul id="url-parameters-33"></ul>
                   <ul id="post-parameters-33"></ul>
                 </li>
-                <li id="route-34"><a href="/api/administrator/deleted-accounts-count">/api/administrator/deleted-accounts-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.DeletedAccountsCount.get(req)</span>
-                  <ul id="url-parameters-34"></ul>
-                  <ul id="post-parameters-34"></ul>
-                </li>
-                <li id="route-35"><a href="/api/administrator/deleted-accounts">/api/administrator/deleted-accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.DeletedAccounts.get(req)</span><span id="url-container-35"> URL </span>
-                  <ul id="url-parameters-35">
+                <li id="route-34"><a href="/api/administrator/deleted-accounts">/api/administrator/deleted-accounts</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.DeletedAccounts.get(req)</span><span id="url-container-34"> URL </span>
+                  <ul id="url-parameters-34">
                     <li>all</li>
                     <li>limit</li>
                     <li>offset</li>
                   </ul>
+                  <ul id="post-parameters-34"></ul>
+                </li>
+                <li id="route-35"><a href="/api/administrator/profile">/api/administrator/profile</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Profile.get(req)</span>
+                  <ul id="url-parameters-35"></ul>
                   <ul id="post-parameters-35"></ul>
                 </li>
-                <li id="route-36"><a href="/api/administrator/profile">/api/administrator/profile</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Profile.get(req)</span>
+                <li id="route-36"><a href="/api/administrator/profiles-count">/api/administrator/profiles-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.ProfilesCount.get(req)</span>
                   <ul id="url-parameters-36"></ul>
                   <ul id="post-parameters-36"></ul>
                 </li>
-                <li id="route-37"><a href="/api/administrator/profiles-count">/api/administrator/profiles-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.ProfilesCount.get(req)</span>
-                  <ul id="url-parameters-37"></ul>
-                  <ul id="post-parameters-37"></ul>
-                </li>
-                <li id="route-38"><a href="/api/administrator/profiles">/api/administrator/profiles</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Profiles.get(req)</span><span id="url-container-38"> URL </span>
-                  <ul id="url-parameters-38">
+                <li id="route-37"><a href="/api/administrator/profiles">/api/administrator/profiles</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Profiles.get(req)</span><span id="url-container-37"> URL </span>
+                  <ul id="url-parameters-37">
                     <li>accountid</li>
                     <li>all</li>
                     <li>limit</li>
                     <li>offset</li>
                   </ul>
+                  <ul id="post-parameters-37"></ul>
+                </li>
+                <li id="route-38"><a href="/api/administrator/reset-account-administrator">/api/administrator/reset-account-administrator</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetAccountAdministrator.patch(req)</span>
+                  <ul id="url-parameters-38"></ul>
                   <ul id="post-parameters-38"></ul>
                 </li>
-                <li id="route-39"><a href="/api/administrator/reset-account-administrator">/api/administrator/reset-account-administrator</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetAccountAdministrator.patch(req)</span>
+                <li id="route-39"><a href="/api/administrator/reset-code">/api/administrator/reset-code</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetCode.patch(req)</span>
                   <ul id="url-parameters-39"></ul>
                   <ul id="post-parameters-39"></ul>
                 </li>
-                <li id="route-40"><a href="/api/administrator/reset-code">/api/administrator/reset-code</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetCode.patch(req)</span>
+                <li id="route-40"><a href="/api/administrator/reset-codes-count">/api/administrator/reset-codes-count</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetCodesCount.patch(req)</span>
                   <ul id="url-parameters-40"></ul>
                   <ul id="post-parameters-40"></ul>
                 </li>
-                <li id="route-41"><a href="/api/administrator/reset-codes-count">/api/administrator/reset-codes-count</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetCodesCount.patch(req)</span>
-                  <ul id="url-parameters-41"></ul>
-                  <ul id="post-parameters-41"></ul>
-                </li>
-                <li id="route-42"><a href="/api/administrator/reset-codes">/api/administrator/reset-codes</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetCodes.patch(req)</span><span id="url-container-42"> URL </span>
-                  <ul id="url-parameters-42">
+                <li id="route-41"><a href="/api/administrator/reset-codes">/api/administrator/reset-codes</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetCodes.patch(req)</span><span id="url-container-41"> URL </span>
+                  <ul id="url-parameters-41">
                     <li>accountid</li>
                     <li>all</li>
                     <li>limit</li>
                     <li>offset</li>
                   </ul>
+                  <ul id="post-parameters-41"></ul>
+                </li>
+                <li id="route-42"><a href="/api/administrator/reset-session-key">/api/administrator/reset-session-key</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetSessionKey.patch(req)</span>
+                  <ul id="url-parameters-42"></ul>
                   <ul id="post-parameters-42"></ul>
                 </li>
-                <li id="route-43"><a href="/api/administrator/reset-session-key">/api/administrator/reset-session-key</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.ResetSessionKey.patch(req)</span>
+                <li id="route-43"><a href="/api/administrator/session">/api/administrator/session</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Session.get(req)</span>
                   <ul id="url-parameters-43"></ul>
                   <ul id="post-parameters-43"></ul>
                 </li>
-                <li id="route-44"><a href="/api/administrator/session">/api/administrator/session</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Session.get(req)</span>
+                <li id="route-44"><a href="/api/administrator/sessions-count">/api/administrator/sessions-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.SessionsCount.get(req)</span>
                   <ul id="url-parameters-44"></ul>
                   <ul id="post-parameters-44"></ul>
                 </li>
-                <li id="route-45"><a href="/api/administrator/sessions-count">/api/administrator/sessions-count</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.SessionsCount.get(req)</span>
-                  <ul id="url-parameters-45"></ul>
-                  <ul id="post-parameters-45"></ul>
-                </li>
-                <li id="route-46"><a href="/api/administrator/sessions">/api/administrator/sessions</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Sessions.get(req)</span><span id="url-container-46"> URL </span>
-                  <ul id="url-parameters-46">
+                <li id="route-45"><a href="/api/administrator/sessions">/api/administrator/sessions</a><span class="method GET">GET</span><span class="nodejs">await global.api.administrator.Sessions.get(req)</span><span id="url-container-45"> URL </span>
+                  <ul id="url-parameters-45">
                     <li>accountid</li>
                     <li>all</li>
                     <li>limit</li>
                     <li>offset</li>
                   </ul>
+                  <ul id="post-parameters-45"></ul>
+                </li>
+                <li id="route-46"><a href="/api/administrator/set-account-administrator">/api/administrator/set-account-administrator</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.SetAccountAdministrator.patch(req)</span>
+                  <ul id="url-parameters-46"></ul>
                   <ul id="post-parameters-46"></ul>
                 </li>
-                <li id="route-47"><a href="/api/administrator/set-account-administrator">/api/administrator/set-account-administrator</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.SetAccountAdministrator.patch(req)</span>
+                <li id="route-47"><a href="/api/administrator/set-account-deleted">/api/administrator/set-account-deleted</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.SetAccountDeleted.patch(req)</span>
                   <ul id="url-parameters-47"></ul>
                   <ul id="post-parameters-47"></ul>
                 </li>
-                <li id="route-48"><a href="/api/administrator/set-account-deleted">/api/administrator/set-account-deleted</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.SetAccountDeleted.patch(req)</span>
+                <li id="route-48"><a href="/api/administrator/set-owner-account">/api/administrator/set-owner-account</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.SetOwnerAccount.patch(req)</span>
                   <ul id="url-parameters-48"></ul>
                   <ul id="post-parameters-48"></ul>
-                </li>
-                <li id="route-49"><a href="/api/administrator/set-owner-account">/api/administrator/set-owner-account</a><span class="method PATCH">PATCH</span><span class="nodejs">await global.api.administrator.SetOwnerAccount.patch(req)</span>
-                  <ul id="url-parameters-49"></ul>
-                  <ul id="post-parameters-49"></ul>
                 </li>
               </tbody>
             </ul>

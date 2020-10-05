@@ -117,11 +117,11 @@
             <li><a href="#configuring-dashboard">Configuring Dashboard</a></li>
             <li><a href="#customize-registration-information">Customize registration information</a></li>
             <li><a href="#adding-links-to-the-header-menus">Adding links to the header menus</a></li>
-            <li><a href="#access-account-data-from-your-application-server">Access account data from your application</a></li>
+            <li><a href="#access-the-api">Access the API from your application server</a></li>
+            <li><a href="#localization">Localization</a></li>
             <li><a href="#storage-backends">Storage backends</a></li>
             <li><a href="#storage-caching">Storage caching</a></li>
             <li><a href="#logging">Logging</a></li>
-            <li><a href="#localization">Localization</a></li>
             <li><a href="#dashboard-modules">Dashboard modules</a></li>
             <li><a href="#creating-modules-for-dashboard">Creating modules for Dashboard</a></li>
             <li><a href="#testing">Testing</a></li>
@@ -332,7 +332,7 @@ PROFILE_FIELDS=any,combination
             <li>Any activated module's <code data-language="js">package.json</code> links or <code data-language="js">/src/menu-administrator.html</code> files</li>
             <li>Dashboard's <code data-language="js">package.json</code> and <code data-language="js">/src/menu-administrator.html</code></li>
           </ol>
-          <h1 id="access-account-data-from-your-application-server">Access account data from your application server</h1>
+          <h1 id="access-the-api">Access the API</h1>
           <p>Dashboard and official modules are completely API-driven and you can access the same APIs on behalf of the user making requests. You perform <code data-language="js">GET</code>, <code data-language="js">POST</code>, <code data-language="js">PATCH</code>, and <code data-language="js">DELETE</code> HTTP requests against the API endpoints to fetch or modify data. You can use a shared secret <code data-language="js">APPLICATION_SERVER_TOKEN</code> to verify requests between servers, both servers send it in an <code data-language="js">x-application-server-token</code> header. This example fetches the user's session information using NodeJS, you can do this with any language:</p>
           <pre><code data-language="js">const sessions = await proxy(`/api/user/sessions?accountid=${accountid}`, accountid, sessionid)
 
@@ -344,12 +344,10 @@ const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
         method: 'GET',
         headers: {
             'x-application-server': 'application.example.com',
-            'x-application-server-token': process.env.APPLICATION_SERVER_TOKEN
+            'x-application-server-token': process.env.APPLICATION_SERVER_TOKEN,
+            'x-accountid': accountid,
+            'x-sessionid': sessionid
         }
-    }
-    if (accountid) {
-        requestOptions.headers['x-accountid'] = accountid
-        requestOptions.headers['x-sessionid'] = sessionid
     }
     const proxyRequest = require('https').request(requestOptions, (proxyResponse) =&gt; {
         let body = ''
@@ -453,15 +451,6 @@ const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
   }
 }
 </code></pre>
-          <h1 id="localization">Localization</h1>
-          <p>Dashboard has been automatically-localized into a variety of languages. You can submit corrections by editing the HTML files directly on Github in the <code data-language="js">languages</code> folder in Dashboard and its official modules, except the <code data-language="js">maxmind-geoip</code> module which has no UI to translate.</p>
-          <p>Users can specify their preferred language, timezone, date and formatting in their account settings.</p>
-          <p>You can set the language with an environment variable:</p>
-          <pre><code data-language="js">LANGUAGE=es node main.js
-</code></pre>
-          <p>By default users may not customize language settings. You can enable the option with an environment variable:</p>
-          <pre><code data-language="js">ENABLE_LANGUAGE_PREFERENCE=true LANGUAGE=en node main.js
-</code></pre>
           <h1 id="dashboard-modules">Dashboard modules</h1>
           <p>Dashboard is modular and by itself it provides only the signing in, account management and basic administration. Modules add new pages and API routes for additional functionality.</p>
           <table>
@@ -472,6 +461,10 @@ const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td><a href="https://npmjs.com/package/userdashboard/localization">@userdashboard/localization</a></td>
+                <td>Specify language or allow users to select</td>
+              </tr>
               <tr>
                 <td><a href="https://npmjs.com/package/userdashboard/maxmind-geoip">@userdashboard/maxmind-geoip</a></td>
                 <td>IP address-based geolocation by MaxMind</td>
