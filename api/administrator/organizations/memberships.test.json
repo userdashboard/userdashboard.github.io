@@ -1,0 +1,35 @@
+[
+  {
+    "object": "membership",
+    "membershipid": "membership_7221185",
+    "organizationid": "organization_ad02276",
+    "accountid": "account_b832126",
+    "created": 1601915796,
+    "invitationid": "invitation_a021128",
+    "profileid": "profile_e514bc9",
+    "displayName": "Oliver",
+    "displayEmail": "Oliver_Hane@gmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_c28c4b2",
+    "organizationid": "organization_e050b9d",
+    "accountid": "account_b832126",
+    "created": 1601915796,
+    "invitationid": "invitation_956635c",
+    "profileid": "profile_e514bc9",
+    "displayName": "Oliver",
+    "displayEmail": "Oliver_Hane@gmail.com"
+  },
+  {
+    "object": "membership",
+    "membershipid": "membership_6b0cdee",
+    "organizationid": "organization_629110f",
+    "accountid": "account_b832126",
+    "created": 1601915796,
+    "invitationid": "invitation_967f79f",
+    "profileid": "profile_e514bc9",
+    "displayName": "Oliver",
+    "displayEmail": "Oliver_Hane@gmail.com"
+  }
+]
