@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pm_1HYxKYAhEghhtF2N3N216bIO",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Don Walker",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601918314,
+    "customer": "cus_I9FqpMu4qbxkyA",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_78d4659"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HYxKXAhEghhtF2NA6S4CbW5",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Don Walker",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601918313,
+    "customer": "cus_I9FqpMu4qbxkyA",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_78d4659"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HYxKVAhEghhtF2NU4bnfI21",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Don Walker",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601918311,
+    "customer": "cus_I9FqpMu4qbxkyA",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_78d4659"
+    },
+    "type": "card"
+  }
+]

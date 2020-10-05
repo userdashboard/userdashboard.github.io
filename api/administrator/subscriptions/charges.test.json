@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ch_1HYwxNAhEghhtF2NtoexSdwS",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HYwxNAhEghhtF2NmoLZsGlz",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Bobbie Bauch",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT132 DESCRIPTION",
+    "captured": true,
+    "created": 1601916877,
+    "currency": "usd",
+    "customer": "cus_I9FS3ZPXhiGz46",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HYwxMAhEghhtF2NfR1dWIij",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_96c56c9"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 57,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HYwxMAhEghhtF2NjIXvKusR",
+    "payment_method": "pm_1HYwxKAhEghhtF2Nt470UvL6",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "MQBVFcklOzksfQEn",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1HYwxNAhEghhtF2NtoexSdwS/rcpt_I9FSRtvEKjFpCrangjWcAAegJZFqhjf",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HYwxNAhEghhtF2NtoexSdwS/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product132 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1HYwxFAhEghhtF2NfIJS9Ipk",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HYwxFAhEghhtF2Ne8VgbsHS",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Ann Gleichner",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT132 DESCRIPTION",
+    "captured": true,
+    "created": 1601916869,
+    "currency": "usd",
+    "customer": "cus_I9FSLkerYPXpWc",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HYwxEAhEghhtF2NdfVHCiwJ",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_8d2c90f"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 62,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HYwxEAhEghhtF2NsslrUsyL",
+    "payment_method": "pm_1HYwxCAhEghhtF2NFp67aWWw",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "MQBVFcklOzksfQEn",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1HYwxFAhEghhtF2NfIJS9Ipk/rcpt_I9FSfIsDWVko9O3rfy39xpqpuKz7g9P",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HYwxFAhEghhtF2NfIJS9Ipk/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product132 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1HYwx8AhEghhtF2NQb0OElHh",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1HYwx8AhEghhtF2Nh762DEJF",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Dora Deckow",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT132 DESCRIPTION",
+    "captured": true,
+    "created": 1601916862,
+    "currency": "usd",
+    "customer": "cus_I9FRwqi7rHDDyY",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1HYwx7AhEghhtF2NFFtE03QN",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_164ea65"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 2,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1HYwx8AhEghhtF2NkGmNoUga",
+    "payment_method": "pm_1HYwx3AhEghhtF2NJTffTYtw",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "MQBVFcklOzksfQEn",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1HYwx8AhEghhtF2NQb0OElHh/rcpt_I9FSTueoeOwz0LoWtbzxhHqudJQOfLt",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1HYwx8AhEghhtF2NQb0OElHh/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product132 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  }
+]

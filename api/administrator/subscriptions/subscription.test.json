@@ -1,0 +1,150 @@
+{
+  "id": "sub_I9FeD8c9R2WIAf",
+  "object": "subscription",
+  "application_fee_percent": null,
+  "billing_cycle_anchor": 1601917601,
+  "billing_thresholds": null,
+  "cancel_at": null,
+  "cancel_at_period_end": false,
+  "canceled_at": null,
+  "collection_method": "charge_automatically",
+  "created": 1601917601,
+  "current_period_end": 1604596001,
+  "current_period_start": 1601917601,
+  "customer": "cus_I9FemJ1ZZjOV5O",
+  "days_until_due": null,
+  "default_payment_method": "pm_1HYx91AhEghhtF2Nfoap2ND2",
+  "default_source": null,
+  "default_tax_rates": [
+    {
+      "id": "txr_1DXxdCAhEghhtF2NXaufjC8X",
+      "object": "tax_rate",
+      "active": true,
+      "created": 1542575798,
+      "description": null,
+      "display_name": "Tax",
+      "inclusive": false,
+      "jurisdiction": null,
+      "livemode": false,
+      "metadata": {},
+      "percentage": 0
+    }
+  ],
+  "discount": null,
+  "ended_at": null,
+  "items": {
+    "object": "list",
+    "data": [
+      {
+        "id": "si_I9FeNINtHWurQE",
+        "object": "subscription_item",
+        "billing_thresholds": null,
+        "created": 1601917602,
+        "metadata": {},
+        "plan": {
+          "id": "plan179_1601917598494_75698",
+          "object": "plan",
+          "active": true,
+          "aggregate_usage": null,
+          "amount": 1000,
+          "amount_decimal": "1000",
+          "billing_scheme": "per_unit",
+          "created": 1601917598,
+          "currency": "usd",
+          "interval": "month",
+          "interval_count": 1,
+          "livemode": false,
+          "metadata": {
+            "appid": "tests_1601912968",
+            "published": "1601917604"
+          },
+          "nickname": null,
+          "product": "prod_I9FeMtyoeSs3XG",
+          "tiers": null,
+          "tiers_mode": null,
+          "transform_usage": null,
+          "trial_period_days": null,
+          "usage_type": "licensed"
+        },
+        "price": {
+          "id": "plan179_1601917598494_75698",
+          "object": "price",
+          "active": true,
+          "billing_scheme": "per_unit",
+          "created": 1601917598,
+          "currency": "usd",
+          "livemode": false,
+          "lookup_key": null,
+          "metadata": {
+            "appid": "tests_1601912968",
+            "published": "1601917604"
+          },
+          "nickname": null,
+          "product": "prod_I9FeMtyoeSs3XG",
+          "recurring": {
+            "aggregate_usage": null,
+            "interval": "month",
+            "interval_count": 1,
+            "trial_period_days": null,
+            "usage_type": "licensed"
+          },
+          "tiers_mode": null,
+          "transform_quantity": null,
+          "type": "recurring",
+          "unit_amount": 1000,
+          "unit_amount_decimal": "1000"
+        },
+        "quantity": 1,
+        "subscription": "sub_I9FeD8c9R2WIAf",
+        "tax_rates": []
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/subscription_items?subscription=sub_I9FeD8c9R2WIAf"
+  },
+  "latest_invoice": "in_1HYx93AhEghhtF2N2boFhsj6",
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1601912968",
+    "accountid": "account_7e14bc2"
+  },
+  "next_pending_invoice_item_invoice": null,
+  "pause_collection": null,
+  "pending_invoice_item_interval": null,
+  "pending_setup_intent": null,
+  "pending_update": null,
+  "plan": {
+    "id": "plan179_1601917598494_75698",
+    "object": "plan",
+    "active": true,
+    "aggregate_usage": null,
+    "amount": 1000,
+    "amount_decimal": "1000",
+    "billing_scheme": "per_unit",
+    "created": 1601917598,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "published": "1601917604"
+    },
+    "nickname": null,
+    "product": "prod_I9FeMtyoeSs3XG",
+    "tiers": null,
+    "tiers_mode": null,
+    "transform_usage": null,
+    "trial_period_days": null,
+    "usage_type": "licensed"
+  },
+  "quantity": 1,
+  "schedule": null,
+  "start_date": 1601917601,
+  "status": "active",
+  "tax_percent": 0,
+  "transfer_data": null,
+  "trial_end": null,
+  "trial_start": null
+}

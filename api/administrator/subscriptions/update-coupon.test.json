@@ -1,0 +1,20 @@
+{
+  "id": "coupon67_1601917674232_278",
+  "object": "coupon",
+  "amount_off": null,
+  "created": 1601917674,
+  "currency": null,
+  "duration": "repeating",
+  "duration_in_months": 3,
+  "livemode": false,
+  "max_redemptions": null,
+  "metadata": {
+    "appid": "tests_1601912968",
+    "published": "1601917679"
+  },
+  "name": "new-name",
+  "percent_off": 25,
+  "redeem_by": null,
+  "times_redeemed": 0,
+  "valid": true
+}

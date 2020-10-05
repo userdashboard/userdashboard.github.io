@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pm_1HYx1eAhEghhtF2N2DIJRUaP",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Melissa Bode",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601917142,
+    "customer": "cus_I9FWdA7xEHeaDG",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_1e1155e"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HYx1cAhEghhtF2NP4PiARXz",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Benny Rempel",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601917140,
+    "customer": "cus_I9FW5C8MNPKtUH",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_711f07b"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1HYx1bAhEghhtF2N0YLHRzso",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Jean Marquardt",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1601917139,
+    "customer": "cus_I9FWs0pXP7pDp5",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1601912968",
+      "accountid": "account_aa8e929"
+    },
+    "type": "card"
+  }
+]

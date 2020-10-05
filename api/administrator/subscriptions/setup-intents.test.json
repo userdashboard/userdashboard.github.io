@@ -1,0 +1,89 @@
+[
+  {
+    "id": "seti_1HYx8uAhEghhtF2NuwozZTC7",
+    "object": "setup_intent",
+    "application": null,
+    "cancellation_reason": null,
+    "client_secret": "seti_1HYx8uAhEghhtF2NuwozZTC7_secret_I9FeMkn1ttHD9PnkSZAwdnRCKmx0mOh",
+    "created": 1601917592,
+    "customer": "cus_I9Fe3xQu9hSaaP",
+    "description": null,
+    "last_setup_error": null,
+    "latest_attempt": null,
+    "livemode": false,
+    "mandate": null,
+    "metadata": {},
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": "pm_1HYx8tAhEghhtF2NY9WN6AfN",
+    "payment_method_options": {
+      "card": {
+        "request_three_d_secure": "automatic"
+      }
+    },
+    "payment_method_types": [
+      "card"
+    ],
+    "single_use_mandate": null,
+    "status": "requires_confirmation",
+    "usage": "off_session"
+  },
+  {
+    "id": "seti_1HYx8rAhEghhtF2NiKskShlA",
+    "object": "setup_intent",
+    "application": null,
+    "cancellation_reason": null,
+    "client_secret": "seti_1HYx8rAhEghhtF2NiKskShlA_secret_I9FePJWBXd9O7tsc4LlCVjwad5GXvAi",
+    "created": 1601917589,
+    "customer": "cus_I9FeKy9n79OWhi",
+    "description": null,
+    "last_setup_error": null,
+    "latest_attempt": null,
+    "livemode": false,
+    "mandate": null,
+    "metadata": {},
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": "pm_1HYx8qAhEghhtF2NrG7ebGcU",
+    "payment_method_options": {
+      "card": {
+        "request_three_d_secure": "automatic"
+      }
+    },
+    "payment_method_types": [
+      "card"
+    ],
+    "single_use_mandate": null,
+    "status": "requires_confirmation",
+    "usage": "off_session"
+  },
+  {
+    "id": "seti_1HYx8oAhEghhtF2Nqz0ErdIa",
+    "object": "setup_intent",
+    "application": null,
+    "cancellation_reason": null,
+    "client_secret": "seti_1HYx8oAhEghhtF2Nqz0ErdIa_secret_I9Fe9zuB6ckgs5Qvy7d2zAKCW6mhVC6",
+    "created": 1601917586,
+    "customer": "cus_I9FefY1y0Dja9S",
+    "description": null,
+    "last_setup_error": null,
+    "latest_attempt": null,
+    "livemode": false,
+    "mandate": null,
+    "metadata": {},
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": "pm_1HYx8oAhEghhtF2NW73rzXV5",
+    "payment_method_options": {
+      "card": {
+        "request_three_d_secure": "automatic"
+      }
+    },
+    "payment_method_types": [
+      "card"
+    ],
+    "single_use_mandate": null,
+    "status": "requires_confirmation",
+    "usage": "off_session"
+  }
+]
