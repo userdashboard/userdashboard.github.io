@@ -112,7 +112,7 @@
           <h1 id="documentation-for-stripe-connect">Documentation for Stripe Connect</h1>
           <h4>Index</h4>
           <ul>
-            <li><a href="#stripe-connect-module">Introduction</a></li>
+            <li><a href="#introduction">Introduction</a></li>
             <li><a href="#module-contents">Module contents</a></li>
             <li><a href="#import-this-module">Import this module</a></li>
             <li><a href="#setting-up-your-stripe-credentials">Setting up your Stripe credentials</a></li>
@@ -126,7 +126,7 @@
           <p>The Stripe Connect module adds a complete &quot;custom&quot; integration of Stripe's Connect API, allowing your users to provide personal or company information and receive payouts on your platform. A UI is provided for users to create and manage their registrations, and a basic administrator UI is provided for oversight. When a user has completed a Stripe account registration and it has been approved by Stripe their status will be changed to <code data-language="js">payouts_enabled</code> and your application can use this property to control access to your platform functionality.</p>
           <p>Currently only automatic payouts are supported. Countries that are &quot;in beta&quot; support by Stripe are not supported and need to be added as they become generally available. The <a href="https://stripe.com/docs/api">Stripe API documentation</a> supplements this documentation.</p>
           <h1 id="module-contents">Module contents</h1>
-          <p>Dashboard modules can add pages and API routes. For more details check the <code data-language="js">sitemap.txt</code> and <code data-language="js">api.txt</code> or the online documentation.</p>
+          <p>Dashboard modules can add pages and API routes. For more details check the <code data-language="js">sitemap.txt</code> and <code data-language="js">api.txt</code> or <code data-language="js">env.txt</code> also contained in the online documentation.</p>
           <table>
             <thead>
               <tr>
@@ -192,7 +192,7 @@ CONNECT_MONGODB_URL=mongo://localhost:27017/connect
 </code></pre>
           <h3 id="access-the-api">Access the API</h3>
           <p>Dashboard and official modules are completely API-driven and you can access the same APIs on behalf of the user making requests. You perform <code data-language="js">GET</code>, <code data-language="js">POST</code>, <code data-language="js">PATCH</code>, and <code data-language="js">DELETE</code> HTTP requests against the API endpoints to fetch or modify data. This example fetches the user's Connect accounts using NodeJS, you can do this with any language:</p>
-          <p>You can view API documentation within the NodeJS modules' <code data-language="js">api.txt</code> files, or on the <a href="https://userdashboard.github.io/organizations-api">documentation site</a>.</p>
+          <p>You can view API documentation within the NodeJS modules' <code data-language="js">api.txt</code> files, or on the <a href="https://userdashboard.github.io/stripe-connect-api">documentation site</a>.</p>
           <pre><code data-language="js">const stripeAccounts = await proxy(`/api/user/connect/stripe-accounts?accountid=${accountid}&amp;all=true`, accountid, sessionid)
 
 const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
@@ -203,12 +203,10 @@ const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
         method: 'GET',
         headers: {
             'x-application-server': 'application.example.com',
-            'x-application-server-token': process.env.APPLICATION_SERVER_TOKEN
+            'x-application-server-token': process.env.APPLICATION_SERVER_TOKEN,
+            'x-accountid': accountid,
+            'x-sessionid': sessionid
         }
-    }
-    if (accountid) {
-        requestOptions.headers['x-accountid'] = accountid
-        requestOptions.headers['x-sessionid'] = sessionid
     }
     const proxyRequest = require('https').request(requestOptions, (proxyResponse) =&gt; {
         let body = ''
