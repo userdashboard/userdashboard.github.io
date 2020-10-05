@@ -112,7 +112,7 @@
           <h1 id="documentation-for-stripe-connect">Documentation for Stripe Connect</h1>
           <h4>Index</h4>
           <ul>
-            <li><a href="#stripe-subscriptions-module">Introduction</a></li>
+            <li><a href="#introduction">Introduction</a></li>
             <li><a href="#module-contents">Module contents</a></li>
             <li><a href="#import-this-module">Import this module</a></li>
             <li><a href="#setting-up-your-stripe-credentials">Setting up your Stripe credentials</a></li>
@@ -126,7 +126,7 @@
           <p>Dashboard bundles everything a web app needs, all the &quot;boilerplate&quot; like signing in and changing passwords, into a parallel server so you can write a much smaller web app.</p>
           <p>The Stripe Subscriptions module adds a complete interface for creating and managing your Stripe products, plans, subscriptions etc and a complete interface for users to subscribe to plans. Users can self-cancel their subscriptions at any time and you can nominate a 0+ day period allowing users to refund themselves too. You can optionally require a subscription and/or no unpaid invoices from all users outside of the <code data-language="js">/account/</code> and <code data-language="js">/administrator/</code> content. The <a href="https://stripe.com/docs/api">Stripe API documentation</a> supplements this documentation.</p>
           <h1 id="module-contents">Module contents</h1>
-          <p>Dashboard modules can add pages and API routes. For more details check the <code data-language="js">sitemap.txt</code> and <code data-language="js">api.txt</code> or the online documentation.</p>
+          <p>Dashboard modules can add pages and API routes. For more details check the <code data-language="js">sitemap.txt</code> and <code data-language="js">api.txt</code> or <code data-language="js">env.txt</code> also contained in the online documentation.</p>
           <table>
             <thead>
               <tr>
@@ -212,7 +212,7 @@ SUBSCRIPTIONS_DATABASE_URL=postgres://localhost:5432/subscriptions
 </code></pre>
           <h3 id="access-the-api">Access the API</h3>
           <p>Dashboard and official modules are completely API-driven and you can access the same APIs on behalf of the user making requests. You perform <code data-language="js">GET</code>, <code data-language="js">POST</code>, <code data-language="js">PATCH</code>, and <code data-language="js">DELETE</code> HTTP requests against the API endpoints to fetch or modify data. This example fetches the user's subscriptions using NodeJS, you can do this with any language:</p>
-          <p>You can view API documentation within the NodeJS modules' <code data-language="js">api.txt</code> files, or on the <a href="https://userdashboard.github.io/organizations-api">documentation site</a>.</p>
+          <p>You can view API documentation within the NodeJS modules' <code data-language="js">api.txt</code> files, or on the <a href="https://userdashboard.github.io/stripe-subscriptions-api">documentation site</a>.</p>
           <pre><code data-language="js">const subscriptions = await proxy(`/api/user/subscriptions/subscriptions?accountid=${accountid}&amp;all=true`, accountid, sessionid)
 
 const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
@@ -223,12 +223,10 @@ const proxy = util.promisify((path, accountid, sessionid, callback) =&gt; {
         method: 'GET',
         headers: {
             'x-application-server': 'application.example.com',
-            'x-application-server-token': process.env.APPLICATION_SERVER_TOKEN
+            'x-application-server-token': process.env.APPLICATION_SERVER_TOKEN,
+            'x-accountid': accountid,
+            'x-sessionid': sessionid
         }
-    }
-    if (accountid) {
-        requestOptions.headers['x-accountid'] = accountid
-        requestOptions.headers['x-sessionid'] = sessionid
     }
     const proxyRequest = require('https').request(requestOptions, (proxyResponse) =&gt; {
         let body = ''
