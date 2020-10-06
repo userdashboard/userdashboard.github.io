@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_59abead",
+  "usernameHash": "e13985ef5333937bdab1e7a6fc31de00b7c2b8bc3e8fad1e072ff32a57b08e3631d54a400bd54fade97a085710ae95b1fddaad026bb0967632e0e99d32cf0f2e",
+  "passwordHash": "$2a$04$8zg1iU7tLD6jQb2xeJ9HnOdHSnMbrdhtyJnkvr6IhRS7zPNfI91rC",
+  "sessionKey": "218a70455eeda726463ea2c04a3a7d46cf60f76cde727b1ea62d1d17911834a0",
+  "sessionKeyNumber": 1,
+  "created": 1602008664,
+  "administrator": 1602008664,
+  "owner": 1602008664,
+  "firstName": "Darlene",
+  "lastName": "Christiansen",
+  "contactEmail": "Darlene.Christiansen29@hotmail.com",
+  "profileid": "profile_386eab3",
+  "lastSignedIn": 1602008664,
+  "deleted": 1602613463
+}

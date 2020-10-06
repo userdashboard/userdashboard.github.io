@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_ace0468",
+  "usernameHash": "a0dbbad63a9b64432e1b876e74261345cbbd2a13c532ad51373be91b5ce07796840039d13ec63106c40491fa56a51408b8e3e9514f7805139a5e8c1ddfd96c5c",
+  "passwordHash": "$2a$04$78o8BPo6R2805na3EF7BLOzFPSViWuwfjULR8GmjnclLseoFODrhq",
+  "sessionKey": "995fe4a38bdc617cd2afa56d10efd6a2981126c280e20a1b44683d43a56396a0",
+  "sessionKeyNumber": 1,
+  "created": 1602008664,
+  "administrator": 1602008664,
+  "owner": 1602008664,
+  "firstName": "Katherine",
+  "lastName": "Parker",
+  "contactEmail": "Katherine_Parker@hotmail.com",
+  "profileid": "profile_f38a8a2",
+  "lastSignedIn": 1602008664,
+  "usernameLastChanged": 1602008664
+}
