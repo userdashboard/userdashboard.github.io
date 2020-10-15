@@ -1,0 +1,17 @@
+{
+  "object": "account",
+  "accountid": "account_5cf9073",
+  "usernameHash": "068a91cfbc02be17f77930db77afd0a98a330d8ef853c3cd28d578e50f604655c5f0e74305b498d4e1a06d30a9227c0acf94ad024451dee664b2e7a52d1d93dc",
+  "passwordHash": "$2a$04$PqIOtmRwHE2CC.AiSGa68eLzSzx8biFzw/r9wOyR4zGqBguqzDw.C",
+  "sessionKey": "c7fa2de0cb09a3c5805448ba55bd94e2b8abe46629f8835279589042910db27f",
+  "sessionKeyNumber": 1,
+  "created": 1602786165,
+  "administrator": 1602786165,
+  "owner": 1602786165,
+  "firstName": "Ashley",
+  "lastName": "Stroman",
+  "contactEmail": "Ashley69@yahoo.com",
+  "profileid": "profile_41cda29",
+  "lastSignedIn": 1602786165,
+  "usernameLastChanged": 1602786165
+}

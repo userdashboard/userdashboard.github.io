@@ -1,0 +1,12 @@
+{
+  "object": "account",
+  "accountid": "account_6df42bc",
+  "sessionKeyNumber": 1,
+  "created": 1602786160,
+  "firstName": "Dwight",
+  "lastName": "Mayer",
+  "contactEmail": "Dwight_Mayer@gmail.com",
+  "profileid": "profile_0bc6e01",
+  "lastSignedIn": 1602786160,
+  "administrator": 1602786160
+}
