@@ -1,26 +1,29 @@
 [
   {
     "object": "session",
-    "sessionid": "session_3e35a52",
-    "accountid": "account_ec12bdd",
-    "created": 1602786164,
-    "expires": 1602787364,
-    "sessionKeyNumber": 1
+    "sessionid": "session_8862f71",
+    "accountid": "account_9f58f4a",
+    "created": 1602864952,
+    "expires": 1602866152,
+    "sessionKeyNumber": 1,
+    "lastVerified": 1602864952
   },
   {
     "object": "session",
-    "sessionid": "session_9828ab1",
-    "accountid": "account_ec12bdd",
-    "created": 1602786164,
-    "expires": 1602787364,
-    "sessionKeyNumber": 1
+    "sessionid": "session_29c978a",
+    "accountid": "account_9f58f4a",
+    "created": 1602864952,
+    "expires": 1602866152,
+    "sessionKeyNumber": 1,
+    "lastVerified": 1602864952
   },
   {
     "object": "session",
-    "sessionid": "session_23e4c21",
-    "accountid": "account_ec12bdd",
-    "created": 1602786164,
-    "expires": 1602787364,
-    "sessionKeyNumber": 1
+    "sessionid": "session_0a498c2",
+    "accountid": "account_9f58f4a",
+    "created": 1602864952,
+    "expires": 1602866152,
+    "sessionKeyNumber": 1,
+    "lastVerified": 1602864952
   }
 ]

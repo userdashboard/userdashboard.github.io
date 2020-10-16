@@ -1,9 +1,10 @@
 {
   "object": "session",
-  "sessionid": "session_806f4ec",
-  "accountid": "account_18973c5",
-  "created": 1602786165,
-  "expires": 1602787365,
+  "sessionid": "session_7f0db9a",
+  "accountid": "account_f4a4d33",
+  "created": 1602864953,
+  "expires": 1602866153,
   "sessionKeyNumber": 1,
-  "ended": 1602786165
+  "lastVerified": 1602864953,
+  "ended": 1602864953
 }
