@@ -1,0 +1,207 @@
+{
+  "id": "acct_1HhIgTAlzx72s0aE",
+  "object": "account",
+  "business_profile": {
+    "mcc": null,
+    "name": null,
+    "product_description": null,
+    "support_address": null,
+    "support_email": null,
+    "support_phone": null,
+    "support_url": null,
+    "url": null
+  },
+  "business_type": "individual",
+  "capabilities": {
+    "card_payments": "inactive",
+    "transfers": "inactive"
+  },
+  "charges_enabled": false,
+  "company": {
+    "address_kana": {
+      "city": "ｼﾌﾞﾔ",
+      "country": "JP",
+      "line1": "27-15",
+      "line2": null,
+      "postal_code": "1500001",
+      "state": "ﾄｳｷﾖｳﾄ",
+      "town": "ｼﾞﾝｸﾞｳﾏｴ 3-"
+    },
+    "address_kanji": {
+      "city": "渋谷区",
+      "country": "JP",
+      "line1": "２７－１５",
+      "line2": null,
+      "postal_code": "１５００００１",
+      "state": "東京都",
+      "town": "神宮前 ３丁目"
+    },
+    "directors_provided": true,
+    "executives_provided": true,
+    "name": null,
+    "name_kana": null,
+    "name_kanji": null,
+    "owners_provided": true,
+    "phone": null,
+    "tax_id_provided": false,
+    "verification": {
+      "document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      }
+    }
+  },
+  "country": "JP",
+  "created": 1603907022,
+  "default_currency": "jpy",
+  "details_submitted": false,
+  "email": null,
+  "external_accounts": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/accounts/acct_1HhIgTAlzx72s0aE/external_accounts"
+  },
+  "individual": {
+    "id": "person_IHsRwIYftBsdqN",
+    "object": "person",
+    "account": "acct_1HhIgTAlzx72s0aE",
+    "address_kana": {
+      "city": "ｼﾌﾞﾔ",
+      "country": "JP",
+      "line1": "27-15",
+      "line2": null,
+      "postal_code": "1500001",
+      "state": "ﾄｳｷﾖｳﾄ",
+      "town": "ｼﾞﾝｸﾞｳﾏｴ 3-"
+    },
+    "address_kanji": {
+      "city": "渋谷区",
+      "country": "JP",
+      "line1": "２７－１５",
+      "line2": null,
+      "postal_code": "１５００００１",
+      "state": "東京都",
+      "town": "神宮前 ３丁目"
+    },
+    "created": 1603907024,
+    "dob": {
+      "day": 1,
+      "month": 1,
+      "year": 1950
+    },
+    "first_name": "東京都",
+    "first_name_kana": "ﾄｳｷﾖｳﾄ",
+    "first_name_kanji": "東京都",
+    "gender": "female",
+    "last_name": "東京都",
+    "last_name_kana": "ﾄｳｷﾖｳﾄ",
+    "last_name_kanji": "東京都",
+    "metadata": {},
+    "relationship": {
+      "director": false,
+      "executive": false,
+      "owner": false,
+      "percent_ownership": null,
+      "representative": true,
+      "title": null
+    },
+    "requirements": {
+      "currently_due": [],
+      "errors": [],
+      "eventually_due": [],
+      "past_due": [],
+      "pending_verification": []
+    },
+    "verification": {
+      "additional_document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      },
+      "details": null,
+      "details_code": null,
+      "document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      },
+      "status": "pending"
+    }
+  },
+  "metadata": {
+    "appid": "tests_1603898898",
+    "accountid": "account_179ffb1",
+    "ip": "127.0.0.1",
+    "requiresOwners": "false",
+    "requiresDirectors": "false",
+    "token": "false"
+  },
+  "payouts_enabled": false,
+  "requirements": {
+    "current_deadline": null,
+    "currently_due": [
+      "external_account",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "disabled_reason": "requirements.past_due",
+    "errors": [],
+    "eventually_due": [
+      "external_account",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "past_due": [
+      "external_account",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "pending_verification": []
+  },
+  "settings": {
+    "bacs_debit_payments": {},
+    "branding": {
+      "icon": null,
+      "logo": null,
+      "primary_color": null,
+      "secondary_color": null
+    },
+    "card_payments": {
+      "decline_on": {
+        "avs_failure": false,
+        "cvc_failure": false
+      },
+      "statement_descriptor_prefix": null
+    },
+    "dashboard": {
+      "display_name": null,
+      "timezone": "Etc/UTC"
+    },
+    "payments": {
+      "statement_descriptor": null,
+      "statement_descriptor_kana": null,
+      "statement_descriptor_kanji": null
+    },
+    "payouts": {
+      "debit_negative_balances": false,
+      "schedule": {
+        "delay_days": 4,
+        "interval": "weekly",
+        "weekly_anchor": "friday"
+      },
+      "statement_descriptor": null
+    }
+  },
+  "tos_acceptance": {
+    "date": null,
+    "ip": null,
+    "user_agent": null
+  },
+  "type": "custom"
+}
