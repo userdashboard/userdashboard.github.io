@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_f6bc022",
+    "organizationid": "organization_584110c",
+    "name": "My organization",
+    "email": "Guy_Lowe21@hotmail.com",
+    "created": 1603901728
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_f6bc022",
+    "organizationid": "organization_d806e6e",
+    "name": "My organization",
+    "email": "Guy_Lowe21@hotmail.com",
+    "created": 1603901728
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_f6bc022",
+    "organizationid": "organization_d730eeb",
+    "name": "My organization",
+    "email": "Guy_Lowe21@hotmail.com",
+    "created": 1603901728
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "object": "organization",
+    "ownerid": "account_e6fc7ba",
+    "organizationid": "organization_f1c062b",
+    "name": "My organization 1",
+    "email": "Ellis.Parisian12@yahoo.com",
+    "created": 1603901725
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_e6fc7ba",
+    "organizationid": "organization_a75770b",
+    "name": "My organization 1",
+    "email": "Ellis.Parisian12@yahoo.com",
+    "created": 1603901725
+  },
+  {
+    "object": "organization",
+    "ownerid": "account_e6fc7ba",
+    "organizationid": "organization_324a87d",
+    "name": "My organization 1",
+    "email": "Ellis.Parisian12@yahoo.com",
+    "created": 1603901725
+  }
+]
