@@ -1,0 +1,100 @@
+{
+  "id": "ch_1Hi0k7AhEghhtF2NOVHH1Zf2",
+  "object": "charge",
+  "amount": 1000,
+  "amount_captured": 1000,
+  "amount_refunded": 0,
+  "application": null,
+  "application_fee": null,
+  "application_fee_amount": null,
+  "balance_transaction": "txn_1Hi0k7AhEghhtF2NG5fy4leh",
+  "billing_details": {
+    "address": {
+      "city": null,
+      "country": null,
+      "line1": null,
+      "line2": null,
+      "postal_code": null,
+      "state": null
+    },
+    "email": null,
+    "name": "Marc Cremin",
+    "phone": null
+  },
+  "calculated_statement_descriptor": "PRODUCT205 DESCRIPTION",
+  "captured": true,
+  "created": 1604076383,
+  "currency": "usd",
+  "customer": "cus_IIbxlwbTKDrFzS",
+  "description": "Subscription creation",
+  "destination": null,
+  "dispute": null,
+  "disputed": false,
+  "failure_code": null,
+  "failure_message": null,
+  "fraud_details": {},
+  "invoice": "in_1Hi0k6AhEghhtF2Nlg6Iykjj",
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1604071806",
+    "accountid": "account_8f40b40",
+    "refundRequested": "1604076391",
+    "refundReason": "unused subscription",
+    "refundDenied": "1604076391",
+    "refundDeniedReason": "no"
+  },
+  "on_behalf_of": null,
+  "order": null,
+  "outcome": {
+    "network_status": "approved_by_network",
+    "reason": null,
+    "risk_level": "normal",
+    "risk_score": 58,
+    "seller_message": "Payment complete.",
+    "type": "authorized"
+  },
+  "paid": true,
+  "payment_intent": "pi_1Hi0k6AhEghhtF2NWND8JxB0",
+  "payment_method": "pm_1Hi0k4AhEghhtF2Nro2KsSxG",
+  "payment_method_details": {
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "installments": null,
+      "last4": "1111",
+      "network": "visa",
+      "three_d_secure": null,
+      "wallet": null
+    },
+    "type": "card"
+  },
+  "receipt_email": null,
+  "receipt_number": null,
+  "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1Hi0k7AhEghhtF2NOVHH1Zf2/rcpt_IIbypqavnVd0OEPB95wGKpsWaW5Wy32",
+  "refunded": false,
+  "refunds": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/charges/ch_1Hi0k7AhEghhtF2NOVHH1Zf2/refunds"
+  },
+  "review": null,
+  "shipping": null,
+  "source": null,
+  "source_transfer": null,
+  "statement_descriptor": "product205 description",
+  "statement_descriptor_suffix": null,
+  "status": "succeeded",
+  "transfer_data": null,
+  "transfer_group": null
+}

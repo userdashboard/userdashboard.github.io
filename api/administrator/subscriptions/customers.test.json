@@ -1,0 +1,155 @@
+[
+  {
+    "id": "cus_IIbpqOtTNNt27r",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1604075892,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Joshua",
+    "discount": null,
+    "email": "Joshua12@hotmail.com",
+    "invoice_prefix": "FE65F1A0",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_a5ba96b"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbpqOtTNNt27r/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbpqOtTNNt27r/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbpqOtTNNt27r/tax_ids"
+    }
+  },
+  {
+    "id": "cus_IIbp6WYyTaGIes",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1604075892,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Gayle",
+    "discount": null,
+    "email": "Gayle43@gmail.com",
+    "invoice_prefix": "3170160F",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_4edff36"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbp6WYyTaGIes/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbp6WYyTaGIes/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbp6WYyTaGIes/tax_ids"
+    }
+  },
+  {
+    "id": "cus_IIbp9pa3rSABV7",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1604075891,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "Cynthia",
+    "discount": null,
+    "email": "Cynthia54@hotmail.com",
+    "invoice_prefix": "3171A4CD",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_462ad6d"
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "sources": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbp9pa3rSABV7/sources"
+    },
+    "subscriptions": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbp9pa3rSABV7/subscriptions"
+    },
+    "tax_exempt": "none",
+    "tax_ids": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/customers/cus_IIbp9pa3rSABV7/tax_ids"
+    }
+  }
+]

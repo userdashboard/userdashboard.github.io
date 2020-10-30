@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pm_1Hi0ymAhEghhtF2NZdB1kvaC",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Olive Corwin",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1604077292,
+    "customer": "cus_IIcDLcA3xTKSEs",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_9a8bb88"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1Hi0ykAhEghhtF2NrJgOpev8",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Olive Corwin",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1604077291,
+    "customer": "cus_IIcDLcA3xTKSEs",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_9a8bb88"
+    },
+    "type": "card"
+  },
+  {
+    "id": "pm_1Hi0yjAhEghhtF2Na0Og74E4",
+    "object": "payment_method",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Olive Corwin",
+      "phone": null
+    },
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "generated_from": null,
+      "last4": "1111",
+      "networks": {
+        "available": [
+          "visa"
+        ],
+        "preferred": null
+      },
+      "three_d_secure_usage": {
+        "supported": true
+      },
+      "wallet": null
+    },
+    "created": 1604077289,
+    "customer": "cus_IIcDLcA3xTKSEs",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_9a8bb88"
+    },
+    "type": "card"
+  }
+]

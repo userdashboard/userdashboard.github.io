@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ch_1Hi0q3AhEghhtF2N7hmskJ6m",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1Hi0q3AhEghhtF2NQyyY6pn6",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Donnie Gerhold",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT253 DESCRIPTION",
+    "captured": true,
+    "created": 1604076751,
+    "currency": "usd",
+    "customer": "cus_IIc4KYzgRhZru4",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1Hi0q2AhEghhtF2NsUyjMH7K",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_5b2bed8"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 32,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1Hi0q2AhEghhtF2NqirJNNNA",
+    "payment_method": "pm_1Hi0q0AhEghhtF2NMBhrvyPC",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "MQBVFcklOzksfQEn",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1Hi0q3AhEghhtF2N7hmskJ6m/rcpt_IIc4Meuns5tdlsMfFmZCtjNi4JM1Zd2",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1Hi0q3AhEghhtF2N7hmskJ6m/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product253 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1Hi0puAhEghhtF2NKU4yxqjt",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1Hi0puAhEghhtF2NvmIK85Ol",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Donnie Gerhold",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT253 DESCRIPTION",
+    "captured": true,
+    "created": 1604076742,
+    "currency": "usd",
+    "customer": "cus_IIc3bl15Ba6OQ2",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1Hi0ptAhEghhtF2NUilxFCxf",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_5b2bed8"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 8,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1Hi0ptAhEghhtF2NVbdojCQz",
+    "payment_method": "pm_1Hi0prAhEghhtF2Nj3UzluNA",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "MQBVFcklOzksfQEn",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1Hi0puAhEghhtF2NKU4yxqjt/rcpt_IIc4cGUFzukXKBmO8TIauSEuNF49qZ4",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1Hi0puAhEghhtF2NKU4yxqjt/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product253 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  {
+    "id": "ch_1Hi0plAhEghhtF2N0FrI6D8f",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_1Hi0pmAhEghhtF2NqQEtpaJZ",
+    "billing_details": {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Donnie Gerhold",
+      "phone": null
+    },
+    "calculated_statement_descriptor": "PRODUCT253 DESCRIPTION",
+    "captured": true,
+    "created": 1604076733,
+    "currency": "usd",
+    "customer": "cus_IIc3SMU9pHWSFx",
+    "description": "Subscription creation",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": {},
+    "invoice": "in_1Hi0plAhEghhtF2NSZFUDCpO",
+    "livemode": false,
+    "metadata": {
+      "appid": "tests_1604071806",
+      "accountid": "account_5b2bed8"
+    },
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "risk_score": 10,
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": "pi_1Hi0plAhEghhtF2NO5DtvUOb",
+    "payment_method": "pm_1Hi0piAhEghhtF2NRc854Gzh",
+    "payment_method_details": {
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": "pass"
+        },
+        "country": "US",
+        "exp_month": 1,
+        "exp_year": 2021,
+        "fingerprint": "MQBVFcklOzksfQEn",
+        "funding": "credit",
+        "installments": null,
+        "last4": "1111",
+        "network": "visa",
+        "three_d_secure": null,
+        "wallet": null
+      },
+      "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1Hi0plAhEghhtF2N0FrI6D8f/rcpt_IIc3jsKTxCOAbsMh1acsErP5jShn4nu",
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1Hi0plAhEghhtF2N0FrI6D8f/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": null,
+    "source_transfer": null,
+    "statement_descriptor": "product253 description",
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+  }
+]

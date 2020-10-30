@@ -1,0 +1,18 @@
+{
+  "id": "re_1Hi0gVAhEghhtF2NFXI4cSzo",
+  "object": "refund",
+  "amount": 1000,
+  "balance_transaction": "txn_1Hi0gVAhEghhtF2NmQn2O8JU",
+  "charge": "ch_1Hi0gQAhEghhtF2NSNaGgj92",
+  "created": 1604076159,
+  "currency": "usd",
+  "metadata": {
+    "appid": "tests_1604071806"
+  },
+  "payment_intent": "pi_1Hi0gQAhEghhtF2NshjqJiFn",
+  "reason": "requested_by_customer",
+  "receipt_number": null,
+  "source_transfer_reversal": null,
+  "status": "succeeded",
+  "transfer_reversal": null
+}

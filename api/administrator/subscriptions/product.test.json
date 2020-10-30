@@ -1,0 +1,19 @@
+{
+  "id": "prod_IIbsKYl2CKb2ld",
+  "object": "product",
+  "active": true,
+  "attributes": [],
+  "created": 1604076070,
+  "description": null,
+  "images": [],
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1604071806",
+    "published": "1604076074"
+  },
+  "name": "product171_1604076069994_485",
+  "statement_descriptor": "product171 description",
+  "type": "service",
+  "unit_label": "thing",
+  "updated": 1604076070
+}

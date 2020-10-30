@@ -1,0 +1,96 @@
+{
+  "id": "ch_1Hi0ZjAhEghhtF2N6nshWXNG",
+  "object": "charge",
+  "amount": 1000,
+  "amount_captured": 1000,
+  "amount_refunded": 0,
+  "application": null,
+  "application_fee": null,
+  "application_fee_amount": null,
+  "balance_transaction": "txn_1Hi0ZjAhEghhtF2NlAoCiRai",
+  "billing_details": {
+    "address": {
+      "city": null,
+      "country": null,
+      "line1": null,
+      "line2": null,
+      "postal_code": null,
+      "state": null
+    },
+    "email": null,
+    "name": "Frank Hayes",
+    "phone": null
+  },
+  "calculated_statement_descriptor": "PRODUCT129 DESCRIPTION",
+  "captured": true,
+  "created": 1604075739,
+  "currency": "usd",
+  "customer": "cus_IIbnLiRaa9JFxi",
+  "description": "Subscription creation",
+  "destination": null,
+  "dispute": null,
+  "disputed": false,
+  "failure_code": null,
+  "failure_message": null,
+  "fraud_details": {},
+  "invoice": "in_1Hi0ZiAhEghhtF2NGW5oTimD",
+  "livemode": false,
+  "metadata": {
+    "appid": "tests_1604071806",
+    "accountid": "account_c13e89f"
+  },
+  "on_behalf_of": null,
+  "order": null,
+  "outcome": {
+    "network_status": "approved_by_network",
+    "reason": null,
+    "risk_level": "normal",
+    "risk_score": 46,
+    "seller_message": "Payment complete.",
+    "type": "authorized"
+  },
+  "paid": true,
+  "payment_intent": "pi_1Hi0ZiAhEghhtF2NyZNiC2eE",
+  "payment_method": "pm_1Hi0ZgAhEghhtF2NKNmV5jqj",
+  "payment_method_details": {
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": null,
+        "address_postal_code_check": null,
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 1,
+      "exp_year": 2021,
+      "fingerprint": "MQBVFcklOzksfQEn",
+      "funding": "credit",
+      "installments": null,
+      "last4": "1111",
+      "network": "visa",
+      "three_d_secure": null,
+      "wallet": null
+    },
+    "type": "card"
+  },
+  "receipt_email": null,
+  "receipt_number": null,
+  "receipt_url": "https://pay.stripe.com/receipts/acct_1CvSyLAhEghhtF2N/ch_1Hi0ZjAhEghhtF2N6nshWXNG/rcpt_IIbnRhR2Ylqy8gX513sf3dKWdUZ62PF",
+  "refunded": false,
+  "refunds": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/charges/ch_1Hi0ZjAhEghhtF2N6nshWXNG/refunds"
+  },
+  "review": null,
+  "shipping": null,
+  "source": null,
+  "source_transfer": null,
+  "statement_descriptor": "product129 description",
+  "statement_descriptor_suffix": null,
+  "status": "succeeded",
+  "transfer_data": null,
+  "transfer_group": null
+}
