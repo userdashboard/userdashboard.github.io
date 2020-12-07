@@ -1,11 +1,11 @@
 {
   "object": "session",
-  "sessionid": "session_a3278f1",
-  "accountid": "account_2cc2853",
-  "tokenHash": "3733181b9936f67c6508cfcafe474274659f3eb0bdee8b5bde187af43e258049cb85f4a9e42890958614f6e771952878cd17613f7c3972c26489c08f9511a327",
-  "created": 1607307351,
-  "expires": 1607308551,
+  "sessionid": "session_cd433a7",
+  "accountid": "account_56cd0ec",
+  "tokenHash": "0faa957a8606473572d38fb74db6831322989c5805c921df3551bf1c64fe69746a10070bdeeca1541943062e1309d04df584d57383d51beee4f43304569194e4",
+  "created": 1607312781,
+  "expires": 1607313981,
   "sessionKeyNumber": 1,
-  "lastVerified": 1607307351,
-  "token": "eeba62bcd9c234ceebe2eb5e3ac508cd8546951b7b6ec2a828011cb637552801"
+  "lastVerified": 1607312781,
+  "token": "bac2827e6aebe45e2ca556fac9db97df342cca566933081bcbf732cbb4977041"
 }
