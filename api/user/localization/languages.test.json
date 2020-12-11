@@ -1,0 +1,20 @@
+[
+  {
+    "object": "language",
+    "languageid": "da",
+    "name": "Dansk",
+    "active": true
+  },
+  {
+    "object": "language",
+    "languageid": "cy",
+    "name": "Cymraeg",
+    "active": true
+  },
+  {
+    "object": "language",
+    "languageid": "cs",
+    "name": "Čeština",
+    "active": true
+  }
+]

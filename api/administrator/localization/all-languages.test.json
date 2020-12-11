@@ -1,0 +1,20 @@
+[
+  {
+    "object": "language",
+    "languageid": "af",
+    "name": "Afrikaans",
+    "active": false
+  },
+  {
+    "object": "language",
+    "languageid": "bg",
+    "name": "български",
+    "active": false
+  },
+  {
+    "object": "language",
+    "languageid": "ca",
+    "name": "Català",
+    "active": false
+  }
+]

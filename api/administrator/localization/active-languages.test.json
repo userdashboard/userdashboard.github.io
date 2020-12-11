@@ -1,0 +1,20 @@
+[
+  {
+    "object": "language",
+    "languageid": "kn",
+    "name": "ಕನ್ನಡ",
+    "active": true
+  },
+  {
+    "object": "language",
+    "languageid": "ko",
+    "name": "한국어",
+    "active": true
+  },
+  {
+    "object": "language",
+    "languageid": "ja",
+    "name": "日本語",
+    "active": true
+  }
+]
