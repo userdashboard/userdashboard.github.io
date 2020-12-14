@@ -1,36 +1,35 @@
 {
-  "id": "acct_1HiCMPAlDccRpoxb",
+  "id": "acct_1HyJWSPOZUAEzr3i",
   "object": "account",
   "business_profile": {
-    "mcc": "8931",
+    "mcc": null,
     "name": null,
     "product_description": null,
     "support_address": null,
     "support_email": null,
     "support_phone": null,
     "support_url": null,
-    "url": "https://hotmail.com"
+    "url": null
   },
   "business_type": "individual",
   "capabilities": {
-    "card_payments": "pending",
-    "transfers": "pending"
+    "card_payments": "inactive",
+    "transfers": "inactive"
   },
   "charges_enabled": false,
   "company": {
     "address": {
-      "city": "Oslo",
-      "country": "NO",
-      "line1": "123 Sesame St",
+      "city": null,
+      "country": "HK",
+      "line1": null,
       "line2": null,
-      "postal_code": "0001",
+      "postal_code": null,
       "state": null
     },
     "directors_provided": true,
     "executives_provided": true,
     "name": null,
     "owners_provided": true,
-    "phone": "+14567890123",
     "tax_id_provided": false,
     "verification": {
       "document": {
@@ -41,9 +40,9 @@
       }
     }
   },
-  "country": "NO",
-  "created": 1604121041,
-  "default_currency": "nok",
+  "country": "HK",
+  "created": 1607961820,
+  "default_currency": "hkd",
   "details_submitted": false,
   "email": null,
   "external_accounts": {
@@ -51,32 +50,32 @@
     "data": [],
     "has_more": false,
     "total_count": 0,
-    "url": "/v1/accounts/acct_1HiCMPAlDccRpoxb/external_accounts"
+    "url": "/v1/accounts/acct_1HyJWSPOZUAEzr3i/external_accounts"
   },
   "individual": {
-    "id": "person_IInysEEGaZujtL",
+    "id": "person_IZSR6gOCsFBljc",
     "object": "person",
-    "account": "acct_1HiCMPAlDccRpoxb",
+    "account": "acct_1HyJWSPOZUAEzr3i",
     "address": {
-      "city": "Oslo",
-      "country": "NO",
-      "line1": "123 Sesame St",
+      "city": null,
+      "country": "HK",
+      "line1": null,
       "line2": null,
-      "postal_code": "0001",
+      "postal_code": null,
       "state": null
     },
-    "created": 1604121044,
+    "created": 1607961822,
     "dob": {
       "day": 1,
       "month": 1,
       "year": 1950
     },
-    "email": "Katrina_Keebler61@hotmail.com",
-    "first_name": "Katrina",
-    "last_name": "Keebler",
+    "first_name": "Barry",
+    "id_number_provided": false,
+    "last_name": "Streich",
     "metadata": {},
-    "phone": "+14567890123",
     "relationship": {
+      "account_opener": true,
       "director": false,
       "executive": false,
       "owner": false,
@@ -87,12 +86,13 @@
     "requirements": {
       "currently_due": [],
       "errors": [],
-      "eventually_due": [],
+      "eventually_due": [
+        "address.city",
+        "address.line1",
+        "id_number"
+      ],
       "past_due": [],
-      "pending_verification": [
-        "verification.additional_document",
-        "verification.document"
-      ]
+      "pending_verification": []
     },
     "verification": {
       "additional_document": {
@@ -113,11 +113,11 @@
     }
   },
   "metadata": {
-    "appid": "tests_1604112828",
-    "accountid": "account_e018fc8",
+    "appid": "tests_1607956046",
+    "accountid": "account_bf31461",
     "ip": "127.0.0.1",
-    "requiresOwners": "true",
-    "requiresDirectors": "true",
+    "requiresOwners": "false",
+    "requiresDirectors": "false",
     "token": "false"
   },
   "payouts_enabled": false,
@@ -132,6 +132,9 @@
     "errors": [],
     "eventually_due": [
       "external_account",
+      "individual.address.city",
+      "individual.address.line1",
+      "individual.id_number",
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
@@ -140,10 +143,7 @@
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
-    "pending_verification": [
-      "individual.verification.additional_document",
-      "individual.verification.document"
-    ]
+    "pending_verification": []
   },
   "settings": {
     "bacs_debit_payments": {},
@@ -161,11 +161,11 @@
       "statement_descriptor_prefix": null
     },
     "dashboard": {
-      "display_name": "Hotmail",
+      "display_name": null,
       "timezone": "Etc/UTC"
     },
     "payments": {
-      "statement_descriptor": "HTTPS://HOTMAIL.COM",
+      "statement_descriptor": null,
       "statement_descriptor_kana": null,
       "statement_descriptor_kanji": null
     },
@@ -176,7 +176,8 @@
         "interval": "daily"
       },
       "statement_descriptor": null
-    }
+    },
+    "sepa_debit_payments": {}
   },
   "tos_acceptance": {
     "date": null,

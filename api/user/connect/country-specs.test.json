@@ -254,10 +254,10 @@
           "company.phone",
           "company.tax_id",
           "external_account",
+          "relationship.account_opener",
           "relationship.director",
           "relationship.executive",
           "relationship.owner",
-          "relationship.representative",
           "tos_acceptance.date",
           "tos_acceptance.ip"
         ]
@@ -491,10 +491,10 @@
           "company.phone",
           "company.tax_id",
           "external_account",
+          "relationship.account_opener",
           "relationship.director",
           "relationship.executive",
           "relationship.owner",
-          "relationship.representative",
           "tos_acceptance.date",
           "tos_acceptance.ip"
         ]

@@ -199,8 +199,8 @@
         "company.phone",
         "company.tax_id",
         "external_account",
+        "relationship.account_opener",
         "relationship.owner",
-        "relationship.representative",
         "tos_acceptance.date",
         "tos_acceptance.ip"
       ]

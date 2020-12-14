@@ -1,5 +1,5 @@
 {
-  "id": "acct_1HiCCeBNHPB4xwMx",
+  "id": "acct_1HyJMTPE6IEYhLQ4",
   "object": "account",
   "business_profile": {
     "mcc": null,
@@ -41,7 +41,7 @@
     }
   },
   "country": "US",
-  "created": 1604120436,
+  "created": 1607961202,
   "default_currency": "usd",
   "details_submitted": false,
   "email": null,
@@ -49,10 +49,10 @@
     "object": "list",
     "data": [
       {
-        "id": "ba_1HiCCgBNHPB4xwMxfFqoPVrJ",
+        "id": "ba_1HyJMVPE6IEYhLQ4TGIob3eK",
         "object": "bank_account",
-        "account": "acct_1HiCCeBNHPB4xwMx",
-        "account_holder_name": "Jared Lueilwitz",
+        "account": "acct_1HyJMTPE6IEYhLQ4",
+        "account_holder_name": "Myron McGlynn",
         "account_holder_type": "individual",
         "available_payout_methods": [
           "standard"
@@ -70,11 +70,11 @@
     ],
     "has_more": false,
     "total_count": 1,
-    "url": "/v1/accounts/acct_1HiCCeBNHPB4xwMx/external_accounts"
+    "url": "/v1/accounts/acct_1HyJMTPE6IEYhLQ4/external_accounts"
   },
   "metadata": {
-    "appid": "tests_1604112828",
-    "accountid": "account_78c32d4",
+    "appid": "tests_1607956046",
+    "accountid": "account_737f154",
     "ip": "127.0.0.1",
     "requiresOwners": "true",
     "requiresDirectors": "false"
@@ -171,7 +171,8 @@
         "interval": "daily"
       },
       "statement_descriptor": null
-    }
+    },
+    "sepa_debit_payments": {}
   },
   "tos_acceptance": {
     "date": null,

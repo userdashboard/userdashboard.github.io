@@ -1,7 +1,7 @@
 {
-  "id": "person_IInquly2icgJJp",
+  "id": "person_IZSJv3U4JiXGZT",
   "object": "person",
-  "account": "acct_1HiCF5KN1lPahjiB",
+  "account": "acct_1HyJOpPFABL1t4hZ",
   "address": {
     "city": "London",
     "country": "GB",
@@ -10,20 +10,21 @@
     "postal_code": "EC1A 1AA",
     "state": null
   },
-  "created": 1604120590,
+  "created": 1607961350,
   "dob": {
     "day": 1,
     "month": 1,
     "year": 1950
   },
-  "email": "Priscilla_Graham@hotmail.com",
-  "first_name": "Priscilla",
-  "last_name": "Graham",
+  "email": "Ed.McLaughlin40@yahoo.com",
+  "first_name": "Ed",
+  "last_name": "McLaughlin",
   "metadata": {
     "token": "false"
   },
   "phone": "+14567890123",
   "relationship": {
+    "account_opener": true,
     "director": false,
     "executive": true,
     "owner": false,

@@ -1,7 +1,7 @@
 {
-  "id": "person_IInU1VZUZncGO8",
+  "id": "person_IZRzfkxHhdEGqw",
   "object": "person",
-  "account": "acct_1HiBtEFNfzYP7ogq",
+  "account": "acct_1HyJ5tPCchcqedoY",
   "address": {
     "city": null,
     "country": "US",
@@ -10,7 +10,7 @@
     "postal_code": null,
     "state": null
   },
-  "created": 1604119234,
+  "created": 1607960175,
   "dob": {
     "day": null,
     "month": null,
@@ -21,6 +21,7 @@
   "last_name": null,
   "metadata": {},
   "relationship": {
+    "account_opener": true,
     "director": false,
     "executive": true,
     "owner": true,

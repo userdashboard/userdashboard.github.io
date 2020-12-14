@@ -1,5 +1,5 @@
 {
-  "id": "acct_1HiC3GCwrRwLIVRk",
+  "id": "acct_1HyJERPN6jRtjbhh",
   "object": "account",
   "business_profile": {
     "mcc": null,
@@ -41,7 +41,7 @@
     }
   },
   "country": "US",
-  "created": 1604119854,
+  "created": 1607960704,
   "default_currency": "usd",
   "details_submitted": false,
   "email": null,
@@ -50,11 +50,11 @@
     "data": [],
     "has_more": false,
     "total_count": 0,
-    "url": "/v1/accounts/acct_1HiC3GCwrRwLIVRk/external_accounts"
+    "url": "/v1/accounts/acct_1HyJERPN6jRtjbhh/external_accounts"
   },
   "metadata": {
-    "appid": "tests_1604112828",
-    "accountid": "account_24cdd55",
+    "appid": "tests_1607956046",
+    "accountid": "account_160c6fe",
     "ip": "127.0.0.1",
     "requiresOwners": "true",
     "requiresDirectors": "false"
@@ -73,8 +73,8 @@
       "company.phone",
       "company.tax_id",
       "external_account",
+      "relationship.account_opener",
       "relationship.owner",
-      "relationship.representative",
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
@@ -91,8 +91,8 @@
       "company.phone",
       "company.tax_id",
       "external_account",
+      "relationship.account_opener",
       "relationship.owner",
-      "relationship.representative",
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
@@ -107,8 +107,8 @@
       "company.phone",
       "company.tax_id",
       "external_account",
+      "relationship.account_opener",
       "relationship.owner",
-      "relationship.representative",
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
@@ -145,7 +145,8 @@
         "interval": "daily"
       },
       "statement_descriptor": null
-    }
+    },
+    "sepa_debit_payments": {}
   },
   "tos_acceptance": {
     "date": null,

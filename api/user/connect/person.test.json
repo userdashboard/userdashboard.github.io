@@ -1,7 +1,7 @@
 {
-  "id": "person_IIndQe9KoTFSsN",
+  "id": "person_IZS7RCK9j3n8Hj",
   "object": "person",
-  "account": "acct_1HiC1iGJAqjV3b51",
+  "account": "acct_1HyJCuPKw2b0x4yk",
   "address": {
     "city": "Berlin",
     "country": "DE",
@@ -10,20 +10,21 @@
     "postal_code": "01067",
     "state": null
   },
-  "created": 1604119761,
+  "created": 1607960610,
   "dob": {
     "day": 1,
     "month": 1,
     "year": 1950
   },
-  "email": "Stewart.Cartwright95@yahoo.com",
-  "first_name": "Stewart",
-  "last_name": "Cartwright",
+  "email": "Stella.Terry20@gmail.com",
+  "first_name": "Stella",
+  "last_name": "Terry",
   "metadata": {
     "token": "false"
   },
   "phone": "+14567890123",
   "relationship": {
+    "account_opener": true,
     "director": false,
     "executive": true,
     "owner": false,

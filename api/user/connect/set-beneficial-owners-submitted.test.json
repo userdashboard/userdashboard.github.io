@@ -1,5 +1,5 @@
 {
-  "id": "acct_1HiC2xAJGg1B0UpC",
+  "id": "acct_1HyJE9PFh6zrgmSY",
   "object": "account",
   "business_profile": {
     "mcc": null,
@@ -41,7 +41,7 @@
     }
   },
   "country": "US",
-  "created": 1604119835,
+  "created": 1607960685,
   "default_currency": "usd",
   "details_submitted": false,
   "email": null,
@@ -50,11 +50,11 @@
     "data": [],
     "has_more": false,
     "total_count": 0,
-    "url": "/v1/accounts/acct_1HiC2xAJGg1B0UpC/external_accounts"
+    "url": "/v1/accounts/acct_1HyJE9PFh6zrgmSY/external_accounts"
   },
   "metadata": {
-    "appid": "tests_1604112828",
-    "accountid": "account_3d89d75",
+    "appid": "tests_1607956046",
+    "accountid": "account_ca0937e",
     "ip": "127.0.0.1",
     "requiresOwners": "true",
     "requiresDirectors": "false"
@@ -73,10 +73,10 @@
       "company.phone",
       "company.tax_id",
       "external_account",
-      "person_IIneSnROKIJA6L.email",
-      "person_IIneSnROKIJA6L.first_name",
-      "person_IIneSnROKIJA6L.last_name",
-      "relationship.representative",
+      "person_IZS8KhcCt3GoFU.email",
+      "person_IZS8KhcCt3GoFU.first_name",
+      "person_IZS8KhcCt3GoFU.last_name",
+      "relationship.account_opener",
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
@@ -93,19 +93,19 @@
       "company.phone",
       "company.tax_id",
       "external_account",
-      "person_IIneSnROKIJA6L.address.city",
-      "person_IIneSnROKIJA6L.address.line1",
-      "person_IIneSnROKIJA6L.address.postal_code",
-      "person_IIneSnROKIJA6L.address.state",
-      "person_IIneSnROKIJA6L.dob.day",
-      "person_IIneSnROKIJA6L.dob.month",
-      "person_IIneSnROKIJA6L.dob.year",
-      "person_IIneSnROKIJA6L.email",
-      "person_IIneSnROKIJA6L.first_name",
-      "person_IIneSnROKIJA6L.last_name",
-      "person_IIneSnROKIJA6L.phone",
-      "person_IIneSnROKIJA6L.ssn_last_4",
-      "relationship.representative",
+      "person_IZS8KhcCt3GoFU.address.city",
+      "person_IZS8KhcCt3GoFU.address.line1",
+      "person_IZS8KhcCt3GoFU.address.postal_code",
+      "person_IZS8KhcCt3GoFU.address.state",
+      "person_IZS8KhcCt3GoFU.dob.day",
+      "person_IZS8KhcCt3GoFU.dob.month",
+      "person_IZS8KhcCt3GoFU.dob.year",
+      "person_IZS8KhcCt3GoFU.email",
+      "person_IZS8KhcCt3GoFU.first_name",
+      "person_IZS8KhcCt3GoFU.last_name",
+      "person_IZS8KhcCt3GoFU.phone",
+      "person_IZS8KhcCt3GoFU.ssn_last_4",
+      "relationship.account_opener",
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
@@ -120,10 +120,10 @@
       "company.phone",
       "company.tax_id",
       "external_account",
-      "person_IIneSnROKIJA6L.email",
-      "person_IIneSnROKIJA6L.first_name",
-      "person_IIneSnROKIJA6L.last_name",
-      "relationship.representative",
+      "person_IZS8KhcCt3GoFU.email",
+      "person_IZS8KhcCt3GoFU.first_name",
+      "person_IZS8KhcCt3GoFU.last_name",
+      "relationship.account_opener",
       "tos_acceptance.date",
       "tos_acceptance.ip"
     ],
@@ -160,7 +160,8 @@
         "interval": "daily"
       },
       "statement_descriptor": null
-    }
+    },
+    "sepa_debit_payments": {}
   },
   "tos_acceptance": {
     "date": null,
