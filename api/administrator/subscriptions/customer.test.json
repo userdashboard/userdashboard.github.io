@@ -1,25 +1,26 @@
 {
-  "id": "cus_IIbpftif9dFxo4",
+  "id": "cus_IaluXMGlswa6As",
   "object": "customer",
+  "account_balance": 0,
   "address": null,
   "balance": 0,
-  "created": 1604075885,
+  "created": 1608264899,
   "currency": null,
   "default_source": null,
   "delinquent": false,
-  "description": "Charlie",
+  "description": "Jamie",
   "discount": null,
-  "email": "Charlie.Schamberger0@hotmail.com",
-  "invoice_prefix": "9BAB987C",
+  "email": "Jamie.Orn@hotmail.com",
+  "invoice_prefix": "12BB4433",
   "invoice_settings": {
     "custom_fields": null,
-    "default_payment_method": "pm_1Hi0c6AhEghhtF2NUM5IMNX6",
+    "default_payment_method": "pm_1HzaMqAhEghhtF2NqZPwAkMU",
     "footer": null
   },
   "livemode": false,
   "metadata": {
-    "appid": "tests_1604071806",
-    "accountid": "account_59d848e"
+    "appid": "tests_1608261251",
+    "accountid": "account_bf6e58b"
   },
   "name": null,
   "next_invoice_sequence": 1,
@@ -31,14 +32,14 @@
     "data": [],
     "has_more": false,
     "total_count": 0,
-    "url": "/v1/customers/cus_IIbpftif9dFxo4/sources"
+    "url": "/v1/customers/cus_IaluXMGlswa6As/sources"
   },
   "subscriptions": {
     "object": "list",
     "data": [],
     "has_more": false,
     "total_count": 0,
-    "url": "/v1/customers/cus_IIbpftif9dFxo4/subscriptions"
+    "url": "/v1/customers/cus_IaluXMGlswa6As/subscriptions"
   },
   "tax_exempt": "none",
   "tax_ids": {
@@ -46,6 +47,8 @@
     "data": [],
     "has_more": false,
     "total_count": 0,
-    "url": "/v1/customers/cus_IIbpftif9dFxo4/tax_ids"
-  }
+    "url": "/v1/customers/cus_IaluXMGlswa6As/tax_ids"
+  },
+  "tax_info": null,
+  "tax_info_verification": null
 }

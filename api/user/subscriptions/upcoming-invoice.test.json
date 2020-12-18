@@ -9,15 +9,16 @@
   "application_fee_amount": null,
   "attempt_count": 0,
   "attempted": false,
+  "billing": "charge_automatically",
   "billing_reason": "upcoming",
   "charge": null,
   "collection_method": "charge_automatically",
-  "created": 1606756490,
+  "created": 1610945382,
   "currency": "usd",
   "custom_fields": null,
-  "customer": "cus_IIcQHq6VkiAwp5",
+  "customer": "cus_IamTNCEumNl44c",
   "customer_address": null,
-  "customer_email": "Darryl_Prosacco39@yahoo.com",
+  "customer_email": "Vicki_Larson@hotmail.com",
   "customer_name": null,
   "customer_phone": null,
   "customer_shipping": null,
@@ -46,46 +47,47 @@
   "due_date": null,
   "ending_balance": 0,
   "footer": null,
+  "last_finalization_error": null,
   "lines": {
     "object": "list",
     "data": [
       {
-        "id": "il_tmp_2bd975ead0d550",
+        "id": "sli_78c0822abfa4c8",
         "object": "line_item",
         "amount": 1000,
         "currency": "usd",
-        "description": "1 thing × product355_1604078087386_314 (at $10.00 / month)",
+        "description": "1 thing × product355_1608266978887_690 (at $10.00 / month)",
         "discount_amounts": [],
         "discountable": true,
         "discounts": [],
         "livemode": false,
         "metadata": {
-          "appid": "tests_1604071806",
-          "accountid": "account_349214b"
+          "appid": "tests_1608261251",
+          "accountid": "account_b2fb3f5"
         },
         "period": {
-          "end": 1609348490,
-          "start": 1606756490
+          "end": 1613623782,
+          "start": 1610945382
         },
         "plan": {
-          "id": "plan318_1604078087583_84387",
+          "id": "plan318_1608266979074_57080",
           "object": "plan",
           "active": true,
           "aggregate_usage": null,
           "amount": 1000,
           "amount_decimal": "1000",
           "billing_scheme": "per_unit",
-          "created": 1604078087,
+          "created": 1608266979,
           "currency": "usd",
           "interval": "month",
           "interval_count": 1,
           "livemode": false,
           "metadata": {
-            "appid": "tests_1604071806",
-            "published": "1604078091"
+            "appid": "tests_1608261251",
+            "published": "1608266985"
           },
           "nickname": null,
-          "product": "prod_IIcQiQlvkPL2Rj",
+          "product": "prod_IamTEMAozj4g2v",
           "tiers": null,
           "tiers_mode": null,
           "transform_usage": null,
@@ -93,20 +95,20 @@
           "usage_type": "licensed"
         },
         "price": {
-          "id": "plan318_1604078087583_84387",
+          "id": "plan318_1608266979074_57080",
           "object": "price",
           "active": true,
           "billing_scheme": "per_unit",
-          "created": 1604078087,
+          "created": 1608266979,
           "currency": "usd",
           "livemode": false,
           "lookup_key": null,
           "metadata": {
-            "appid": "tests_1604071806",
-            "published": "1604078091"
+            "appid": "tests_1608261251",
+            "published": "1608266985"
           },
           "nickname": null,
-          "product": "prod_IIcQiQlvkPL2Rj",
+          "product": "prod_IamTEMAozj4g2v",
           "recurring": {
             "aggregate_usage": null,
             "interval": "month",
@@ -122,8 +124,8 @@
         },
         "proration": false,
         "quantity": 1,
-        "subscription": "sub_IIcQOuhHE84QGe",
-        "subscription_item": "si_IIcQrqwaD6q2Ok",
+        "subscription": "sub_IamTHdNL0dYdmV",
+        "subscription_item": "si_IamTEtmTFMVlOV",
         "tax_amounts": [
           {
             "amount": 0,
@@ -132,21 +134,22 @@
           }
         ],
         "tax_rates": [],
-        "type": "subscription"
+        "type": "subscription",
+        "unique_id": "il_tmp_78c0822abfa4c8"
       }
     ],
     "has_more": false,
     "total_count": 1,
-    "url": "/v1/invoices/upcoming/lines?customer=cus_IIcQHq6VkiAwp5&subscription=sub_IIcQOuhHE84QGe"
+    "url": "/v1/invoices/upcoming/lines?customer=cus_IamTNCEumNl44c&subscription=sub_IamTHdNL0dYdmV"
   },
   "livemode": false,
   "metadata": {},
-  "next_payment_attempt": 1606760090,
-  "number": "0EBD43B0-0002",
+  "next_payment_attempt": 1610948982,
+  "number": "28B10C2E-0002",
   "paid": false,
   "payment_intent": null,
-  "period_end": 1606756490,
-  "period_start": 1604078090,
+  "period_end": 1610945382,
+  "period_start": 1608266982,
   "post_payment_credit_notes_amount": 0,
   "pre_payment_credit_notes_amount": 0,
   "receipt_number": null,
@@ -159,7 +162,7 @@
     "paid_at": null,
     "voided_at": null
   },
-  "subscription": "sub_IIcQOuhHE84QGe",
+  "subscription": "sub_IamTHdNL0dYdmV",
   "subtotal": 1000,
   "tax": 0,
   "tax_percent": 0,

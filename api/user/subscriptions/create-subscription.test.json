@@ -1,19 +1,20 @@
 {
-  "id": "sub_IIc8GBun5BvAcg",
+  "id": "sub_IamBf4PpFsx9Kl",
   "object": "subscription",
   "application_fee_percent": null,
-  "billing_cycle_anchor": 1604077007,
+  "billing": "charge_automatically",
+  "billing_cycle_anchor": 1608265939,
   "billing_thresholds": null,
   "cancel_at": null,
   "cancel_at_period_end": false,
   "canceled_at": null,
   "collection_method": "charge_automatically",
-  "created": 1604077007,
-  "current_period_end": 1606755407,
-  "current_period_start": 1604077007,
-  "customer": "cus_IIc84pG1aKqMql",
+  "created": 1608265939,
+  "current_period_end": 1610944339,
+  "current_period_start": 1608265939,
+  "customer": "cus_IamBvmjyUxgGpk",
   "days_until_due": null,
-  "default_payment_method": "pm_1Hi0uAAhEghhtF2Nku1LSugT",
+  "default_payment_method": "pm_1HzadaAhEghhtF2NJaDj7Iaf",
   "default_source": null,
   "default_tax_rates": [
     {
@@ -32,34 +33,37 @@
   ],
   "discount": null,
   "ended_at": null,
+  "invoice_customer_balance_settings": {
+    "consume_applied_balance_on_void": true
+  },
   "items": {
     "object": "list",
     "data": [
       {
-        "id": "si_IIc8ej6iE8KU21",
+        "id": "si_IamBlXBE0DWXdE",
         "object": "subscription_item",
         "billing_thresholds": null,
-        "created": 1604077008,
+        "created": 1608265940,
         "metadata": {},
         "plan": {
-          "id": "plan221_1604077005518_34489",
+          "id": "plan221_1608265937639_78569",
           "object": "plan",
           "active": true,
           "aggregate_usage": null,
           "amount": 1000,
           "amount_decimal": "1000",
           "billing_scheme": "per_unit",
-          "created": 1604077005,
+          "created": 1608265937,
           "currency": "usd",
           "interval": "month",
           "interval_count": 1,
           "livemode": false,
           "metadata": {
-            "appid": "tests_1604071806",
-            "published": "1604077010"
+            "appid": "tests_1608261251",
+            "published": "1608265944"
           },
           "nickname": null,
-          "product": "prod_IIc8kdSF4NoqSU",
+          "product": "prod_IamBs90Vu4GaYR",
           "tiers": null,
           "tiers_mode": null,
           "transform_usage": null,
@@ -67,20 +71,20 @@
           "usage_type": "licensed"
         },
         "price": {
-          "id": "plan221_1604077005518_34489",
+          "id": "plan221_1608265937639_78569",
           "object": "price",
           "active": true,
           "billing_scheme": "per_unit",
-          "created": 1604077005,
+          "created": 1608265937,
           "currency": "usd",
           "livemode": false,
           "lookup_key": null,
           "metadata": {
-            "appid": "tests_1604071806",
-            "published": "1604077010"
+            "appid": "tests_1608261251",
+            "published": "1608265944"
           },
           "nickname": null,
-          "product": "prod_IIc8kdSF4NoqSU",
+          "product": "prod_IamBs90Vu4GaYR",
           "recurring": {
             "aggregate_usage": null,
             "interval": "month",
@@ -95,19 +99,19 @@
           "unit_amount_decimal": "1000"
         },
         "quantity": 1,
-        "subscription": "sub_IIc8GBun5BvAcg",
+        "subscription": "sub_IamBf4PpFsx9Kl",
         "tax_rates": []
       }
     ],
     "has_more": false,
     "total_count": 1,
-    "url": "/v1/subscription_items?subscription=sub_IIc8GBun5BvAcg"
+    "url": "/v1/subscription_items?subscription=sub_IamBf4PpFsx9Kl"
   },
-  "latest_invoice": "in_1Hi0uCAhEghhtF2N1jeu6eE2",
+  "latest_invoice": "in_1HzadbAhEghhtF2Nh5d4Gy67",
   "livemode": false,
   "metadata": {
-    "appid": "tests_1604071806",
-    "accountid": "account_b81253e"
+    "appid": "tests_1608261251",
+    "accountid": "account_06e9dbe"
   },
   "next_pending_invoice_item_invoice": null,
   "pause_collection": null,
@@ -115,24 +119,24 @@
   "pending_setup_intent": null,
   "pending_update": null,
   "plan": {
-    "id": "plan221_1604077005518_34489",
+    "id": "plan221_1608265937639_78569",
     "object": "plan",
     "active": true,
     "aggregate_usage": null,
     "amount": 1000,
     "amount_decimal": "1000",
     "billing_scheme": "per_unit",
-    "created": 1604077005,
+    "created": 1608265937,
     "currency": "usd",
     "interval": "month",
     "interval_count": 1,
     "livemode": false,
     "metadata": {
-      "appid": "tests_1604071806",
-      "published": "1604077010"
+      "appid": "tests_1608261251",
+      "published": "1608265944"
     },
     "nickname": null,
-    "product": "prod_IIc8kdSF4NoqSU",
+    "product": "prod_IamBs90Vu4GaYR",
     "tiers": null,
     "tiers_mode": null,
     "transform_usage": null,
@@ -141,7 +145,8 @@
   },
   "quantity": 1,
   "schedule": null,
-  "start_date": 1604077007,
+  "start": 1608265939,
+  "start_date": 1608265939,
   "status": "active",
   "tax_percent": 0,
   "transfer_data": null,
